@@ -7,7 +7,7 @@ import Main from './components/Main';
 import database,{ menuButton , contentsPath } from './data/db';
 
 // 이펙트 : 로딩스피너, 스크롤바, 페이지 전환, 메뉴바 상단고정, 로그남기기
-// 메뉴버튼 이미지, 헤더 동영상, 메인화면 동영상, 푸터주저리, 유니크키 오류, title icon
+// 메뉴버튼 이미지, 헤더 동영상, 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
