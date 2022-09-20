@@ -826,13 +826,51 @@ function MusicInIronMan3(){ // 아이언맨3 OST / 삽입곡
 function MusicInCrossOver(){ // 크로스오버 삽입곡
     return(
         <div>
-            양이 너무 많아, 취향대로 몇곡씩만 가져옴
+            (양이 너무 많아, 두곡씩만 가져왔습니다. 모든 곡이 너무 좋아서 정말 어려운 작업이었던..ㅠㅡㅜ)
+
             1. 어벤져스(2012)
+            1-1. The Avengers - Alan Silvestri
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/QtxeJ703w18" title="The Avengers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            1-2. Live To Rise - Soundgarden
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/D3ZNtOcY_1A" title="Soundgarden - Live to Rise (From Marvel's THE AVENGERS) - Official Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             2. 어벤져스: 에이지 오브 울트론(2015)
+            2-1. I Can't Get Started - BBC Big Band Orchestra
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/93_rWpdKxH0" title="I Can't Get Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            2-2. I've Got No Strings - Dickie Jones
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/nEqPcTSnZY4" title="I've Got No Strings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             3. 캡틴 아메리카 : 시빌워(2016)
+            3-1. Try To Remember - Tom Jones and Harvey schmidt
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/92UC43cCSWg" title="Try to Remember" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            3-2. Left Hand Free - Alt-J
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/NRWUoDpo2fo" title="alt-J - Left Hand Free (Official Video) 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             4. 스파이더맨 : 홈커밍(2017)
+            4-1. Blitzkrieg Bop - Ramones
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/skdE0KAFCEA" title="Blitzkrieg Bop (2016 Remaster)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            4-2. La Consequencia - SWJ Mafia
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/HK5drdux-Eg" title="SWJ Mafia - La Consequencia (From Spider-Man: Homecoming)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             5. 어벤져스 : 인피니티 워(2018)
+            5-1. The Rubberband Man - The Spinners
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/KSMVflSBKx8" title="The Rubberband Man" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            5-2. Could It Be I'm Falling In Love - The Spinners
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/NaMmX7OCyCA" title="Could It Be I'm Falling in Love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             6. 어벤져스 : 엔드게임(2019)
+
+            6-1. DOOM AND GLOOM - The Rolling Stones
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/1DWiB7ZuLvI" title="The Rolling Stones - Doom And Gloom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            6-2. Come And Get Your Love - Redbone
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/bc0KhhjJP98" title="Redbone - Come and Get Your Love (Single Edit - Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
 )}
 
