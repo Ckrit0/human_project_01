@@ -163,6 +163,8 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
             이 문서에 스포일러가 포함되어 있습니다.
             이 문서가 설명하는 작품이나 인물 등에 대한 줄거리, 결말, 반전 요소 등을 직·간접적으로 포함하고 있습니다.
 
+            아이언맨 1 (2008) 줄거리
+
             1. 프롤로그
              세계 최고의 무기 제조사인 스타크 인더스트리의 CEO인 토니 스타크는 미 공군과 함께 험비를 타고 아프가니스탄의 쿠나르 지역을 지나가고 있었다.
             병사들과 동승해 잡담을 나누며 기념사진을 찍던중 테러리스트들의 기습공격을 받게되고,
@@ -325,6 +327,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
             이 문서에 스포일러가 포함되어 있습니다.
             이 문서가 설명하는 작품이나 인물 등에 대한 줄거리, 결말, 반전 요소 등을 직·간접적으로 포함하고 있습니다.
 
+            아이언맨 2 (2010) 줄거리
             1. 프롤로그
             러시아에서는 과거 토니 스타크의 아버지이자 스타크 인더스트리의 창립자 하워드 스타크와 함께 활동했던 과학자 안톤 반코가
             그의 아들 이반 반코에게 아크 리액터의 설계도를 남기고 사망한다. (사진)
@@ -403,6 +406,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
             이 문서에 스포일러가 포함되어 있습니다.
             이 문서가 설명하는 작품이나 인물 등에 대한 줄거리, 결말, 반전 요소 등을 직·간접적으로 포함하고 있습니다.
 
+            아이언맨 3 (2013) 줄거리
             1. 프롤로그
             아이언맨 Mk 1~7 슈트들이 폭발하는 장면과 함께 1999년 12월 31일 토니 스타크의 회상으로 영화가 시작된다.
             토니 스타크는 해피 호건과 함께 스위스 베른의 신년 과학 포럼에 참석했는데,
@@ -536,7 +540,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
         </div>
 )}
 
-function MusicInIronMan1(){ // 아이언맨1 삽입곡
+function MusicInIronMan1(){ // 아이언맨1 OST / 삽입곡
     return(
         <div>
             아이언맨1 OST
@@ -605,7 +609,7 @@ function MusicInIronMan1(){ // 아이언맨1 삽입곡
         </div>
 )}
 
-function MusicInIronMan2(){ // 아이언맨2 삽입곡
+function MusicInIronMan2(){ // 아이언맨2 OST / 삽입곡
     return(
         <div>
             1. Ivan's Metamorphosis - John Debney
@@ -725,7 +729,7 @@ function MusicInIronMan2(){ // 아이언맨2 삽입곡
         </div>
 )}
 
-function MusicInIronMan3(){ // 아이언맨3 삽입곡
+function MusicInIronMan3(){ // 아이언맨3 OST / 삽입곡
     return(
         <div>
             1. Iron Man 3 - Brian Tyler
@@ -822,7 +826,13 @@ function MusicInIronMan3(){ // 아이언맨3 삽입곡
 function MusicInCrossOver(){ // 크로스오버 삽입곡
     return(
         <div>
-
+            양이 너무 많아, 취향대로 몇곡씩만 가져옴
+            1. 어벤져스(2012)
+            2. 어벤져스: 에이지 오브 울트론(2015)
+            3. 캡틴 아메리카 : 시빌워(2016)
+            4. 스파이더맨 : 홈커밍(2017)
+            5. 어벤져스 : 인피니티 워(2018)
+            6. 어벤져스 : 엔드게임(2019)
         </div>
 )}
 
@@ -850,7 +860,12 @@ function TransformationOfIronMan3(){ // 아이언맨3 변신장면
 function TransformationOfCrossOver(){ // 크로스오버 변신장면
     return(
         <div>
-
+            1. 어벤져스(2012)
+            2. 어벤져스: 에이지 오브 울트론(2015)
+            3. 캡틴 아메리카 : 시빌워(2016)
+            4. 스파이더맨 : 홈커밍(2017)
+            5. 어벤져스 : 인피니티 워(2018)
+            6. 어벤져스 : 엔드게임(2019)
         </div>
 )}
 
@@ -946,7 +961,33 @@ function DirectorOfIronMan3(){ // 아이언맨3 감독
 function DirectorOfCrossOver(){ // 크로스오버 감독
     return(
         <div>
+            1. 어벤져스(2012) - 조스 웨던
+            (사진1)
+            이름 : 조지프 힐 휘던(Joseph Hill Whedon)
+            출생 : 1964년 6월 23일, 미국 뉴욕
 
+            2. 어벤져스: 에이지 오브 울트론(2015) - 조스 웨던
+            (어벤져스와 같음)
+
+            3. 캡틴 아메리카 : 시빌워(2016) - 루소 형제
+            (사진2)
+            이름 : (형,오른쪽) 앤서니 루소 (Anthony Russo)
+            출생 : 1971년 7월 8일, 미국
+
+            이름 : (동생,왼쪽) 조 루소 (Joe Russo)
+            출생 : 1970년 2월 3일, 미국
+
+            4. 스파이더맨 : 홈커밍(2017) - 존 왓츠
+            (사진3)
+            이름 : 존 왓츠 (Jon Watts)
+            출생 : 1981년 6월 28일
+
+
+            5. 어벤져스 : 인피니티 워(2018) - 루소 형제
+            (캡틴 아메리카 : 시빌워 와 같음)
+
+            6. 어벤져스 : 엔드게임(2019) - 루소 형제
+            (캡틴 아메리카 : 시빌워 와 같음)
         </div>
 )}
 
@@ -954,6 +995,8 @@ function Reference(){ // 참조문헌
     return(
         <div>
             사진 및 영상 참조 디즈니-마블
+            주로 나무위키 기반
+            기타 구글링된 사진들
 
             아이언맨 소개
             https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)
@@ -975,6 +1018,11 @@ function Reference(){ // 참조문헌
 
             아이언맨 3 감독
             https://namu.wiki/w/%EC%85%B0%EC%9D%B8%20%EB%B8%94%EB%9E%99
+
+            크로스오버 감독
+            조스 웨던 : https://namu.wiki/w/%EC%A1%B0%EC%8A%A4%20%EC%9B%A8%EB%8D%98
+            루소 형제 : https://namu.wiki/w/%EB%A3%A8%EC%86%8C%20%ED%98%95%EC%A0%9C
+            존 왓츠 : https://namu.wiki/w/%EC%A1%B4%20%EC%99%93%EC%B8%A0
 
 
         </div>
