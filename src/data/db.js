@@ -24,7 +24,7 @@ const database = create(()=>({ // 경로, 페이지 찾기 변수
 
 const menuButton = create(()=>({ // 메뉴버튼
     ca0Btn: {id:'ca0', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>introduceIronMan</button>},
-    ca1Btn: {id:'ca1', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>introduceSupporter</button>},
+    ca1Btn: {id:'ca1', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>introduceActor</button>},
     ca2Btn: {id:'ca2', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>plot</button>},
     ca3Btn: {id:'ca3', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>music</button>},
     ca4Btn: {id:'ca4', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>transformation</button>},
