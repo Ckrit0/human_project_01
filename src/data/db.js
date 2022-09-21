@@ -140,13 +140,95 @@ function IntroduceIronMan(){ // 아이언맨 소개
 function IntroduceActorInIronMan1(){
     return(
         <div>
+            (사진-ca1se1_00)
+            토니 스타크 / 아이언맨 역
+            이름 : 로버트 존 다우니 주니어 (Robert John Downey Jr.)
+            출생 : 1965년 4월 4일, 미국 뉴욕주 뉴욕시 맨해튼
 
+            (사진-ca1se1_01)
+            페퍼 포츠 역
+            이름 : 기네스 팰트로우 (Gwyneth Kate Paltrow)
+            출생 : 1972년 9월 27일, 미국 캘리포니아 로스엔젤레스
+
+            (사진-ca1se1_02)
+            해피 호건 역
+            이름 : 조나단 콜리아 패브로 (Jonathan Kolia Favreau)
+            출생 : 1966년 10월 19일, 뉴욕주 퀸즈 플러싱
+
+            (사진-ca1se1_03)
+            제임스 로드 역
+            이름 : 테렌스 데숀 하워드 (Terrence Dashon Howard)
+            출생 : 1969년 3월 11일, 미국 일리노이 주 시카고
+
+            (사진-ca1se1_04)
+            닉 퓨리 역
+            이름 : 새뮤얼 리로이 잭슨 (Samuel Leroy Jackson)
+            출생 : 1948년 12월 21일, 미국 워싱턴 D.C.
+
+            (사진-ca1se1_05)
+            필 콜슨 역
+            이름 : 로버트 클라크 그래그 (Robert Clark Gregg)
+            출생 : 1962년 4월 2일, 메사추세츠 주 보스턴 시 맨해튼
+
+            (사진-ca1se1_06)
+            오베디아 스텐 / 아이언몽거 역
+            이름 : 제프리 레옹 브리지스 (Jeffrey Leon Bridges)
+            출생 : 1949년 12월 4일, 미국 캘리포니아 주 로스엔젤레스
+
+            (사진-ca1se1_07)
+            호 인센 역
+            이름 : 션 터브 (Shaun Toub)
+            출생 : 1963, 이란
         </div>        
 )}
 
 function IntroduceActorInIronMan2(){
     return(
         <div>
+            (사진-ca1se2_00)
+            토니 스타크 / 아이언맨 역
+            이름 : 로버트 존 다우니 주니어 (Robert John Downey Jr.)
+            출생 : 1965년 4월 4일, 미국 뉴욕주 뉴욕시 맨해튼
+
+            (사진-ca1se2_01)
+            페퍼 포츠 역
+            이름 : 기네스 팰트로우 (Gwyneth Kate Paltrow)
+            출생 : 1972년 9월 27일, 미국 캘리포니아 로스엔젤레스
+
+            (사진-ca1se2_02)
+            해피 호건 역
+            이름 : 조나단 콜리아 패브로 (Jonathan Kolia Favreau)
+            출생 : 1966년 10월 19일, 뉴욕주 퀸즈 플러싱
+
+            (사진-ca1se2_03)
+            제임스 로드 / 워 머신 역
+            이름 : 도널드 프랭크 치들 주니어 (Donald Frank Cheadle, Jr.)
+            출생 : 1964년 11월 29일, 미국 미주리주 캔자스시티
+            
+            (사진-ca1se2_04)
+            닉 퓨리 역
+            이름 : 새뮤얼 리로이 잭슨 (Samuel Leroy Jackson)
+            출생 : 1948년 12월 21일, 미국 워싱턴 D.C.
+
+            (사진-ca1se2_05)
+            필 콜슨 역
+            이름 : 로버트 클라크 그래그 (Robert Clark Gregg)
+            출생 : 1962년 4월 2일, 메사추세츠 주 보스턴 시 맨해튼
+
+            (사진-ca1se2_06)
+            나타샤 로마노프 / 블랙 위도우 역
+            이름 : 스칼릿 잉그리드 조핸슨 (Scarlett Ingrid Johansson)
+            출생 : 1984년 11월 22일, 미국 뉴욕 주 뉴욕 시 맨해튼
+
+            (사진-ca1se2_07)
+            이반 반코 / 위플래시 역
+            이름 : 필립 안드레 루크 2세 (Phillip Andre Rourke Jr.)
+            출생 : 1952년 9월 16일, 미국 뉴욕 주 스키넥터디
+
+            (사진-ca1se2_08)
+            저스틴 해머 역
+            이름 : 샘 록웰 (Sam Rockwell)
+            출생 : 1968년 11월 5일, 미국 캘리포니아 달리 시티
 
         </div>
 )}
@@ -154,6 +236,40 @@ function IntroduceActorInIronMan2(){
 function IntroduceActorInIronMan3(){
     return(
         <div>
+            (사진-ca1se3_00)
+            토니 스타크 / 아이언맨 역
+            이름 : 로버트 존 다우니 주니어 (Robert John Downey Jr.)
+            출생 : 1965년 4월 4일, 미국 뉴욕주 뉴욕시 맨해튼
+
+            (사진-ca1se3_01)
+            페퍼 포츠 역
+            이름 : 기네스 팰트로우 (Gwyneth Kate Paltrow)
+            출생 : 1972년 9월 27일, 미국 캘리포니아 로스엔젤레스
+
+            (사진-ca1se3_02)
+            해피 호건 역
+            이름 : 조나단 콜리아 패브로 (Jonathan Kolia Favreau)
+            출생 : 1966년 10월 19일, 뉴욕주 퀸즈 플러싱
+
+            (사진-ca1se3_03)
+            제임스 로드 / 워 머신 역
+            이름 : 도널드 프랭크 치들 주니어 (Donald Frank Cheadle, Jr.)
+            출생 : 1964년 11월 29일, 미국 미주리주 캔자스시티
+            
+            (사진-ca1se3_04)
+            알드리치 킬리언 역
+            이름 : 가이 에드워드 피어스 (Guy Edward Pearce)
+            출생 : 1967년 10월 5일, 영국 잉글랜드 케임브리지셔 주 일리
+
+            (사진-ca1se3_05)
+            만다린 역
+            이름 : 크리슈나 팬디트 반지 (Krishna Pandit Bhanji)
+            출생 : 1943년 12월 31일, 영국 노스요크셔 주 스네인턴
+
+            (사진-ca1se3_06)
+            매튜 엘리스(대통령) 역
+            이름 : 윌리엄 토마스 새들러 (William Thomas Sadler)
+            출생 : 1950년 4월 13일, 뉴욕주 버팔로
 
         </div>
 )}
@@ -1038,6 +1154,48 @@ function Reference(){ // 참조문헌
 
             아이언맨 소개
             https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)
+
+            로버트 존 다우니 주니어 소개
+            https://namu.wiki/w/%EB%A1%9C%EB%B2%84%ED%8A%B8%20%EB%8B%A4%EC%9A%B0%EB%8B%88%20%EC%A3%BC%EB%8B%88%EC%96%B4
+
+            기네스 팰트로우 소개
+            https://namu.wiki/w/%EA%B7%80%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C?from=%EA%B8%B0%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C
+
+            조나단 콜리아 패브로 소개
+            https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C
+
+            테렌스 데숀 하워드 소개
+            https://namu.wiki/w/%ED%85%8C%EB%A0%8C%EC%8A%A4%20%ED%95%98%EC%9B%8C%EB%93%9C
+
+            새뮤얼 L. 잭슨 소개
+            https://namu.wiki/w/%EC%83%88%EB%AE%A4%EC%96%BC%20L.%20%EC%9E%AD%EC%8A%A8
+
+            클라크 그래그 소개
+            https://namu.wiki/w/%ED%81%B4%EB%9D%BC%ED%81%AC%20%EA%B7%B8%EB%A0%88%EA%B7%B8
+
+            제프리 레옹 브리지스 소개
+            https://namu.wiki/w/%EC%A0%9C%ED%94%84%20%EB%B8%8C%EB%A6%AC%EC%A7%80%EC%8A%A4
+
+            션 터브 소개
+            https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=139537&qvt=0&query=%EC%85%98%20%ED%84%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%ED%95%84
+
+            돈 치들 소개
+            https://namu.wiki/w/%EB%8F%88%20%EC%B9%98%EB%93%A4
+
+            미키 루크 소개
+            https://namu.wiki/w/%EB%AF%B8%ED%82%A4%20%EB%A3%A8%ED%81%AC
+
+            샘 록웰 소개
+            https://namu.wiki/w/%EC%83%98%20%EB%A1%9D%EC%9B%B0
+
+            가이 피어스 소개
+            https://namu.wiki/w/%EA%B0%80%EC%9D%B4%20%ED%94%BC%EC%96%B4%EC%8A%A4
+
+            벤 킹슬리 소개
+            https://namu.wiki/w/%EB%B2%A4%20%ED%82%B9%EC%8A%AC%EB%A6%AC?from=%EB%B2%A4%20%ED%82%B9%EC%A6%90%EB%A6%AC
+
+            윌리엄 새들러 소개
+            https://namu.wiki/w/%EC%9C%8C%EB%A6%AC%EC%97%84%20%EC%83%88%EB%93%A4%EB%9F%AC
 
             아이언맨1 줄거리
             https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EC%98%81%ED%99%94)/%EC%A4%84%EA%B1%B0%EB%A6%AC
