@@ -27,18 +27,12 @@ function App() {
 
       {/* 메뉴바 */}
       <div className='menuBar'>
-        <Navbar className='noMaPa'>
-          <Container>
-            <Nav>
-              {menu.map((data,i)=>{return(
-                <Nav.Link className='noMaPa' onClick={()=>{
-                  PATH.tempPath = menu[i].id
-                  setMenu2(selectMenu2(PATH.tempPath))
-                }}>{menu[i].btn}</Nav.Link>
-              )})}
-            </Nav>
-          </Container>
-        </Navbar>
+        {menu.map((data,i)=>{return(
+          <div className='noMaPa ilb' onClick={()=>{
+            PATH.tempPath = menu[i].id
+            setMenu2(selectMenu2(PATH.tempPath))
+          }}>{menu[i].btn}</div>
+        )})}
       </div>
       {/* 하위메뉴바 */}
       <div className='menuBar2'>

@@ -1,4 +1,5 @@
 import create from 'zustand'
+
 const database = create(()=>({ // 경로, 페이지 찾기 변수
     ca0se0 : {id:'ca0se0', category:'ca0', series:'se0', contentPath:<IntroduceIronMan />},
     ca1se1 : {id:'ca1se1', category:'ca1', series:'se1', contentPath:<IntroduceActorInIronMan1 />},
@@ -23,18 +24,18 @@ const database = create(()=>({ // 경로, 페이지 찾기 변수
 }))
 
 const menuButton = create(()=>({ // 메뉴버튼
-    ca0Btn: {id:'ca0', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>introduceIronMan</button>},
-    ca1Btn: {id:'ca1', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>introduceActor</button>},
-    ca2Btn: {id:'ca2', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>plot</button>},
-    ca3Btn: {id:'ca3', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>music</button>},
-    ca4Btn: {id:'ca4', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>transformation</button>},
-    ca5Btn: {id:'ca5', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>director</button>},
-    ca6Btn: {id:'ca6', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>reference</button>},
-    se0Btn: {id:'se0', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>Common</button>},
-    se1Btn: {id:'se1', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>IronMan1</button>},
-    se2Btn: {id:'se2', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>IronMan2</button>},
-    se3Btn: {id:'se3', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>IronMan3</button>},
-    se4Btn: {id:'se4', btn:<button style={{margin: '0px', padding:'5px' , background:'white'}}>crossOver</button>}
+    ca0Btn: {id:'ca0', btn:<div style={{backgroundImage:'url(img/btn/ca0Btn.png)', width:'100px',height:'50px'}}></div>},
+    ca1Btn: {id:'ca1', btn:<div style={{backgroundImage:'url(img/btn/ca1Btn.png)', width:'100px',height:'50px'}}></div>},
+    ca2Btn: {id:'ca2', btn:<div style={{backgroundImage:'url(img/btn/ca2Btn.png)', width:'100px',height:'50px'}}></div>},
+    ca3Btn: {id:'ca3', btn:<div style={{backgroundImage:'url(img/btn/ca3Btn.png)', width:'100px',height:'50px'}}></div>},
+    ca4Btn: {id:'ca4', btn:<div style={{backgroundImage:'url(img/btn/ca4Btn.png)', width:'100px',height:'50px'}}></div>},
+    ca5Btn: {id:'ca5', btn:<div style={{backgroundImage:'url(img/btn/ca5Btn.png)', width:'100px',height:'50px'}}></div>},
+    ca6Btn: {id:'ca6', btn:<div style={{backgroundImage:'url(img/btn/ca6Btn.png)', width:'100px',height:'50px'}}></div>},
+    se0Btn: {id:'se0', btn:<div style={{backgroundImage:'url(img/btn/se0Btn.png)', width:'100px',height:'50px'}}></div>},
+    se1Btn: {id:'se1', btn:<div style={{backgroundImage:'url(img/btn/se1Btn.png)', width:'100px',height:'50px'}}></div>},
+    se2Btn: {id:'se2', btn:<div style={{backgroundImage:'url(img/btn/se2Btn.png)', width:'100px',height:'50px'}}></div>},
+    se3Btn: {id:'se3', btn:<div style={{backgroundImage:'url(img/btn/se3Btn.png)', width:'100px',height:'50px'}}></div>},
+    se4Btn: {id:'se4', btn:<div style={{backgroundImage:'url(img/btn/se4Btn.png)', width:'100px',height:'50px'}}></div>}
 }))
 
 let contentsPath = create(()=>({ // 경로변수
