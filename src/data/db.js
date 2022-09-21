@@ -991,28 +991,28 @@ function MusicInCrossOver(){ // 크로스오버 삽입곡
         </div>
 )}
 
-function TransformationOfIronMan1(){ // 아이언맨1 변신장면
+function TransformationOfIronMan1(){ // 아이언맨1 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
     return(
         <div>
             
         </div>
 )}
 
-function TransformationOfIronMan2(){ // 아이언맨2 변신장면
+function TransformationOfIronMan2(){ // 아이언맨2 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
     return(
         <div>
 
         </div>
 )}
 
-function TransformationOfIronMan3(){ // 아이언맨3 변신장면
+function TransformationOfIronMan3(){ // 아이언맨3 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
     return(
         <div>
 
         </div>
 )}
 
-function TransformationOfCrossOver(){ // 크로스오버 변신장면
+function TransformationOfCrossOver(){ // 크로스오버 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
     return(
         <div>
             1. 어벤져스(2012)
