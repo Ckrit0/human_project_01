@@ -13,9 +13,22 @@ function App() {
   const DB = database()
   const MENU_BTN = menuButton()
   const PATH = contentsPath()
-  let menu = [MENU_BTN.ca0Btn, MENU_BTN.ca1Btn, MENU_BTN.ca2Btn, MENU_BTN.ca3Btn, MENU_BTN.ca4Btn, MENU_BTN.ca5Btn, MENU_BTN.ca6Btn ]
-  let [menu2, setMenu2] = useState([])
   let navigate = useNavigate()
+  let menu1 = [ // 메뉴리스트
+    MENU_BTN.ca0Btn, MENU_BTN.ca1Btn, MENU_BTN.ca2Btn,
+    MENU_BTN.ca3Btn, MENU_BTN.ca4Btn, MENU_BTN.ca5Btn, MENU_BTN.ca6Btn
+  ]
+  let [menu2, setMenu2] = useState([]) // 상위메뉴 선택에 따른 하위메뉴 리스트
+
+  let btnImg = (data)=> { // 버튼 선택 이미지 지정
+    if(data.isSelect){
+      return(
+        {backgroundImage:'url(' + data.btnS + ')', border:'1px solid #ffd700'}
+      )
+    }
+      return(
+      {backgroundImage:'url(' + data.btnUS + ')'}
+    )}
 
   return (
     <div className='container'>
@@ -25,32 +38,38 @@ function App() {
         setMenu2([])
       }}>header</div>
 
-      {/* 메뉴바 */}
+      {/* 상위메뉴바 */}
       <div className='menuBar'>
-        {menu.map((data,i)=>{return(
-          <div className='noMaPa ilb' onClick={()=>{
-            PATH.tempPath = menu[i].id
-            setMenu2(selectMenu2(PATH.tempPath))
-          }}>{menu[i].btn}</div>
-        )})}
+        {menu1.map((data,i)=>{
+          return(
+            <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
+              menu1.map((innerData,innerI)=>{
+                innerData.isSelect = false
+              })
+              menu2.map((innerData,innerI)=>{
+                innerData.isSelect = false
+              })
+              
+              data.isSelect = true
+              PATH.tempPath = data.id
+              setMenu2(selectMenu2(data.id))
+            }}></div>
+          )
+        })}
       </div>
+
       {/* 하위메뉴바 */}
       <div className='menuBar2'>
-        <Navbar className='noMaPa'>
-            <Container>
-              <Nav>
-                {menu2.map((data,i)=>{return(
-                  <div key={data.id} >
-                    <Nav.Link className='noMaPa' onClick={()=>{
-                      // console.log(contPath)
-                      PATH.tempPath2 = data.id
-                      navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
-                    }}>{data.btn}</Nav.Link>
-                  </div>
-                )})}
-              </Nav>
-            </Container>
-          </Navbar>
+        {menu2.map((data,i)=>{return(
+            <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
+              menu2.map((innerData,innerI)=>{
+                innerData.isSelect = false
+              })
+              data.isSelect = true
+              PATH.tempPath2 = data.id
+              navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
+            }}></div>
+        )})}
       </div>
 
       {/* 스크롤바 */}
@@ -69,20 +88,22 @@ function App() {
     </div>
   );
   
+  
 
-  function selectMenu2(cPath){ // 이동경로 지정
+
+  function selectMenu2(path){ // 메뉴 이동경로 지정
     var tempMenuList = []
     for(var key in DB){
-      if(DB[key].category == cPath){
-        if(DB[key].series == 'se0'){
+      if(DB[key].category === path){
+        if(DB[key].series === 'se0'){
           tempMenuList.push(MENU_BTN.se0Btn)
-        }else if(DB[key].series == 'se1'){
+        }else if(DB[key].series === 'se1'){
           tempMenuList.push(MENU_BTN.se1Btn)
-        }else if(DB[key].series == 'se2'){
+        }else if(DB[key].series === 'se2'){
           tempMenuList.push(MENU_BTN.se2Btn)
-        }else if(DB[key].series == 'se3'){
+        }else if(DB[key].series === 'se3'){
           tempMenuList.push(MENU_BTN.se3Btn)
-        }else if(DB[key].series == 'se4'){
+        }else if(DB[key].series === 'se4'){
           tempMenuList.push(MENU_BTN.se4Btn)
         }
       }

@@ -24,18 +24,18 @@ const database = create(()=>({ // 경로, 페이지 찾기 변수
 }))
 
 const menuButton = create(()=>({ // 메뉴버튼
-    ca0Btn: {id:'ca0', btn:<div style={{backgroundImage:'url(img/btn/ca0Btn.png)', width:'100px',height:'50px'}}></div>},
-    ca1Btn: {id:'ca1', btn:<div style={{backgroundImage:'url(img/btn/ca1Btn.png)', width:'100px',height:'50px'}}></div>},
-    ca2Btn: {id:'ca2', btn:<div style={{backgroundImage:'url(img/btn/ca2Btn.png)', width:'100px',height:'50px'}}></div>},
-    ca3Btn: {id:'ca3', btn:<div style={{backgroundImage:'url(img/btn/ca3Btn.png)', width:'100px',height:'50px'}}></div>},
-    ca4Btn: {id:'ca4', btn:<div style={{backgroundImage:'url(img/btn/ca4Btn.png)', width:'100px',height:'50px'}}></div>},
-    ca5Btn: {id:'ca5', btn:<div style={{backgroundImage:'url(img/btn/ca5Btn.png)', width:'100px',height:'50px'}}></div>},
-    ca6Btn: {id:'ca6', btn:<div style={{backgroundImage:'url(img/btn/ca6Btn.png)', width:'100px',height:'50px'}}></div>},
-    se0Btn: {id:'se0', btn:<div style={{backgroundImage:'url(img/btn/se0Btn.png)', width:'100px',height:'50px'}}></div>},
-    se1Btn: {id:'se1', btn:<div style={{backgroundImage:'url(img/btn/se1Btn.png)', width:'100px',height:'50px'}}></div>},
-    se2Btn: {id:'se2', btn:<div style={{backgroundImage:'url(img/btn/se2Btn.png)', width:'100px',height:'50px'}}></div>},
-    se3Btn: {id:'se3', btn:<div style={{backgroundImage:'url(img/btn/se3Btn.png)', width:'100px',height:'50px'}}></div>},
-    se4Btn: {id:'se4', btn:<div style={{backgroundImage:'url(img/btn/se4Btn.png)', width:'100px',height:'50px'}}></div>}
+    ca0Btn: {id:'ca0', btnUS:'/img/btn/ca0BtnUS.png', btnS:'/img/btn/ca0Btn.png', isSelect:false},
+    ca1Btn: {id:'ca1', btnUS:'/img/btn/ca1BtnUS.png', btnS:'/img/btn/ca1Btn.png', isSelect:false},
+    ca2Btn: {id:'ca2', btnUS:'/img/btn/ca2BtnUS.png', btnS:'/img/btn/ca2Btn.png', isSelect:false},
+    ca3Btn: {id:'ca3', btnUS:'/img/btn/ca3BtnUS.png', btnS:'/img/btn/ca3Btn.png', isSelect:false},
+    ca4Btn: {id:'ca4', btnUS:'/img/btn/ca4BtnUS.png', btnS:'/img/btn/ca4Btn.png', isSelect:false},
+    ca5Btn: {id:'ca5', btnUS:'/img/btn/ca5BtnUS.png', btnS:'/img/btn/ca5Btn.png', isSelect:false},
+    ca6Btn: {id:'ca6', btnUS:'/img/btn/ca6BtnUS.png', btnS:'/img/btn/ca6Btn.png', isSelect:false},
+    se0Btn: {id:'se0', btnUS:'/img/btn/se0BtnUS.png', btnS:'/img/btn/se0Btn.png', isSelect:false},
+    se1Btn: {id:'se1', btnUS:'/img/btn/se1BtnUS.png', btnS:'/img/btn/se1Btn.png', isSelect:false},
+    se2Btn: {id:'se2', btnUS:'/img/btn/se2BtnUS.png', btnS:'/img/btn/se2Btn.png', isSelect:false},
+    se3Btn: {id:'se3', btnUS:'/img/btn/se3BtnUS.png', btnS:'/img/btn/se3Btn.png', isSelect:false},
+    se4Btn: {id:'se4', btnUS:'/img/btn/se4BtnUS.png', btnS:'/img/btn/se4Btn.png', isSelect:false}
 }))
 
 let contentsPath = create(()=>({ // 경로변수
@@ -1209,6 +1209,9 @@ function Reference(){ // 참조문헌
 
             아이언맨 삽입곡 정리
             https://mystee.tistory.com/
+
+            아이언맨 변신장면 모음
+            https://www.youtube.com/watch?v=cfgfLyU8gs8
 
             아이언맨 1,2 감독
             https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C#s-3.2
