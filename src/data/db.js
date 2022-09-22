@@ -2141,536 +2141,599 @@ function MusicInIronMan2(){ // 아이언맨2 OST / 삽입곡
 
 function MusicInIronMan3(){ // 아이언맨3 OST / 삽입곡
     return(
-        <div>
+        <div style={{backgroundColor: '#861313'}}>
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/wL6jh9thk8Q" title="Brian Tyler - Iron Man 3 Recording Session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />1. Iron Man 3
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            1. Iron Man 3 - Brian Tyler
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/wL6jh9thk8Q" title="Brian Tyler - Iron Man 3 Recording Session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/NM14FzEOIJ0" title="War Machine" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />2. War Machine
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            2. War Machine - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/NM14FzEOIJ0" title="War Machine" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/p976FNQpy0E" title="Attack on 10880 Malibu Point" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />3. Attack On 10880 Malibu Point
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            3. Attack On 10880 Malibu Point - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/p976FNQpy0E" title="Attack on 10880 Malibu Point" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/G9TK-HOLMbs" title="Isolation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />4. Isolation
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            4. Isolation - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/G9TK-HOLMbs" title="Isolation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/moeRRZR2Wfc" title="Dive Bombers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />5. Dive Bombers
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            5. Dive Bombers - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/moeRRZR2Wfc" title="Dive Bombers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/PCR24d-seKY" title="New Beginnings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />6. New Beginnings
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            6. New Beginnings - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/PCR24d-seKY" title="New Beginnings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/NyjqAtDOb-g" title="Extremis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />7. Extremis
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-
-            7. Extremis - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/NyjqAtDOb-g" title="Extremis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/JX9SBRdMz5M" title="Stark" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />8. Stark
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            8. Stark - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/JX9SBRdMz5M" title="Stark" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/zX8Ka15EQKw" title="Leverage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />9. Leverage
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            9. Leverage - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/zX8Ka15EQKw" title="Leverage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/tIc9wsxESQE" title="The Mandarin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />10. The Mandarin
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            10. The Mandarin - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/tIc9wsxESQE" title="The Mandarin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/2X6k4aC9qlM" title="Heat and Iron" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />11. Heat And Iron
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            11. Heat And Iron - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/2X6k4aC9qlM" title="Heat and Iron" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/RXT9QphhiWw" title="Misfire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />12. Misfire
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            12. Misfire - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/RXT9QphhiWw" title="Misfire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/uGNgOtygEzo" title="Culmination" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />13. Culmination
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            13. Culmination - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/uGNgOtygEzo" title="Culmination" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/nQk-JeyoYpg" title="The Mechanic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />14. The Mechanic
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            14. The Mechanic - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/nQk-JeyoYpg" title="The Mechanic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/94rSR4O-msM" title="Hot Pepper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />15. Hot Pepper
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            15. Hot Pepper - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/94rSR4O-msM" title="Hot Pepper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/H8godlVd8po" title="Another Lesson From Mandy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />16. Another Lesson From The Mandarin
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            16. Another Lesson From The Mandarin - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/H8godlVd8po" title="Another Lesson From Mandy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/rUR1gsuR5SM" title="Dr. Wu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />17. Dr Wu
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            17. Dr Wu - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/rUR1gsuR5SM" title="Dr. Wu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/TcTxiDdM660" title="Return" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />18. Return
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            18. Return - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/TcTxiDdM660" title="Return" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/xRDmkntI7vM" title="Battle Finale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />19. Battle Finale
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            19. Battle Finale - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/xRDmkntI7vM" title="Battle Finale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/OsSHmKU0t7w" title="Can You Dig It (Iron Man 3 Main Titles)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />20. Can You Dig it
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Brian Tyler
                     </Card.Text>
                 </Card.Body>
             </Card>
-            20. Can You Dig it - Brian Tyler
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/OsSHmKU0t7w" title="Can You Dig It (Iron Man 3 Main Titles)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/zA52uNzx7Y4" title="Eiffel 65 - Blue (Da Ba Dee)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 1. Blue (Da Ba Dee)
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Eiffel 65
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 1. Blue (Da Ba Dee) - Eiffel 65
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/zA52uNzx7Y4" title="Eiffel 65 - Blue (Da Ba Dee)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/EK_LN3XEcnw" title="Lou Bega - Mambo No. 5 (A Little Bit of...) (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 2. Mambo No. 5 (A Little Bit of...)
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Lou Bega
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 2. Mambo No. 5 (A Little Bit of...) - Lou Bega
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/EK_LN3XEcnw" title="Lou Bega - Mambo No. 5 (A Little Bit of...) (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/Ry2bSgai62M" title="Jingle Bells (Bombay Dub Orchestra Remix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 3. Jingle Bells (Bombay Dub Orchestra Remix)
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Joe Williams
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 3. Jingle Bells (Bombay Dub Orchestra Remix) - Joe Williams
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/Ry2bSgai62M" title="Jingle Bells (Bombay Dub Orchestra Remix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/x3qR62oLEFY" title="Some Kind of Joke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 4. Some Kind of Joke
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />AWOLNATION
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 4. Some Kind of Joke - AWOLNATION
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/x3qR62oLEFY" title="Some Kind of Joke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/hUHLveKrBiE" title="Jingle Bells" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 5. Jingle Bells
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Vinnie Zummo
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 5. Jingle Bells - Vinnie Zummo
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/hUHLveKrBiE" title="Jingle Bells" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/VjJ83j21tD8" title="Santa Claus Is Back in Town" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 6. Santa Claus Is Back in Town
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Dwight Yoakam
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 6. Santa Claus Is Back in Town - Dwight Yoakam
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/VjJ83j21tD8" title="Santa Claus Is Back in Town" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/G1BpLy2Nw0Y" title="Jingle Bells" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 7. Jingle Bells
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Herb Alpert
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 7. Jingle Bells - Herb Alpert
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/G1BpLy2Nw0Y" title="Jingle Bells" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/498MOIJdwEo" title="Anderlecht Champion aka Olé Olé Olé, We Are The Champions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 8. Anderlecht Champion aka Olé Olé Olé, We Are The Champions
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Various Artist
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 8. Anderlecht Champion aka Olé Olé Olé, We Are The Champions - Various Artist
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/498MOIJdwEo" title="Anderlecht Champion aka Olé Olé Olé, We Are The Champions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <Card className='ostCard'>
                 <Card.Body>
                     <Card.Title>
-
+                        <iframe src="https://www.youtube.com/embed/_fh133ZO1AE" title="Vince Guaraldi Trio - O Tannenbaum" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
                     <Card.Subtitle>
-                        <br />
+                        <br />ex 9. O Tannenbaum
                     </Card.Subtitle>
                     <Card.Text>
-                        <br />
+                        <br />Vince Guaraldi Trio
                     </Card.Text>
                 </Card.Body>
             </Card>
-            ex 9. O Tannenbaum - Vince Guaraldi Trio
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/_fh133ZO1AE" title="Vince Guaraldi Trio - O Tannenbaum" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <Card className='ostCard'>
-                <Card.Body>
-                    <Card.Title>
-
-                    </Card.Title>
-                    <Card.Subtitle>
-                        <br />
-                    </Card.Subtitle>
-                    <Card.Text>
-                        <br />
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-
         </div>
 )}
 
 function MusicInCrossOver(){ // 크로스오버 삽입곡
     return(
-        <div>
-            (양이 너무 많아, 두곡씩만 가져왔습니다. 모든 곡이 너무 좋아서 정말 어려운 작업이었던..ㅠㅡㅜ)
+        <div style={{backgroundColor: '#861313'}}>
+            <Toast className='innerToast'>
+                <Toast.Body>
+                    양이 너무 많아, 두곡씩만 가져왔습니다. 모든 곡이 너무 좋아서 정말 어려운 작업이었던..ㅠㅡㅜ
+                </Toast.Body>
+            </Toast>
 
-            1. 어벤져스(2012)
-            1-1. The Avengers - Alan Silvestri
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/QtxeJ703w18" title="The Avengers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        1. 어벤져스(2012)
+                    </Card.Title>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/QtxeJ703w18" title="The Avengers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />1-1. The Avengers
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Alan Silvestri
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/D3ZNtOcY_1A" title="Soundgarden - Live to Rise (From Marvel's THE AVENGERS) - Official Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />1-2. Live To Rise
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Soundgarden
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-            1-2. Live To Rise - Soundgarden
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/D3ZNtOcY_1A" title="Soundgarden - Live to Rise (From Marvel's THE AVENGERS) - Official Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        2. 어벤져스: 에이지 오브 울트론(2015)
+                    </Card.Title>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/93_rWpdKxH0" title="I Can't Get Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />2-1. I Can't Get Started
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />BBC Big Band Orchestra
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/nEqPcTSnZY4" title="I've Got No Strings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />2-2. I've Got No Strings
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Dickie Jones
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-            2. 어벤져스: 에이지 오브 울트론(2015)
-            2-1. I Can't Get Started - BBC Big Band Orchestra
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/93_rWpdKxH0" title="I Can't Get Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        3. 캡틴 아메리카 : 시빌워(2016)
+                    </Card.Title>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/92UC43cCSWg" title="Try to Remember" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />3-1. Try To Remember
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Tom Jones and Harvey schmidt
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/NRWUoDpo2fo" title="alt-J - Left Hand Free (Official Video) 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />3-2. Left Hand Free
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Alt-J
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-            2-2. I've Got No Strings - Dickie Jones
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/nEqPcTSnZY4" title="I've Got No Strings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        4. 스파이더맨 : 홈커밍(2017)
+                    </Card.Title>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/skdE0KAFCEA" title="Blitzkrieg Bop (2016 Remaster)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />4-1. Blitzkrieg Bop
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramones
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/HK5drdux-Eg" title="SWJ Mafia - La Consequencia (From Spider-Man: Homecoming)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />4-2. La Consequencia
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />SWJ Mafia
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-            3. 캡틴 아메리카 : 시빌워(2016)
-            3-1. Try To Remember - Tom Jones and Harvey schmidt
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/92UC43cCSWg" title="Try to Remember" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        5. 어벤져스 : 인피니티 워(2018)
+                    </Card.Title>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/KSMVflSBKx8" title="The Rubberband Man" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />5-1. The Rubberband Man
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />The Spinners
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/NaMmX7OCyCA" title="Could It Be I'm Falling in Love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />5-2. Could It Be I'm Falling In Love
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />The Spinners
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-            3-2. Left Hand Free - Alt-J
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/NRWUoDpo2fo" title="alt-J - Left Hand Free (Official Video) 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            4. 스파이더맨 : 홈커밍(2017)
-            4-1. Blitzkrieg Bop - Ramones
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/skdE0KAFCEA" title="Blitzkrieg Bop (2016 Remaster)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            4-2. La Consequencia - SWJ Mafia
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/HK5drdux-Eg" title="SWJ Mafia - La Consequencia (From Spider-Man: Homecoming)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            5. 어벤져스 : 인피니티 워(2018)
-            5-1. The Rubberband Man - The Spinners
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/KSMVflSBKx8" title="The Rubberband Man" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            5-2. Could It Be I'm Falling In Love - The Spinners
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/NaMmX7OCyCA" title="Could It Be I'm Falling in Love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            6. 어벤져스 : 엔드게임(2019)
-
-            6-1. DOOM AND GLOOM - The Rolling Stones
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/1DWiB7ZuLvI" title="The Rolling Stones - Doom And Gloom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            6-2. Come And Get Your Love - Redbone
-            <iframe width="740" height="416" src="https://www.youtube.com/embed/bc0KhhjJP98" title="Redbone - Come and Get Your Love (Single Edit - Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        6. 어벤져스 : 엔드게임(2019)
+                    </Card.Title>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/1DWiB7ZuLvI" title="The Rolling Stones - Doom And Gloom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />6-1. DOOM AND GLOOM
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />The Rolling Stones
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/bc0KhhjJP98" title="Redbone - Come and Get Your Love (Single Edit - Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />6-2. Come And Get Your Love
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Redbone
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </div>
 )}
 
