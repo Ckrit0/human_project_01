@@ -1362,283 +1362,1413 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
 
 function MusicInIronMan1(){ // 아이언맨1 OST / 삽입곡
     return(
-        <div>
-            아이언맨1 OST
-            1. Driving With the Top Down - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/I9PhfUsFvj0" title="Iron Man OST - Driving With The Top Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            2. Iron Man (2008 ver.) - John O'Brien & Rick Boston
-            <iframe width="730" height="411" src="https://www.youtube.com/embed/Ym2LDCeHOfE" title="Iron Man Score - John O'Brien & Rick Boston (2008 Version)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            3. Merchant of Death - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/K3pnZQFxKq0" title="Iron Man OST - Merchant Of Death" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            4. Trinkets to Kill a Prince - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/aC38Z88ZHLc" title="Iron Man OST - Trinkets to kill a Prince" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            5. Mark I - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/6YEm6lRLzmU" title="Iron Man OST -  Mark I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            6. Fireman - Ramin Djawadi
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/6pZ0_4a6N3k" title="Iron Man Score - Fireman (Ramin Djawadi)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            7. Vacation's Over - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/i-uQDt7h7I0" title="Ramin Djawadi - Vacation's Over" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            8. Golden Egg - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/p5ncjGUeJUI" title="Ramin Djawadi - Golden Egg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            9. Damn Kid - DJ Boroboro
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/8Ufqg06S_e4" title="09 Damn Kid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            10. Mark II - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/9NxrQipUkwg" title="Iron Man OST -  Mark II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            11. Extra Dry, Extra Olivers - Ramin Djawadi
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/G6hP7JRkd0U" title="11. Extra Dry, Extra Olives (Iron Man Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            12. Iron Man - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/u-9xmevqHu0" title="Iron Man- Ramin Djawadi (Original Motion Picture Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            13. Gulmira - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/CjWpWIw4bzc" title="Iron Man OST -  Gulmira" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            14. Are Those Bullet Holes? - Ramin Djawadi
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/RdIPYXbVGRs" title="14. Are Those Bullet Holes? (Iron Man Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            15. Section 16 - Ramin Djawadi
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/gTWxus1Z9Q0" title="15. Section 16 (Iron Man Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            16. Iron Monger - Ramin Djawadi
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/ST5bFzu3o2U" title="Ramin Djawadi - Iron Monger" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            17. Arc Reactor - Ramin Djawadi
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/1JlfK_waz2g" title="17 Arc Reaktor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            18. Institutionalized - Suicidal Tendencies
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/AdUBTE9JpgI" title="Institutionalized" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            19. Iron Man 60s Theme - Jack Urbont
-            <iframe width="653" height="490" src="https://www.youtube.com/embed/ZrajbDZANUA" title="Iron Man - The Classic Theme Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            ex 1. Back In Black - AC/DC
-            <iframe width="671" height="490" src="https://www.youtube.com/embed/pAgnJDJN4VA" title="AC/DC - Back In Black (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            ex 2. Slept On Tony - Ghostface Killah
-            <iframe width="787" height="490" src="https://www.youtube.com/embed/05CIjUow7yk" title="Slept On Tony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style={{backgroundColor: '#861313'}}>
+            <Card className='ostCard'>
+                <Card.Body className = 'ostCardBody'>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/I9PhfUsFvj0" title="Iron Man OST - Driving With The Top Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />1. Driving With the Top Down
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/Ym2LDCeHOfE" title="Iron Man Score - John O'Brien & Rick Boston (2008 Version)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />2. Iron Man (2008 ver.)
+                        </Card.Subtitle>
+                    <Card.Text>
+                        <br />John O'Brien & Rick Boston
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/K3pnZQFxKq0" title="Iron Man OST - Merchant Of Death" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />3. Merchant of Death
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/aC38Z88ZHLc" title="Iron Man OST - Trinkets to kill a Prince" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />4. Trinkets to Kill a Prince
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/6YEm6lRLzmU" title="Iron Man OST -  Mark I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />5. Mark I
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/6pZ0_4a6N3k" title="Iron Man Score - Fireman (Ramin Djawadi)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />6. Fireman
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/i-uQDt7h7I0" title="Ramin Djawadi - Vacation's Over" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />7. Vacation's Over
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/p5ncjGUeJUI" title="Ramin Djawadi - Golden Egg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />8. Golden Egg
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/8Ufqg06S_e4" title="09 Damn Kid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />9. Damn Kid
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />DJ Boroboro
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/9NxrQipUkwg" title="Iron Man OST -  Mark II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />10. Mark II
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/G6hP7JRkd0U" title="11. Extra Dry, Extra Olives (Iron Man Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />11. Extra Dry, Extra Olivers
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/u-9xmevqHu0" title="Iron Man- Ramin Djawadi (Original Motion Picture Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />12. Iron Man
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/CjWpWIw4bzc" title="Iron Man OST -  Gulmira" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />13. Gulmira
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/RdIPYXbVGRs" title="14. Are Those Bullet Holes? (Iron Man Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />14. Are Those Bullet Holes?
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/gTWxus1Z9Q0" title="15. Section 16 (Iron Man Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />15. Section 16
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/ST5bFzu3o2U" title="Ramin Djawadi - Iron Monger" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />16. Iron Monger
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/1JlfK_waz2g" title="17 Arc Reaktor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />17. Arc Reactor
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ramin Djawadi
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/AdUBTE9JpgI" title="Institutionalized" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />18. Institutionalized
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Suicidal Tendencies
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/ZrajbDZANUA" title="Iron Man - The Classic Theme Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />19. Iron Man 60s Theme
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Jack Urbont
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/pAgnJDJN4VA" title="AC/DC - Back In Black (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />ex 1. Back In Black
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />AC/DC
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/05CIjUow7yk" title="Slept On Tony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />ex 2. Slept On Tony
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />Ghostface Killah
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </div>
 )}
 
 function MusicInIronMan2(){ // 아이언맨2 OST / 삽입곡
     return(
-        <div>
-            1. Ivan's Metamorphosis - John Debney
-            <iframe width="787" height="443" src="https://www.youtube.com/embed/txKp72MaPWk" title="01 Ivan's Metamorphosis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style={{backgroundColor: '#861313'}}>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+                        <iframe src="https://www.youtube.com/embed/txKp72MaPWk" title="01 Ivan's Metamorphosis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />1. Ivan's Metamorphosis
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />John Debney
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
 
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             2. House Fight V1 - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/KmUrXNC6McQ" title="02 House Fight MK1 by John Debney (Iron Man 2 Score) Soundtrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             3. Making Pepper CEO - John Debney
             <iframe width="653" height="490" src="https://www.youtube.com/embed/jjt4gGkqfW8" title="John Debney - Making Pepper CEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             4. Senate/Ivan Creates Drones - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/xU5NgAbrBf8" title="04. Senate / Ivan Creates Drones (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             5. Make Way For Tomorrow (Expo Version) - Richard Sherman
             <iframe width="787" height="443" src="https://www.youtube.com/embed/1ZrWQr5l7rk" title="05. Make Way for Tomorrow (Expo Version) (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             6. Rhodey Dons Suit - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/vO420t_SwH4" title="06 Rhodey Dons Suit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             7. Dying Hero - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/RibnmwzoxFk" title="07. Dying Hero (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             8. Natalie Intro - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/VNVx3tnMBo8" title="08 Natalie Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             9. Monaco Drive - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/A_lrY14iX1k" title="09 Monaco Drive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             10. Mayham in Monaco - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/VtnYzLIYVnU" title="10. Mayhem in Monaco (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             11. Jailhouse Talk - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/S27L8OSGkHg" title="11. Jailhouse Talk (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             12. Ivan Escapes - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/R_SdZkqFZ4M" title="12. Ivan Escapes (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             13. Gun Show - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/HM8kuvEiiIk" title="13. Gun Show (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             14. Tony Discovers Dad's Secret - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/-1V9Lynvw8c" title="14. Tony Discovers Dad's Secret (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             15. Sledgehammer V2 - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/mIDb_mnJLmg" title="15. Sledgehammer V2 (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             16. Nick Fury - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/knzdWeFLKsM" title="16. Nick Fury (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             17. New Element / Particle Accelerator - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/o9I7_byuvqI" title="17. New Element / Particle Accelerator (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             18. Sledgehammer - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/1KzhnsidPoI" title="18 Sledgehammer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             19. New RT / To The Expo - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/1OC_vWJgHtU" title="19 New RT / To the Expo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             20. Black Widow Kicks Ass - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/QvnOLHMGM_4" title="20. Black Widow Kicks Ass (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             21. Iron Man Battles The Drones - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/lfBpAP68eKE" title="21. Iron Man Battles the Drones (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             22. Ivan's Demise / The Kiss - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/RNcpNCGdaHU" title="22. Ivan's Demise / The Kiss (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             23. Thor - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/2mO8aTzTUsY" title="23. Thor (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             24. I Am Iron Man - John Debney
             <iframe width="787" height="443" src="https://www.youtube.com/embed/63S6aAinq-w" title="24. I Am Iron Man (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             25. Make Way for Tomorrow Today - Richard Sherman
             <iframe width="787" height="443" src="https://www.youtube.com/embed/preBdo4NLvU" title="25. Make Way for Tomorrow Today (Iron Man 2 Soundtrack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 1. Shoot To Thrill - AC/DC
             <iframe width="784" height="490" src="https://www.youtube.com/embed/xRQnJyP77tY" title="AC/DC - Shoot To Thrill (Iron Man 2 Version)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 2. Should I Stay or Shold I Go - The Crash
             <iframe width="787" height="443" src="https://www.youtube.com/embed/BN1WwnEDWAM" title="The Clash - Should I Stay or Should I Go (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 3. The Magnificent Seven - The Crash
             <iframe width="787" height="443" src="https://www.youtube.com/embed/dj1Nf850Lys" title="The Clash - The Magnificent Seven (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 4. Monaco - The Declanator
             <iframe width="653" height="490" src="https://www.youtube.com/embed/IBzYnu14rPM" title="Ironman 2 Monaco by The Declanator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 5. Good Old Days - Brad Hatfield
             <iframe width="787" height="490" src="https://www.youtube.com/embed/k5UN0EEUMAs" title="Good Old Days" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 6. California Love - 2Pac (feat. Dr.Dre)
             <iframe width="787" height="443" src="https://www.youtube.com/embed/omfz62qu_Bc" title="2Pac ft. Dr. Dre - California Love (Official Video) [Full Length Version]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 7. Another One Bites the Dust - Queen
             <iframe width="653" height="490" src="https://www.youtube.com/embed/rY0WxgSXdEE" title="Queen - Another One Bites the Dust (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 8. It Takes Two - Rob Base & DJ EZ Rock
             <iframe width="653" height="490" src="https://www.youtube.com/embed/phOW-CZJWT0" title="Rob Base & DJ EZ Rock - It Takes Two" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 9. Daft Punk - Daft Punk
             <iframe width="653" height="490" src="https://www.youtube.com/embed/sFZjqVnWBhc" title="Daft Punk - Robot Rock (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 10. Groove Holmes - BeastieBoys
             <iframe width="787" height="490" src="https://www.youtube.com/embed/OPwUpIr6KRY" title="Groove Holmes (Remastered 2009)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 11. Ironman 2 Pimpin Guns Cue - The Declanator
             <iframe width="653" height="490" src="https://www.youtube.com/embed/jykehJELPBk" title="Ironman 2 Pimpin Guns Cue by The Declanator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 12. Pick Up The Pieces - Average White Band
             <iframe width="653" height="490" src="https://www.youtube.com/embed/FnH_zwVmiuE" title="Average White Band - Pick Up The Pieces" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 13. Highway To Hell - AC/DC
             <iframe width="653" height="490" src="https://www.youtube.com/embed/l482T0yNkeo" title="AC/DC - Highway to Hell (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </div>
 )}
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 function MusicInIronMan3(){ // 아이언맨3 OST / 삽입곡
     return(
         <div>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             1. Iron Man 3 - Brian Tyler
             <iframe width="787" height="443" src="https://www.youtube.com/embed/wL6jh9thk8Q" title="Brian Tyler - Iron Man 3 Recording Session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             2. War Machine - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/NM14FzEOIJ0" title="War Machine" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             3. Attack On 10880 Malibu Point - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/p976FNQpy0E" title="Attack on 10880 Malibu Point" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             4. Isolation - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/G9TK-HOLMbs" title="Isolation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             5. Dive Bombers - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/moeRRZR2Wfc" title="Dive Bombers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             6. New Beginnings - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/PCR24d-seKY" title="New Beginnings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
             7. Extremis - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/NyjqAtDOb-g" title="Extremis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             8. Stark - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/JX9SBRdMz5M" title="Stark" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             9. Leverage - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/zX8Ka15EQKw" title="Leverage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             10. The Mandarin - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/tIc9wsxESQE" title="The Mandarin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             11. Heat And Iron - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/2X6k4aC9qlM" title="Heat and Iron" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             12. Misfire - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/RXT9QphhiWw" title="Misfire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             13. Culmination - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/uGNgOtygEzo" title="Culmination" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             14. The Mechanic - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/nQk-JeyoYpg" title="The Mechanic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             15. Hot Pepper - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/94rSR4O-msM" title="Hot Pepper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             16. Another Lesson From The Mandarin - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/H8godlVd8po" title="Another Lesson From Mandy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             17. Dr Wu - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/rUR1gsuR5SM" title="Dr. Wu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             18. Return - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/TcTxiDdM660" title="Return" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             19. Battle Finale - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/xRDmkntI7vM" title="Battle Finale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             20. Can You Dig it - Brian Tyler
             <iframe width="787" height="490" src="https://www.youtube.com/embed/OsSHmKU0t7w" title="Can You Dig It (Iron Man 3 Main Titles)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 1. Blue (Da Ba Dee) - Eiffel 65
             <iframe width="653" height="490" src="https://www.youtube.com/embed/zA52uNzx7Y4" title="Eiffel 65 - Blue (Da Ba Dee)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 2. Mambo No. 5 (A Little Bit of...) - Lou Bega
             <iframe width="787" height="443" src="https://www.youtube.com/embed/EK_LN3XEcnw" title="Lou Bega - Mambo No. 5 (A Little Bit of...) (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 3. Jingle Bells (Bombay Dub Orchestra Remix) - Joe Williams
             <iframe width="787" height="490" src="https://www.youtube.com/embed/Ry2bSgai62M" title="Jingle Bells (Bombay Dub Orchestra Remix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 4. Some Kind of Joke - AWOLNATION
             <iframe width="787" height="490" src="https://www.youtube.com/embed/x3qR62oLEFY" title="Some Kind of Joke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 5. Jingle Bells - Vinnie Zummo
             <iframe width="787" height="490" src="https://www.youtube.com/embed/hUHLveKrBiE" title="Jingle Bells" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 6. Santa Claus Is Back in Town - Dwight Yoakam
             <iframe width="787" height="490" src="https://www.youtube.com/embed/VjJ83j21tD8" title="Santa Claus Is Back in Town" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 7. Jingle Bells - Herb Alpert
             <iframe width="787" height="490" src="https://www.youtube.com/embed/G1BpLy2Nw0Y" title="Jingle Bells" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 8. Anderlecht Champion aka Olé Olé Olé, We Are The Champions - Various Artist
             <iframe width="787" height="490" src="https://www.youtube.com/embed/498MOIJdwEo" title="Anderlecht Champion aka Olé Olé Olé, We Are The Champions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
             ex 9. O Tannenbaum - Vince Guaraldi Trio
             <iframe width="787" height="443" src="https://www.youtube.com/embed/_fh133ZO1AE" title="Vince Guaraldi Trio - O Tannenbaum" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <Card className='ostCard'>
+                <Card.Body>
+                    <Card.Title>
+
+                    </Card.Title>
+                    <Card.Subtitle>
+                        <br />
+                    </Card.Subtitle>
+                    <Card.Text>
+                        <br />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
         </div>
 )}
