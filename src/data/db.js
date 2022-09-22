@@ -1,4 +1,4 @@
-import { Accordion, Card, CardGroup, Toast } from 'react-bootstrap'
+import { Accordion, Card, CardGroup, ListGroup, Toast } from 'react-bootstrap'
 import create from 'zustand'
 
 const database = create(()=>({ // 경로, 페이지 찾기 변수
@@ -2772,154 +2772,160 @@ function TransformationOfCrossOver(){ // 크로스오버 변신장면 (깃 업�
 
 function DirectorOfIronMan1(){ // 아이언맨1 감독
     return(
-        <Card style={{ width: '80%' }}>
-            <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
-            <Card.Body>
-                <Card.Title>
-                    이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)
-                </Card.Title>
-                <Card.Text>
-                    출생 : 1966년 10월 19일, 미국 뉴욕주 퀸즈<br />
-                    직업 : 배우, 영화감독, 각본가, 성우
-                </Card.Text>
-                <Card.Text>
-                    활동 : 배우로 활동하면서 각본가로도 활동하였는데, 초기에는 코미디 영화들을 주로 썼다.
-                    1996년작 더그 라이먼 감독의 《스윙어즈》가 대표작이다.
-                    2003년작 《엘프》는 케빈 파이기가 그를 아이언맨 1의 감독으로 발탁하는 데 결정적인 영향을 준 작품으로도 알려져 있다.
-                    《아이언맨》의 감독으로 잘 알려져 있다.
-                    당시 주연이었던 로버트 다우니 주니어와 긴밀한 논의와 상의를 거쳐 엉망이었던 원래 각본을 대폭 수정해 영화를 재창조하다시피 찍었다.
-                    덕분에 아이언맨은 세계적 흥행 대작이 되었고, 마블 히어로 시리즈의 성공적인 출발에 큰 기여를 했다.
-                    하지만 《아이언맨 2》 연출을 맡은 후에는 마블 스튜디오의 간섭에 질려서 이후 후속작에서는 손을 때게 된다.
-                    감독을 때려치우기는 했어도 여전히 해피 호건 역으로 출연은 계속하고 있다.
-                    어벤져스 실사영화 시리즈와 《아이언맨 3》에서 총괄 제작자(executive producer)로 이름이 올라가기는 했지만,
-                    이는 전편을 만들어 기반을 마련해 준 공을 인정해 예우상 넣어 주는 경우도 많은 직함이라서 실제 제작에 영향을 얼마나 미치는지는 불명.
-                    2014년에는 아예 독립 영화인 《아메리칸 셰프》의 제작, 감독, 각본, 주연을 전부 맡기도 했다.
-                    2016년 연출작인 《정글북》은 큰 호평을 받아 《아이언맨》 이후 영화 감독의 입지를 굳힐 수 있었다.
-                    2016년 4월 18일 올라온 기사에 따르면 마블 시네마틱 유니버스에 복귀한다고 한다.
-                    연출가로서의 재능이 상당하다. 지금까지 감독으로 참여한 영화 중 평가가 눈에 띄게 안 좋은 것은
-                    《자투라: 스페이스 어드벤쳐》, 《아이언맨 2》, 《카우보이 & 에일리언》뿐인데,
-                    자투라는 첫 작품이니 경험부족이라 치고 넘어갈 수 있고,
-                    아이언맨 2는 앞서 언급된대로 마블 스튜디오가 지나치게 간섭을 한 영화라서 자신은 거의 허수아비나 마찬가지인 영화였고,
-                    반대로 아이언맨 1은 MCU에서도 두드러지는 평을 받았던 것을 고려하면 그의 실력이 제대로 발휘되지 못한 편이라고 판단된다.
-                    연출 외에도 이전부터 여러 영화(주로 로맨틱 코미디)에 조연 급으로 출연해온 잔뼈 굵은 배우다.
-                    배트맨 포에버에서 브루스 웨인의 수행원으로 잠시 나온 적이 있고,
-                    벤 애플렉 주연의 《데어데블》에선 맷 머독의 변호사 친구 포기 넬슨 역으로 출연하기도 하는 등 히어로물과의 인연도 꽤 많은 편이다.
-                    《딥 임팩트》에서도 탐사선 "메시아" 호 승무원 크루 중 거스 파텐자로 출연하기도 했다.
-                    특히 자신이 감독한 영화에 배우로도 출연하는 경우가 상당히 많다.
-                    아이언맨 시리즈에서도 해피 호건 캐릭터를 자기가 직접 연기했으며, 《메이드》, 《아메리칸 셰프》에서는 아예 주연을 맡았다.
-                    시트콤 《프렌즈》에 모니카 겔러의 남자친구로 몇 에피소드에 출연하기도 했다.
-                    성공한 IT 재벌이란 설정으로 모니카와 사귀게 되자 갑자기 UFC 선수가 되겠다는 캐릭터로 등장했다.
-                    남자친구가 매번 얻어터지는 걸 볼 수 없었던 모니카와 결별하고, 마지막 경기에서 상대선수에게 그곳 (...)을 크게 다친다.
-                    프렌즈 멤버들의 대사를 들어보면 고자가(...)
-                    《소프라노스》 시즌 2 7화에 본인역으로 출연하기도 했다.
-                    2017년 11월, 디즈니 역대 최고 제작비가 투입된 스타워즈 실사 드라마 《만달로리안》의 제작 총괄 및 각본가로 확정되었다.
-                    2019년 《정글북》에 이어 다시 한번 원작 애니메이션을 실사화한 《라이온 킹》을 제작해 북미에서만 5억달러를 돌파하며,
-                    10억 달러 흥행을 넘겼다. 이렇게 지금까지의 공로를 인정받아 2019년 5월에 디즈니 레전드로 선정되었다.
-                    이 해에는 함께 MCU의 초석을 다진 로버트 다우니 주니어도 올랐다.
-                    상술한 《만달로리안》이 평단의 호평에 더불어 흥행까지 대성공하였고,
-                    이에 대해 당시 디즈니 CEO였던 밥 아이거는 그에게 신세대 조지 루카스라는 평을 내렸다고 한다.
-                    참고로 MCU에 관여할 때 케빈 파이기에게 "작품을 만들때 언제나 오래된 팬을 생각해야 한다"는 작품정신을 강조했다고.
-                    이를 투영한 《만달로리안》은 올드팬들을 위한 팬서비스가 꽤 많은데,
-                    이 팬서비스를 작품의 서사에 자연스럽게 스며들게 하는 전략이 잘 먹혀서 올드팬들과 신규팬들 모두를 만족시켰다.
-                    그 덕에 시즌 3까지 확정한 상태.
-                    만달로리안의 첫 스핀오프 시리즈인 《북 오브 보바 펫》 역시 제작과 연출을 맡았다.
-                    다만 대호평을 받은 만달로리안과는 달리 제목은 보바 펫인데 보바 펫이 카메오로 나오는 시리즈라는 혹평을 들어야만 했다.
-                </Card.Text>
-            </Card.Body>
+        <Card className='outer'>
+            <Card style={{ width: '80%' }}>
+                <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
+                <Card.Body>
+                    <Card.Title>
+                        이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)
+                    </Card.Title>
+                    <Card.Text>
+                        출생 : 1966년 10월 19일, 미국 뉴욕주 퀸즈<br />
+                        직업 : 배우, 영화감독, 각본가, 성우
+                    </Card.Text>
+                    <Card.Text>
+                        활동 : 배우로 활동하면서 각본가로도 활동하였는데, 초기에는 코미디 영화들을 주로 썼다.
+                        1996년작 더그 라이먼 감독의 《스윙어즈》가 대표작이다.
+                        2003년작 《엘프》는 케빈 파이기가 그를 아이언맨 1의 감독으로 발탁하는 데 결정적인 영향을 준 작품으로도 알려져 있다.
+                        《아이언맨》의 감독으로 잘 알려져 있다.
+                        당시 주연이었던 로버트 다우니 주니어와 긴밀한 논의와 상의를 거쳐 엉망이었던 원래 각본을 대폭 수정해 영화를 재창조하다시피 찍었다.
+                        덕분에 아이언맨은 세계적 흥행 대작이 되었고, 마블 히어로 시리즈의 성공적인 출발에 큰 기여를 했다.
+                        하지만 《아이언맨 2》 연출을 맡은 후에는 마블 스튜디오의 간섭에 질려서 이후 후속작에서는 손을 때게 된다.
+                        감독을 때려치우기는 했어도 여전히 해피 호건 역으로 출연은 계속하고 있다.
+                        어벤져스 실사영화 시리즈와 《아이언맨 3》에서 총괄 제작자(executive producer)로 이름이 올라가기는 했지만,
+                        이는 전편을 만들어 기반을 마련해 준 공을 인정해 예우상 넣어 주는 경우도 많은 직함이라서 실제 제작에 영향을 얼마나 미치는지는 불명.
+                        2014년에는 아예 독립 영화인 《아메리칸 셰프》의 제작, 감독, 각본, 주연을 전부 맡기도 했다.
+                        2016년 연출작인 《정글북》은 큰 호평을 받아 《아이언맨》 이후 영화 감독의 입지를 굳힐 수 있었다.
+                        2016년 4월 18일 올라온 기사에 따르면 마블 시네마틱 유니버스에 복귀한다고 한다.
+                        연출가로서의 재능이 상당하다. 지금까지 감독으로 참여한 영화 중 평가가 눈에 띄게 안 좋은 것은
+                        《자투라: 스페이스 어드벤쳐》, 《아이언맨 2》, 《카우보이 & 에일리언》뿐인데,
+                        자투라는 첫 작품이니 경험부족이라 치고 넘어갈 수 있고,
+                        아이언맨 2는 앞서 언급된대로 마블 스튜디오가 지나치게 간섭을 한 영화라서 자신은 거의 허수아비나 마찬가지인 영화였고,
+                        반대로 아이언맨 1은 MCU에서도 두드러지는 평을 받았던 것을 고려하면 그의 실력이 제대로 발휘되지 못한 편이라고 판단된다.
+                        연출 외에도 이전부터 여러 영화(주로 로맨틱 코미디)에 조연 급으로 출연해온 잔뼈 굵은 배우다.
+                        배트맨 포에버에서 브루스 웨인의 수행원으로 잠시 나온 적이 있고,
+                        벤 애플렉 주연의 《데어데블》에선 맷 머독의 변호사 친구 포기 넬슨 역으로 출연하기도 하는 등 히어로물과의 인연도 꽤 많은 편이다.
+                        《딥 임팩트》에서도 탐사선 "메시아" 호 승무원 크루 중 거스 파텐자로 출연하기도 했다.
+                        특히 자신이 감독한 영화에 배우로도 출연하는 경우가 상당히 많다.
+                        아이언맨 시리즈에서도 해피 호건 캐릭터를 자기가 직접 연기했으며, 《메이드》, 《아메리칸 셰프》에서는 아예 주연을 맡았다.
+                        시트콤 《프렌즈》에 모니카 겔러의 남자친구로 몇 에피소드에 출연하기도 했다.
+                        성공한 IT 재벌이란 설정으로 모니카와 사귀게 되자 갑자기 UFC 선수가 되겠다는 캐릭터로 등장했다.
+                        남자친구가 매번 얻어터지는 걸 볼 수 없었던 모니카와 결별하고, 마지막 경기에서 상대선수에게 그곳 (...)을 크게 다친다.
+                        프렌즈 멤버들의 대사를 들어보면 고자가(...)
+                        《소프라노스》 시즌 2 7화에 본인역으로 출연하기도 했다.
+                        2017년 11월, 디즈니 역대 최고 제작비가 투입된 스타워즈 실사 드라마 《만달로리안》의 제작 총괄 및 각본가로 확정되었다.
+                        2019년 《정글북》에 이어 다시 한번 원작 애니메이션을 실사화한 《라이온 킹》을 제작해 북미에서만 5억달러를 돌파하며,
+                        10억 달러 흥행을 넘겼다. 이렇게 지금까지의 공로를 인정받아 2019년 5월에 디즈니 레전드로 선정되었다.
+                        이 해에는 함께 MCU의 초석을 다진 로버트 다우니 주니어도 올랐다.
+                        상술한 《만달로리안》이 평단의 호평에 더불어 흥행까지 대성공하였고,
+                        이에 대해 당시 디즈니 CEO였던 밥 아이거는 그에게 신세대 조지 루카스라는 평을 내렸다고 한다.
+                        참고로 MCU에 관여할 때 케빈 파이기에게 "작품을 만들때 언제나 오래된 팬을 생각해야 한다"는 작품정신을 강조했다고.
+                        이를 투영한 《만달로리안》은 올드팬들을 위한 팬서비스가 꽤 많은데,
+                        이 팬서비스를 작품의 서사에 자연스럽게 스며들게 하는 전략이 잘 먹혀서 올드팬들과 신규팬들 모두를 만족시켰다.
+                        그 덕에 시즌 3까지 확정한 상태.
+                        만달로리안의 첫 스핀오프 시리즈인 《북 오브 보바 펫》 역시 제작과 연출을 맡았다.
+                        다만 대호평을 받은 만달로리안과는 달리 제목은 보바 펫인데 보바 펫이 카메오로 나오는 시리즈라는 혹평을 들어야만 했다.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </Card>
 )}
 
 function DirectorOfIronMan2(){ // 아이언맨2 감독
     return(
-        <Card style={{ width: '80%' }}>
-            <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
-            <Card.Body>
-                <Card.Title>
-                    이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)
-                </Card.Title>
-                <Card.Text>
-                    출생 : 1966년 10월 19일, 미국 뉴욕주 퀸즈<br />
-                    직업 : 배우, 영화감독, 각본가, 성우
-                </Card.Text>
-                <Card.Text>
-                    활동 : 배우로 활동하면서 각본가로도 활동하였는데, 초기에는 코미디 영화들을 주로 썼다.
-                    1996년작 더그 라이먼 감독의 《스윙어즈》가 대표작이다.
-                    2003년작 《엘프》는 케빈 파이기가 그를 아이언맨 1의 감독으로 발탁하는 데 결정적인 영향을 준 작품으로도 알려져 있다.
-                    《아이언맨》의 감독으로 잘 알려져 있다.
-                    당시 주연이었던 로버트 다우니 주니어와 긴밀한 논의와 상의를 거쳐 엉망이었던 원래 각본을 대폭 수정해 영화를 재창조하다시피 찍었다.
-                    덕분에 아이언맨은 세계적 흥행 대작이 되었고, 마블 히어로 시리즈의 성공적인 출발에 큰 기여를 했다.
-                    하지만 《아이언맨 2》 연출을 맡은 후에는 마블 스튜디오의 간섭에 질려서 이후 후속작에서는 손을 때게 된다.
-                    감독을 때려치우기는 했어도 여전히 해피 호건 역으로 출연은 계속하고 있다.
-                    어벤져스 실사영화 시리즈와 《아이언맨 3》에서 총괄 제작자(executive producer)로 이름이 올라가기는 했지만,
-                    이는 전편을 만들어 기반을 마련해 준 공을 인정해 예우상 넣어 주는 경우도 많은 직함이라서 실제 제작에 영향을 얼마나 미치는지는 불명.
-                    2014년에는 아예 독립 영화인 《아메리칸 셰프》의 제작, 감독, 각본, 주연을 전부 맡기도 했다.
-                    2016년 연출작인 《정글북》은 큰 호평을 받아 《아이언맨》 이후 영화 감독의 입지를 굳힐 수 있었다.
-                    2016년 4월 18일 올라온 기사에 따르면 마블 시네마틱 유니버스에 복귀한다고 한다.
-                    연출가로서의 재능이 상당하다. 지금까지 감독으로 참여한 영화 중 평가가 눈에 띄게 안 좋은 것은
-                    《자투라: 스페이스 어드벤쳐》, 《아이언맨 2》, 《카우보이 & 에일리언》뿐인데,
-                    자투라는 첫 작품이니 경험부족이라 치고 넘어갈 수 있고,
-                    아이언맨 2는 앞서 언급된대로 마블 스튜디오가 지나치게 간섭을 한 영화라서 자신은 거의 허수아비나 마찬가지인 영화였고,
-                    반대로 아이언맨 1은 MCU에서도 두드러지는 평을 받았던 것을 고려하면 그의 실력이 제대로 발휘되지 못한 편이라고 판단된다.
-                    연출 외에도 이전부터 여러 영화(주로 로맨틱 코미디)에 조연 급으로 출연해온 잔뼈 굵은 배우다.
-                    배트맨 포에버에서 브루스 웨인의 수행원으로 잠시 나온 적이 있고,
-                    벤 애플렉 주연의 《데어데블》에선 맷 머독의 변호사 친구 포기 넬슨 역으로 출연하기도 하는 등 히어로물과의 인연도 꽤 많은 편이다.
-                    《딥 임팩트》에서도 탐사선 "메시아" 호 승무원 크루 중 거스 파텐자로 출연하기도 했다.
-                    특히 자신이 감독한 영화에 배우로도 출연하는 경우가 상당히 많다.
-                    아이언맨 시리즈에서도 해피 호건 캐릭터를 자기가 직접 연기했으며, 《메이드》, 《아메리칸 셰프》에서는 아예 주연을 맡았다.
-                    시트콤 《프렌즈》에 모니카 겔러의 남자친구로 몇 에피소드에 출연하기도 했다.
-                    성공한 IT 재벌이란 설정으로 모니카와 사귀게 되자 갑자기 UFC 선수가 되겠다는 캐릭터로 등장했다.
-                    남자친구가 매번 얻어터지는 걸 볼 수 없었던 모니카와 결별하고, 마지막 경기에서 상대선수에게 그곳 (...)을 크게 다친다.
-                    프렌즈 멤버들의 대사를 들어보면 고자가(...)
-                    《소프라노스》 시즌 2 7화에 본인역으로 출연하기도 했다.
-                    2017년 11월, 디즈니 역대 최고 제작비가 투입된 스타워즈 실사 드라마 《만달로리안》의 제작 총괄 및 각본가로 확정되었다.
-                    2019년 《정글북》에 이어 다시 한번 원작 애니메이션을 실사화한 《라이온 킹》을 제작해 북미에서만 5억달러를 돌파하며,
-                    10억 달러 흥행을 넘겼다. 이렇게 지금까지의 공로를 인정받아 2019년 5월에 디즈니 레전드로 선정되었다.
-                    이 해에는 함께 MCU의 초석을 다진 로버트 다우니 주니어도 올랐다.
-                    상술한 《만달로리안》이 평단의 호평에 더불어 흥행까지 대성공하였고,
-                    이에 대해 당시 디즈니 CEO였던 밥 아이거는 그에게 신세대 조지 루카스라는 평을 내렸다고 한다.
-                    참고로 MCU에 관여할 때 케빈 파이기에게 "작품을 만들때 언제나 오래된 팬을 생각해야 한다"는 작품정신을 강조했다고.
-                    이를 투영한 《만달로리안》은 올드팬들을 위한 팬서비스가 꽤 많은데,
-                    이 팬서비스를 작품의 서사에 자연스럽게 스며들게 하는 전략이 잘 먹혀서 올드팬들과 신규팬들 모두를 만족시켰다.
-                    그 덕에 시즌 3까지 확정한 상태.
-                    만달로리안의 첫 스핀오프 시리즈인 《북 오브 보바 펫》 역시 제작과 연출을 맡았다.
-                    다만 대호평을 받은 만달로리안과는 달리 제목은 보바 펫인데 보바 펫이 카메오로 나오는 시리즈라는 혹평을 들어야만 했다.
-                </Card.Text>
-            </Card.Body>
+        <Card className='outer'>
+            <Card style={{ width: '80%' }}>
+                <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
+                <Card.Body>
+                    <Card.Title>
+                        이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)
+                    </Card.Title>
+                    <Card.Text>
+                        출생 : 1966년 10월 19일, 미국 뉴욕주 퀸즈<br />
+                        직업 : 배우, 영화감독, 각본가, 성우
+                    </Card.Text>
+                    <Card.Text>
+                        활동 : 배우로 활동하면서 각본가로도 활동하였는데, 초기에는 코미디 영화들을 주로 썼다.
+                        1996년작 더그 라이먼 감독의 《스윙어즈》가 대표작이다.
+                        2003년작 《엘프》는 케빈 파이기가 그를 아이언맨 1의 감독으로 발탁하는 데 결정적인 영향을 준 작품으로도 알려져 있다.
+                        《아이언맨》의 감독으로 잘 알려져 있다.
+                        당시 주연이었던 로버트 다우니 주니어와 긴밀한 논의와 상의를 거쳐 엉망이었던 원래 각본을 대폭 수정해 영화를 재창조하다시피 찍었다.
+                        덕분에 아이언맨은 세계적 흥행 대작이 되었고, 마블 히어로 시리즈의 성공적인 출발에 큰 기여를 했다.
+                        하지만 《아이언맨 2》 연출을 맡은 후에는 마블 스튜디오의 간섭에 질려서 이후 후속작에서는 손을 때게 된다.
+                        감독을 때려치우기는 했어도 여전히 해피 호건 역으로 출연은 계속하고 있다.
+                        어벤져스 실사영화 시리즈와 《아이언맨 3》에서 총괄 제작자(executive producer)로 이름이 올라가기는 했지만,
+                        이는 전편을 만들어 기반을 마련해 준 공을 인정해 예우상 넣어 주는 경우도 많은 직함이라서 실제 제작에 영향을 얼마나 미치는지는 불명.
+                        2014년에는 아예 독립 영화인 《아메리칸 셰프》의 제작, 감독, 각본, 주연을 전부 맡기도 했다.
+                        2016년 연출작인 《정글북》은 큰 호평을 받아 《아이언맨》 이후 영화 감독의 입지를 굳힐 수 있었다.
+                        2016년 4월 18일 올라온 기사에 따르면 마블 시네마틱 유니버스에 복귀한다고 한다.
+                        연출가로서의 재능이 상당하다. 지금까지 감독으로 참여한 영화 중 평가가 눈에 띄게 안 좋은 것은
+                        《자투라: 스페이스 어드벤쳐》, 《아이언맨 2》, 《카우보이 & 에일리언》뿐인데,
+                        자투라는 첫 작품이니 경험부족이라 치고 넘어갈 수 있고,
+                        아이언맨 2는 앞서 언급된대로 마블 스튜디오가 지나치게 간섭을 한 영화라서 자신은 거의 허수아비나 마찬가지인 영화였고,
+                        반대로 아이언맨 1은 MCU에서도 두드러지는 평을 받았던 것을 고려하면 그의 실력이 제대로 발휘되지 못한 편이라고 판단된다.
+                        연출 외에도 이전부터 여러 영화(주로 로맨틱 코미디)에 조연 급으로 출연해온 잔뼈 굵은 배우다.
+                        배트맨 포에버에서 브루스 웨인의 수행원으로 잠시 나온 적이 있고,
+                        벤 애플렉 주연의 《데어데블》에선 맷 머독의 변호사 친구 포기 넬슨 역으로 출연하기도 하는 등 히어로물과의 인연도 꽤 많은 편이다.
+                        《딥 임팩트》에서도 탐사선 "메시아" 호 승무원 크루 중 거스 파텐자로 출연하기도 했다.
+                        특히 자신이 감독한 영화에 배우로도 출연하는 경우가 상당히 많다.
+                        아이언맨 시리즈에서도 해피 호건 캐릭터를 자기가 직접 연기했으며, 《메이드》, 《아메리칸 셰프》에서는 아예 주연을 맡았다.
+                        시트콤 《프렌즈》에 모니카 겔러의 남자친구로 몇 에피소드에 출연하기도 했다.
+                        성공한 IT 재벌이란 설정으로 모니카와 사귀게 되자 갑자기 UFC 선수가 되겠다는 캐릭터로 등장했다.
+                        남자친구가 매번 얻어터지는 걸 볼 수 없었던 모니카와 결별하고, 마지막 경기에서 상대선수에게 그곳 (...)을 크게 다친다.
+                        프렌즈 멤버들의 대사를 들어보면 고자가(...)
+                        《소프라노스》 시즌 2 7화에 본인역으로 출연하기도 했다.
+                        2017년 11월, 디즈니 역대 최고 제작비가 투입된 스타워즈 실사 드라마 《만달로리안》의 제작 총괄 및 각본가로 확정되었다.
+                        2019년 《정글북》에 이어 다시 한번 원작 애니메이션을 실사화한 《라이온 킹》을 제작해 북미에서만 5억달러를 돌파하며,
+                        10억 달러 흥행을 넘겼다. 이렇게 지금까지의 공로를 인정받아 2019년 5월에 디즈니 레전드로 선정되었다.
+                        이 해에는 함께 MCU의 초석을 다진 로버트 다우니 주니어도 올랐다.
+                        상술한 《만달로리안》이 평단의 호평에 더불어 흥행까지 대성공하였고,
+                        이에 대해 당시 디즈니 CEO였던 밥 아이거는 그에게 신세대 조지 루카스라는 평을 내렸다고 한다.
+                        참고로 MCU에 관여할 때 케빈 파이기에게 "작품을 만들때 언제나 오래된 팬을 생각해야 한다"는 작품정신을 강조했다고.
+                        이를 투영한 《만달로리안》은 올드팬들을 위한 팬서비스가 꽤 많은데,
+                        이 팬서비스를 작품의 서사에 자연스럽게 스며들게 하는 전략이 잘 먹혀서 올드팬들과 신규팬들 모두를 만족시켰다.
+                        그 덕에 시즌 3까지 확정한 상태.
+                        만달로리안의 첫 스핀오프 시리즈인 《북 오브 보바 펫》 역시 제작과 연출을 맡았다.
+                        다만 대호평을 받은 만달로리안과는 달리 제목은 보바 펫인데 보바 펫이 카메오로 나오는 시리즈라는 혹평을 들어야만 했다.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </Card>
 )}
 
 function DirectorOfIronMan3(){ // 아이언맨3 감독
     return(
-        <Card style={{ width: '80%' }}>
-            <Card.Img variant="top" src="/img/director/IronMan3.jpg" />
-            <Card.Body>
-                <Card.Title>
-                    이름 : 셰인 블랙<br />(ShaneBlack)
-                </Card.Title>
-                <Card.Text>
-                    출생 : 1961년 12월 16일, 미국 펜실베니아주 피츠버그<br />
-                    직업 : 배우, 영화감독, 각본가
-                </Card.Text>
-                <Card.Text>
-                    본래 프레데터 1편의 조연 역으로 출연한 배우였지만, 원래 리썰 웨폰의 각본으로 유명했고 훗날 아이언맨 3와 나이스 가이즈 등을 감독하였다.
-                    아이언맨 같은 작품은 호불호는 갈렸지만 어쨌든 리썰 웨폰의 각본가답게 대부분의 작품들을 완급있게 잘 연출해 호평을 받은 감독이였다.
-                    그러나 이후 전의 경력들이 무색하게도 프레데터 시리즈의 더 프레데터를 처참하게 말아먹은 원흉 중 하나로 낙인이 찍혔다.
-                    아니나 다를까 마지막 장면에 프레데터가 아이언맨 코스프레를 하는 장면에서,
-                    프레데터 영화를 딴 동네 영화로 착각하고 있는 게 아닌가 의심받을 정도였다.
-                    게다가 출연배우들 대부분이 이전작에서 나름대로 연기력으로 호평받은 베테랑들임을 고려하면,
-                    셰인 블랙의 연기 디렉션이 엉망진창이었으리라는 합리적인 의심을 할 수 밖에 없다.
-                    셰인 블랙이 미성년자 대상 성범죄자인 친구를 오디션 없이 단역으로 꽂아 넣었다가,
-                    사실을 알아챈 올리비아 문의 지적으로 출연 장면을 전부 삭제한 것이 알려져 논란이 되었다.
-                    갈채를 받았다는 토론토 영화제를 비롯한 각종 홍보행사에서 남배우들이 전부 감독 편을 들고 올리비아 문을 따돌렸다는 사실이 SNS로 퍼지면서,
-                    관람 거부 운동이 일었고 흥행에 악영향을 끼친 듯하다.
-                    거대 프랜차이즈 영화에는 진중함도 필요한데 감독 본인부터가 제어를 못하면 무슨 소용이 있겠는가?
-                    아이언맨 3에 이어 인기가 많은 시리즈의 속편, 훌륭한 빌런(만다린, 프레데터)이 있어서 기본만 해도 좋은 영화가 될 텐데,
-                    쓸데없는 B급 개그와 내용 뒤틀기로 망쳐버리면서 감독 본인도 평판이 나락으로 떨어지고, 커리어에 큰 타격을 받았다.
-                    프레데터 시리즈는 정체불명의 존재에게 사냥당하는 데서 나오는 긴장감이 핵심인데,
-                    본작에서 그렇게 욕설 드립이 난무하여 분위기를 파토내 놓고 있으며,
-                    감독이 1탄에서 출연했을 때 쓸데없는 개그 치고 다니던 배역이었던 걸 보면 뭔가 안 좋은 뜻으로 의미심장하다.
-                </Card.Text>
-            </Card.Body>
+        <Card className='outer'>
+            <Card style={{ width: '80%' }}>
+                <Card.Img variant="top" src="/img/director/IronMan3.jpg" />
+                <Card.Body>
+                    <Card.Title>
+                        이름 : 셰인 블랙<br />(ShaneBlack)
+                    </Card.Title>
+                    <Card.Text>
+                        출생 : 1961년 12월 16일, 미국 펜실베니아주 피츠버그<br />
+                        직업 : 배우, 영화감독, 각본가
+                    </Card.Text>
+                    <Card.Text>
+                        본래 프레데터 1편의 조연 역으로 출연한 배우였지만, 원래 리썰 웨폰의 각본으로 유명했고 훗날 아이언맨 3와 나이스 가이즈 등을 감독하였다.
+                        아이언맨 같은 작품은 호불호는 갈렸지만 어쨌든 리썰 웨폰의 각본가답게 대부분의 작품들을 완급있게 잘 연출해 호평을 받은 감독이였다.
+                        그러나 이후 전의 경력들이 무색하게도 프레데터 시리즈의 더 프레데터를 처참하게 말아먹은 원흉 중 하나로 낙인이 찍혔다.
+                        아니나 다를까 마지막 장면에 프레데터가 아이언맨 코스프레를 하는 장면에서,
+                        프레데터 영화를 딴 동네 영화로 착각하고 있는 게 아닌가 의심받을 정도였다.
+                        게다가 출연배우들 대부분이 이전작에서 나름대로 연기력으로 호평받은 베테랑들임을 고려하면,
+                        셰인 블랙의 연기 디렉션이 엉망진창이었으리라는 합리적인 의심을 할 수 밖에 없다.
+                        셰인 블랙이 미성년자 대상 성범죄자인 친구를 오디션 없이 단역으로 꽂아 넣었다가,
+                        사실을 알아챈 올리비아 문의 지적으로 출연 장면을 전부 삭제한 것이 알려져 논란이 되었다.
+                        갈채를 받았다는 토론토 영화제를 비롯한 각종 홍보행사에서 남배우들이 전부 감독 편을 들고 올리비아 문을 따돌렸다는 사실이 SNS로 퍼지면서,
+                        관람 거부 운동이 일었고 흥행에 악영향을 끼친 듯하다.
+                        거대 프랜차이즈 영화에는 진중함도 필요한데 감독 본인부터가 제어를 못하면 무슨 소용이 있겠는가?
+                        아이언맨 3에 이어 인기가 많은 시리즈의 속편, 훌륭한 빌런(만다린, 프레데터)이 있어서 기본만 해도 좋은 영화가 될 텐데,
+                        쓸데없는 B급 개그와 내용 뒤틀기로 망쳐버리면서 감독 본인도 평판이 나락으로 떨어지고, 커리어에 큰 타격을 받았다.
+                        프레데터 시리즈는 정체불명의 존재에게 사냥당하는 데서 나오는 긴장감이 핵심인데,
+                        본작에서 그렇게 욕설 드립이 난무하여 분위기를 파토내 놓고 있으며,
+                        감독이 1탄에서 출연했을 때 쓸데없는 개그 치고 다니던 배역이었던 걸 보면 뭔가 안 좋은 뜻으로 의미심장하다.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </Card>
 )}
 
@@ -2981,84 +2987,156 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
         </div>
 )}
 
-function Reference(){ // 참조문헌
+function Reference(){ // 참고자료
     return(
         <div>
-            사진 및 영상 참조 디즈니-마블
-            주로 나무위키 기반
-            기타 구글링된 사진들
-
-            아이언맨 소개
-            https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)
-
-            로버트 존 다우니 주니어 소개
-            https://namu.wiki/w/%EB%A1%9C%EB%B2%84%ED%8A%B8%20%EB%8B%A4%EC%9A%B0%EB%8B%88%20%EC%A3%BC%EB%8B%88%EC%96%B4
-
-            기네스 팰트로우 소개
-            https://namu.wiki/w/%EA%B7%80%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C?from=%EA%B8%B0%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C
-
-            조나단 콜리아 패브로 소개
-            https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C
-
-            테렌스 데숀 하워드 소개
-            https://namu.wiki/w/%ED%85%8C%EB%A0%8C%EC%8A%A4%20%ED%95%98%EC%9B%8C%EB%93%9C
-
-            새뮤얼 L. 잭슨 소개
-            https://namu.wiki/w/%EC%83%88%EB%AE%A4%EC%96%BC%20L.%20%EC%9E%AD%EC%8A%A8
-
-            클라크 그래그 소개
-            https://namu.wiki/w/%ED%81%B4%EB%9D%BC%ED%81%AC%20%EA%B7%B8%EB%A0%88%EA%B7%B8
-
-            제프리 레옹 브리지스 소개
-            https://namu.wiki/w/%EC%A0%9C%ED%94%84%20%EB%B8%8C%EB%A6%AC%EC%A7%80%EC%8A%A4
-
-            션 터브 소개
-            https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=139537&qvt=0&query=%EC%85%98%20%ED%84%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%ED%95%84
-
-            돈 치들 소개
-            https://namu.wiki/w/%EB%8F%88%20%EC%B9%98%EB%93%A4
-
-            미키 루크 소개
-            https://namu.wiki/w/%EB%AF%B8%ED%82%A4%20%EB%A3%A8%ED%81%AC
-
-            샘 록웰 소개
-            https://namu.wiki/w/%EC%83%98%20%EB%A1%9D%EC%9B%B0
-
-            가이 피어스 소개
-            https://namu.wiki/w/%EA%B0%80%EC%9D%B4%20%ED%94%BC%EC%96%B4%EC%8A%A4
-
-            벤 킹슬리 소개
-            https://namu.wiki/w/%EB%B2%A4%20%ED%82%B9%EC%8A%AC%EB%A6%AC?from=%EB%B2%A4%20%ED%82%B9%EC%A6%90%EB%A6%AC
-
-            윌리엄 새들러 소개
-            https://namu.wiki/w/%EC%9C%8C%EB%A6%AC%EC%97%84%20%EC%83%88%EB%93%A4%EB%9F%AC
-
-            아이언맨1 줄거리
-            https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EC%98%81%ED%99%94)/%EC%A4%84%EA%B1%B0%EB%A6%AC
-
-            아이언맨2 줄거리
-            https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%202/%EC%A4%84%EA%B1%B0%EB%A6%AC
-
-            아이언맨3 줄거리
-            https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%203/%EC%A4%84%EA%B1%B0%EB%A6%AC
-
-            아이언맨 삽입곡 정리
-            https://mystee.tistory.com/
-
-            아이언맨 변신장면 모음
-            https://www.youtube.com/watch?v=cfgfLyU8gs8
-
-            아이언맨 1,2 감독
-            https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C#s-3.2
-
-            아이언맨 3 감독
-            https://namu.wiki/w/%EC%85%B0%EC%9D%B8%20%EB%B8%94%EB%9E%99
-
-            크로스오버 감독
-            조스 웨던 : https://namu.wiki/w/%EC%A1%B0%EC%8A%A4%20%EC%9B%A8%EB%8D%98
-            루소 형제 : https://namu.wiki/w/%EB%A3%A8%EC%86%8C%20%ED%98%95%EC%A0%9C
-            존 왓츠 : https://namu.wiki/w/%EC%A1%B4%20%EC%99%93%EC%B8%A0
-
-
+            <ListGroup style={{backgroundColor:'#861313', padding:'10px'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    사진 및 영상 참조 디즈니 - 마블
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨 소개<br />
+                    <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)' target='_blank'>
+                        https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    로버트 존 다우니 주니어 소개<br />
+                    <a href='https://namu.wiki/w/%EB%A1%9C%EB%B2%84%ED%8A%B8%20%EB%8B%A4%EC%9A%B0%EB%8B%88%20%EC%A3%BC%EB%8B%88%EC%96%B4' target='_blank'>
+                        https://namu.wiki/w/%EB%A1%9C%EB%B2%84%ED%8A%B8%20%EB%8B%A4%EC%9A%B0%EB%8B%88%20%EC%A3%BC%EB%8B%88%EC%96%B4
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    기네스 팰트로우 소개<br />
+                    <a href='https://namu.wiki/w/%EA%B7%80%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C?from=%EA%B8%B0%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C' target='_blank'>
+                        https://namu.wiki/w/%EA%B7%80%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C?from=%EA%B8%B0%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    조나단 콜리아 패브로 소개<br />
+                    <a href='https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C' target='_blank'>
+                        https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    테렌스 데숀 하워드 소개<br />
+                    <a href='https://namu.wiki/w/%ED%85%8C%EB%A0%8C%EC%8A%A4%20%ED%95%98%EC%9B%8C%EB%93%9C' target='_blank'>
+                        https://namu.wiki/w/%ED%85%8C%EB%A0%8C%EC%8A%A4%20%ED%95%98%EC%9B%8C%EB%93%9C
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    새뮤얼 L. 잭슨 소개<br />
+                    <a href='https://namu.wiki/w/%EC%83%88%EB%AE%A4%EC%96%BC%20L.%20%EC%9E%AD%EC%8A%A8' target='_blank'>
+                        https://namu.wiki/w/%EC%83%88%EB%AE%A4%EC%96%BC%20L.%20%EC%9E%AD%EC%8A%A8
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    클라크 그래그 소개<br />
+                    <a href='https://namu.wiki/w/%ED%81%B4%EB%9D%BC%ED%81%AC%20%EA%B7%B8%EB%A0%88%EA%B7%B8' target='_blank'>
+                        https://namu.wiki/w/%ED%81%B4%EB%9D%BC%ED%81%AC%20%EA%B7%B8%EB%A0%88%EA%B7%B8
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    제프리 레옹 브리지스 소개<br />
+                    <a href='https://namu.wiki/w/%EC%A0%9C%ED%94%84%20%EB%B8%8C%EB%A6%AC%EC%A7%80%EC%8A%A4' target='_blank'>
+                        https://namu.wiki/w/%EC%A0%9C%ED%94%84%20%EB%B8%8C%EB%A6%AC%EC%A7%80%EC%8A%A4
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    션 터브 소개<br />
+                    <a href='https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=139537&qvt=0&query=%EC%85%98%20%ED%84%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%ED%95%84' target='_blank'>
+                        https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=139537&qvt=0&query=%EC%85%98%20%ED%84%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%ED%95%84
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    돈 치들 소개<br />
+                    <a href='https://namu.wiki/w/%EB%8F%88%20%EC%B9%98%EB%93%A4' target='_blank'>
+                        https://namu.wiki/w/%EB%8F%88%20%EC%B9%98%EB%93%A4
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    미키 루크 소개<br />
+                    <a href='https://namu.wiki/w/%EB%AF%B8%ED%82%A4%20%EB%A3%A8%ED%81%AC' target='_blank'>
+                        https://namu.wiki/w/%EB%AF%B8%ED%82%A4%20%EB%A3%A8%ED%81%AC
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    샘 록웰 소개<br />
+                    <a href='https://namu.wiki/w/%EC%83%98%20%EB%A1%9D%EC%9B%B0' target='_blank'>
+                        https://namu.wiki/w/%EC%83%98%20%EB%A1%9D%EC%9B%B0
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    가이 피어스 소개<br />
+                    <a href='https://namu.wiki/w/%EA%B0%80%EC%9D%B4%20%ED%94%BC%EC%96%B4%EC%8A%A4' target='_blank'>
+                        https://namu.wiki/w/%EA%B0%80%EC%9D%B4%20%ED%94%BC%EC%96%B4%EC%8A%A4
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    벤 킹슬리 소개<br />
+                    <a href='https://namu.wiki/w/%EB%B2%A4%20%ED%82%B9%EC%8A%AC%EB%A6%AC?from=%EB%B2%A4%20%ED%82%B9%EC%A6%90%EB%A6%AC' target='_blank'>
+                        https://namu.wiki/w/%EB%B2%A4%20%ED%82%B9%EC%8A%AC%EB%A6%AC?from=%EB%B2%A4%20%ED%82%B9%EC%A6%90%EB%A6%AC
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    윌리엄 새들러 소개<br />
+                    <a href='https://namu.wiki/w/%EC%9C%8C%EB%A6%AC%EC%97%84%20%EC%83%88%EB%93%A4%EB%9F%AC' target='_blank'>
+                        https://namu.wiki/w/%EC%9C%8C%EB%A6%AC%EC%97%84%20%EC%83%88%EB%93%A4%EB%9F%AC
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨1 줄거리<br />
+                    <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EC%98%81%ED%99%94)/%EC%A4%84%EA%B1%B0%EB%A6%AC' target='_blank'>
+                        https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EC%98%81%ED%99%94)/%EC%A4%84%EA%B1%B0%EB%A6%AC
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨2 줄거리<br />
+                    <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%202/%EC%A4%84%EA%B1%B0%EB%A6%AC' target='_blank'>
+                        https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%202/%EC%A4%84%EA%B1%B0%EB%A6%AC
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨3 줄거리<br />
+                    <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%203/%EC%A4%84%EA%B1%B0%EB%A6%AC' target='_blank'>
+                        https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%203/%EC%A4%84%EA%B1%B0%EB%A6%AC
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨 삽입곡 정리<br />
+                    <a href='https://mystee.tistory.com/' target='_blank'>
+                        https://mystee.tistory.com/
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨 변신장면 모음<br />
+                    <a href='https://www.youtube.com/watch?v=cfgfLyU8gs8' target='_blank'>
+                        https://www.youtube.com/watch?v=cfgfLyU8gs8
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨 1,2 감독<br />
+                    <a href='https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C#s-3.2' target='_blank'>
+                        https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C#s-3.2
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    아이언맨 3 감독<br />
+                    <a href='https://namu.wiki/w/%EC%85%B0%EC%9D%B8%20%EB%B8%94%EB%9E%99' target='_blank'>
+                        https://namu.wiki/w/%EC%85%B0%EC%9D%B8%20%EB%B8%94%EB%9E%99
+                    </a>
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    크로스오버 감독<br />
+                    
+                    조스 웨던 : <a href='https://namu.wiki/w/%EC%A1%B0%EC%8A%A4%20%EC%9B%A8%EB%8D%98' target='_blank'>
+                        https://namu.wiki/w/%EC%A1%B0%EC%8A%A4%20%EC%9B%A8%EB%8D%98</a><br />
+                    
+                    루소 형제 : <a href='https://namu.wiki/w/%EB%A3%A8%EC%86%8C%20%ED%98%95%EC%A0%9C' target='_blank'>
+                        https://namu.wiki/w/%EB%A3%A8%EC%86%8C%20%ED%98%95%EC%A0%9C</a><br />
+                    
+                    존 왓츠 : <a href='https://namu.wiki/w/%EC%A1%B4%20%EC%99%93%EC%B8%A0' target='_blank'>https://namu.wiki/w/%EC%A1%B4%20%EC%99%93%EC%B8%A0</a><br />
+                </ListGroup.Item>
+            </ListGroup>
         </div>
 )}
