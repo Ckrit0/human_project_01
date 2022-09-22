@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, ProgressBar } from 'react-bootstrap';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Contents from './components/Contents';
@@ -73,7 +73,7 @@ function App() {
       </div>
 
       {/* 스크롤바 */}
-      <div className='scroll'>scroll</div>
+      <div className='scroll'><ProgressBar variant="danger" now={80} /></div>
 
       {/* 컨텐츠 */}
       <div className='contents' style={{display:'inline-block'}}>
