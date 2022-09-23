@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Container, Nav, Navbar, ProgressBar } from 'react-bootstrap';
+import { ProgressBar } from 'react-bootstrap';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Contents from './components/Contents';
 import Main from './components/Main';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 스크롤바, 페이지 전환, 메뉴바 상단고정, 로그남기기
+// 이펙트 : 페이지 전환, 메뉴바 상단고정, 로그남기기
 // 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon
 function App() {
   const DB = database()
@@ -19,7 +19,7 @@ function App() {
   ]
   let [menu2, setMenu2] = useState([]) // 상위메뉴 선택에 따른 하위메뉴 리스트
 
-  let btnImg = (data)=> { // 버튼 선택 이미지 지정
+  let btnImg = (data) => { // 버튼 선택 이미지 지정
     if(data.isSelect){
       return(
         {backgroundImage:'url(' + data.btnS + ')', border:'1px solid #ffd700'}
@@ -28,6 +28,31 @@ function App() {
       return(
       {backgroundImage:'url(' + data.btnUS + ')'}
     )}
+  
+  let [scrX, setScrX] = useState(0)
+
+  let [scrImg,setScrImg] = useState('stop')
+
+  let scrollNow = () => { // 스크롤바 진행
+    let scrXString = scrX+'%'
+    return(
+      {width:scrXString, height:'30px', backgroundColor:'#861313',
+      margin:'0px', display:'inline-block', textAlign:'right'}
+    )
+  }
+
+  window.addEventListener("scroll", (event) => { // 스크롤 액션리스너
+    var temp = (window.scrollY / (document.querySelector('.container').scrollHeight - window.innerHeight)) * 100
+    if(temp <= 5){
+      setScrImg('stop')
+    }else if(temp >= 99){
+      setScrImg('end')
+    }else{
+      setScrImg('move')
+    }
+    setScrX(temp)
+  });
+
 
   return (
     <div className='container'>
@@ -39,42 +64,47 @@ function App() {
         <video width='100%' height='100%' src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop></video>
       </div>
 
-      {/* 상위메뉴바 */}
-      <div className='menuBar'>
-        {menu1.map((data,i)=>{
-          return(
-            <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
-              menu1.map((innerData,innerI)=>{
-                innerData.isSelect = false
-              })
-              menu2.map((innerData,innerI)=>{
-                innerData.isSelect = false
-              })
-              
-              data.isSelect = true
-              PATH.tempPath = data.id
-              setMenu2(selectMenu2(data.id))
-            }}></div>
-          )
-        })}
+      {/* 상단바 */}
+      <div className='upperMenu '>
+        {/* 스크롤바 */}
+        <div className='scroll'>
+          <div style={scrollNow()}>
+            <img src={'/img/scrollImage/' + scrImg + '.png'} width='50px' height='50px' />
+          </div>
+        </div>
+        {/* 상위메뉴바 */}
+        <div className='menuBar1'>
+          {menu1.map((data,i)=>{
+            return(
+              <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
+                menu1.map((innerData,innerI)=>{
+                  innerData.isSelect = false
+                })
+                menu2.map((innerData,innerI)=>{
+                  innerData.isSelect = false
+                })
+                
+                data.isSelect = true
+                PATH.tempPath = data.id
+                setMenu2(selectMenu2(data.id))
+              }}></div>
+            )
+          })}
+        </div>
+        {/* 하위메뉴바 */}
+        <div className='menuBar2'>
+          {menu2.map((data,i)=>{return(
+              <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
+                menu2.map((innerData,innerI)=>{
+                  innerData.isSelect = false
+                })
+                data.isSelect = true
+                PATH.tempPath2 = data.id
+                navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
+              }}></div>
+          )})}
+        </div>
       </div>
-
-      {/* 하위메뉴바 */}
-      <div className='menuBar2'>
-        {menu2.map((data,i)=>{return(
-            <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
-              menu2.map((innerData,innerI)=>{
-                innerData.isSelect = false
-              })
-              data.isSelect = true
-              PATH.tempPath2 = data.id
-              navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
-            }}></div>
-        )})}
-      </div>
-
-      {/* 스크롤바 */}
-      <div className='scroll'><ProgressBar variant="danger" now={80} /></div>
 
       {/* 컨텐츠 */}
       <div className='contents' style={{display:'inline-block'}}>
@@ -89,9 +119,6 @@ function App() {
     </div>
   );
   
-  
-
-
   function selectMenu2(path){ // 메뉴 이동경로 지정
     var tempMenuList = []
     for(var key in DB){
@@ -111,7 +138,6 @@ function App() {
     }
     return tempMenuList
   }
-
 
 
 }// App 종료
