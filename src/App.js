@@ -121,14 +121,12 @@ function App() {
       <div className='footer'>
         <img src='/img/tempimg/HD-wallpaper-iron-man-helmet-mask.jpg' width="10%"
           style={{float:'left'}}></img>
-            제작자 : 홍준표 | 제작날짜 : 2022년 9월 28일 <br />
-            제작장소 : 휴먼교육센터 | 주소 : 충남 천안시 동남구 대흥로 215, 7층 | 전화번호 : 041-561-1122<br />
-            문의 : mito0525@naver.com <br />
-            본 사이트의 콘텐츠는 저작권법의 보호를 받지 못하므로, 무단 전재, 복사, 배포 등을 해도 어쩔 수 없습니다.<br />
-            그냥 집에서 울고있겠죠 뭐, 심지어 저도 퍼온것들이라 저부터 조심해야합니다.<br />
-            게다가 아이언맨은 마블, 마블은 디즈니꺼라서 얘네 겁나 빡시게 볼거니까, 퍼갈거면 각오하고 퍼가셔야합니다.<br /><br/>
+            제작자 : 홍준표 | 제작날짜 : 2022년 9월 28일 | 문의 : mito0525@naver.com <br />
+            제작장소 : 휴먼교육센터 | 주소 : 충남 천안시 동남구 대흥로 215, 7층, 8층 | 전화번호 : 041-561-1122<br />
+            본 사이트의 콘텐츠는 저작권법의 보호를 받지 못하므로, 무단 전재, 복사, 배포 등을 해도 어쩔 수 없습니다. 그냥 집에서 울고있겠죠 뭐...<br />
+            심지어 저도 이거저거 많이 퍼온것들이라 저부터 조심해야합니다. 게다가 디즈니꺼라서 얘네 저작권 겁나 빡시게 볼거니까, 퍼갈거면 각오하고 퍼가셔야합니다.<br /><br/>
             2022 Copyrightⓒ CkriT. All rights reserved.<br />
-            Just wrote a little bit of fancy English. I am not good at English.
+            Just wrote a little bit of fancy English. I am not good at English. THANK YOU.
 
           <div style={{clear:'both'}} />
       </div>

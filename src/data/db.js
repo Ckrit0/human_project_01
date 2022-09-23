@@ -68,7 +68,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
-                    <Toast.Body>
+                    <Toast.Body className='left'>
                         마블 시네마틱 유니버스의 아이언맨이자, 아이언맨 실사영화 시리즈의 주인공.
                         캡틴 아메리카와 함께 마블 시네마틱 유니버스 인피니티 사가의 메인 히어로이자 동시에 진 주인공이다.
                         천재적인 두뇌와 재능으로 세계 최고의 군수산업체 '스타크 인더스트리'를 이끄는 CEO/엔지니어이자,
@@ -84,7 +84,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
-                    <Toast.Body>
+                    <Toast.Body className='left'>
                         로버트 다우니 주니어가 선보인 토니 스타크는 원작과 완벽한 싱크로율을 보여주기보다는,
                         영화의 흥행으로 마블 코믹스 쪽에서 배우와 흡사한 인상으로 작화를 바꿨다.
                         쉽게 말해 파생된 미디어믹스가 오히려 원작에게 영향을 준 것.
@@ -96,7 +96,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
-                    <Toast.Body>
+                    <Toast.Body className='left'>
                         그렇게 원작과는 약간 다르지만 원작자인 스탠 리는 딱 내가 생각한 토니 스타크다.
                         그는 아이언맨이 되기 위해 태어난 사람이다.라고 극찬했다.
                         배우 자체가 토니 스타크와 궁합이 잘 맞고 로버트 역시 작품과 캐릭터에 대한 이해도가 매우 높으며 연기력까지 받쳐주니,
@@ -120,7 +120,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
-                    <Toast.Body>
+                    <Toast.Body className='left'>
                         또한 아버지에 대한 애증은 이후 시빌워에서 캡틴 아메리카와의 갈등에서 가장 주요한 동기가 된다.
                         참고로 영화판 토니의 성격과 원작 토니의 성격은 아주 많이 다르다.
                         한마디로 원작 코믹스보다 영화판 토니가 더 인간적이고 착한 편이라고 할 수 있다.
@@ -149,7 +149,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
-                    <Toast.Body>
+                    <Toast.Body className='left'>
                         게다가 아이언맨 1편 초반부에 죽음의 위기에 처했던 이유가 자신의 안이함과 잘못된 판단 때문이었다는 것과,
                         아이언맨 2에서 자신의 기술이 잘못 이용됐을 때의 위험성을 경험한 것,
                         이 충격으로 바른 판단을 해야 한다는 강박관념도 깊게 새겨졌을 수 있다.
@@ -171,7 +171,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
-                    <Toast.Body>
+                    <Toast.Body className='left'>
                         더해서 MCU에서는 본작보다 두드러질 정도로 어벤져스의 주요 작전에 있어서도 빠질 수 없는 화끈한 공중 화력 지원을 워 머신과 함께 담당해왔는데,
                         더군다나 놀라운 점은 온갖 스마트 무기들이 날씬한 외양의 슈트 안에 다양하게 탑재된 것도 모자라
                         지식 뿐만 아니라 캡틴 다음갈 정도의 탁월하고 영리한 순간 보조 지휘 능력이라는 것.
@@ -468,7 +468,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                 <Accordion className='innerAccordion' defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>#1 프롤로그</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             세계 최고의 무기 제조사인 스타크 인더스트리의 CEO인 토니 스타크는 미 공군과 함께 험비를 타고 아프가니스탄의 쿠나르 지역을 지나가고 있었다.
                             병사들과 동승해 잡담을 나누며 기념사진을 찍던중 테러리스트들의 기습공격을 받게되고,
                             공격을 피해 엄폐하여 구조요청을 시도하던 중, 자신의 회사마크가 박힌 포탄이 날아와 중상을 입으며 정신을 잃는다.
@@ -487,7 +487,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>#2 갑부 천재 망나니 토니 스타크와 그의 유능한 비서 페퍼포츠</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             이야기는 토니가 납치되기 36시간 전으로 돌아간다.
                             토니 스타크의 대학 동창이자 미 공군 중령인 제임스 로드는, 아포지 상의 수상자인 토니스타크에게 직접 트로피를 전달하려 시상자 역할까지 맡았지만,
                             정작 토니스타크는 그 시간에 카지노에서 놀고있었기 때문에, 스타크 인더스트리의 부회장인 오베디아 스탠이 대신 트로피를 받았다.
@@ -539,7 +539,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>#3 아프가니스탄 피랍</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             시간은 다시 현재로 돌아온다.
                             토니 스타크가 정신을 잃은 사이 그와 마찬가지로 테러리스트들에게 피랍되어 있던 의사이자 과학자인 호 인센이 그를 수술하여 심장에 박혀 있던 포탄 파편 대부분을 제거했지만,
                             일부 파편이 남아 있어 파편이 심장으로 가는 것을 막기 위해 토니 스타크의 흉부에 자동차 배터리를 연결한 전자석을 심어 둔다.
@@ -572,7 +572,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                         <Accordion.Header>#4 토니 스타크의 부활</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             다시 기운을 얻은 토니 스타크는 우선적으로 아크리액터를 제작하게 된다.
                             아크리액터를 본 호 인센은 이것이 무엇인지를 물었을 때, 토니 스타크는 파편이 심장으로 가지 못하도록 막는 역할을 할것이라 대답하고,
                             그 용량을 듣게 된 호 인센이 50년은 사용하겠다고 이야기하자, 토니 스타크는 더 큰것은 15분정도 사용할 것이라며 의미 심장한 말을 남긴다.
@@ -593,7 +593,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                         <Accordion.Header>#5 Mk.1의 탄생</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             두 사람은 작업실에서 Mk.1 슈트를 제작하고 테러리스트들은 처음엔 미사일을 만들고 있겠거니 넘어가지만,
                             갈수록 토니 스타크와 호 인센이 만드는 것이 미사일과 영 딴판인 것을 알게 되자, 테러 조직의 두목인 라자가 작업실에 난입하여 무슨 작업을 하고있는건지 추궁을 한다.
                             호 인센의 목숨을 담보로 협박하며 물었지만, 호 인센은 계속 제리코 미사일을 만들고 있다고 대답하고,
@@ -612,7 +612,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
                         <Accordion.Header>#6 토니 스타크의 탈출</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             Mk.1이 기동을 시작하면서 작업실 내부의 조명이 꺼지고, 어두워진 작업실로 테러리스트 셋이 들어와 상황을 살피다 Mk.1에게 제압당한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
@@ -644,7 +644,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="6">
                         <Accordion.Header>#7 갑부 천재 망나니 토니 스타크.. 인데 이제 망나니는 아님.</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             병원으로 가자는 페퍼 포츠의 제안을 거절하며, 토니는 원하는 것이 두가지가 있다고 말한다.
                             그 두가지는 바로, 아메리칸 치즈버거와 기자회견. 물론 치즈버거가 먼저였다.
                             <Toast className='innerToast'>
@@ -682,7 +682,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="7">
                         <Accordion.Header>#8 Mk.2의 탄생</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             토니 스타크는 자숙하며 Mk.2 슈트를 설계하고 시험중에 찾아온 이사회에 다녀온 오베디아에게서 이사회에서 토니 스타크의 경영을 중지시키고 싶어한다는 말을 듣게된다.
                             관심사가 Mk.2에 몰려있었던 토니 스타크는 크게 신경쓰지 않고 계속 Mr.2 슈트 제작에만 몰두하며 마침내 Mk.2를 완성한다.
                             <Toast className='innerToast'>
@@ -707,7 +707,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="8">
                         <Accordion.Header>#9 Mk.3의 탄생과 아이언맨의 출현</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             토니 스타크는 뉴스에서 본인 이름으로 주최된 파일럿과 가족들을 위한 행사에 자신이 PTSD로 입원해 나오지 못한다는 보도를 보게되고,
                             고고도 비행 시의 결빙 문제를 해결하기 위해 슈트의 재질을 티타늄으로 교체 및 색상을 정해서 도색하라고 시켜놓고, 그 행사에 간다.
                             행사에서 필 콜슨을 만난 토니는 인터뷰 일정을 조절한다는 핑계로 페퍼 포츠와 춤을 추러 가고, 테라스에서 페퍼 포츠와 단둘이 있다가 분위기가 묘해지게 되자,
@@ -754,7 +754,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="9">
                         <Accordion.Header>#10 아이언 몽거의 탄생</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             한편 텐 링즈의 막사에 누군가가 도착하는데, 그것은 다름 아닌 오베디아 스탠이었다.
                             라자는 Mk.1의 잔해를 찾아 회수하여 복원하는 데 성공하고, 라자는 오베디아에게 Mk.1을 직접 보여주며며 설계도를 줄테니 자신에게도 몇개 만들어달라 요구했지만,
                             오베디아는 초음파로 신경을 마비시키는 장치로 라자를 제압하고, Mk.1을 회수해간다.
@@ -800,7 +800,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="10">
                         <Accordion.Header>#11 아이언 몽거와의 전투</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             16구역 문앞에 도착한 페퍼 포츠와 쉴드 요원들이 문을 부수고 진입하자, 오베디아는 침입을 눈치채고 아이언 몽거에 탑승했다.
                             내부를 살펴보던 요원들은 아이언 몽거가 나타나자 즉시 권총사격을 했지만, 아이언 몽거에게 모두 제압당했고, 페퍼 포츠는 서둘러 출입문 쪽으로 도망갔다.
                             <Toast className='innerToast'>
@@ -835,7 +835,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="11">
                         <Accordion.Header>#12 I am Iron Man</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             다음 날, 신문에 등장한 Mk.3를 본 사람들은 그를 아이언맨이라고 불렀고,
                             신문으로 이것을 본 토니 스타크는 철이 아니라 골드 티타늄 합금이라고 정정하면서도 상상력을 자극하는 이름이라며 마음에 들어했다.
                             필 콜슨 요원이, 오베디아는 경비행기 사고로 사망한것으로 처리하고, 토니 스타크는 요트에 있었으며, 그 때 함께 요트에 있었던 50명의 진술서를 받아뒀다고 했다.
@@ -870,7 +870,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                 <Accordion className='innerAccordion' defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>#1 프롤로그</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             러시아에서는 과거 토니 스타크의 아버지이자 스타크 인더스트리의 창립자 하워드 스타크와 함께 활동했던 과학자 안톤 반코가
                             그의 아들 이반 반코에게 아크 리액터의 설계도를 남기고 사망한다.
                             <Toast className='innerToast'>
@@ -889,7 +889,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>#2 슈퍼스타의 삶의 이면</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             자신이 아이언맨임을 밝힌 토니는 슈퍼히어로로써 최고의 인기를 누리며 지내지만 알고보면 큰 문제에 직면해 있었다.
                             자신의 생명 유지 장치라 할 수 있는 아크 리액터의 주요 물질인 팔라듐이 토니의 몸에 심각한 수준의 중독 증상을 유발하여
                             토니의 생명을 지켜주는 동시에 생명을 갉아 먹고 있었던 것.
@@ -914,7 +914,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>#3 이반 반코와의 첫 대면</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             팔라듐 중독으로 죽음이 코앞에 닥친 토니는 막 나가기 시작하면서 멋대로 페퍼 포츠를 스타크 인더스트리의 CEO로 임명한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
@@ -949,7 +949,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                         <Accordion.Header>#4 막나가는 토니스타크</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             팔라듐 중독 수치가 계속 높아지자 점점 삶의 의지를 잃어가는 토니는 자신의 생일날 슈트를 입고 술을 마시며, 우스꽝스런 춤을 추고 있었다.
                             취기가 올라오자, 페퍼가 파티를 끝내려고 했지만, 토니는 2부가 시작된다며, 여성 관객들이 던져주는 술병을 리펄서건으로 깨고 앉아있다.
                             <Toast className='innerToast'>
@@ -975,7 +975,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                         <Accordion.Header>#5 닉 퓨리와 비서의 정체</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             토니는 방황하면서 도넛 가게의 모형 간판 위에 앉아 도넛을 먹고 있는데,
                             이에 토니의 동향을 항상 주시하던 쉴드의 닉 퓨리는 방황하던 그를 찾아낸다.
                             <Toast className='innerToast'>
@@ -1014,7 +1014,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
                         <Accordion.Header>#6 위플래시&해머드론 VS 아이언맨&워머신</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             하지만 해머와 반코의 사이는 이미 완전히 틀어진 뒤였고,
                             반코는 드론들과 워 머신 슈트에 미리 심어 둔 인공지능 소프트웨어를 원격으로 해킹해,
                             워 머신과 해머 드론을 멋대로 조종하며 행사장을 아수라장으로 만들고 아이언맨에 총 공격을 퍼부었다.
@@ -1052,7 +1052,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="6">
                         <Accordion.Header>#7 아이언맨은 합격, 토니는 불합격</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             한편 블랙 위도우는 워 머신의 해킹을 푸는 것 이외에도 이반 반코의 기술을 쉴드에 전달했으며,
                             해머 사에 남아 있던 정보 역시 모두 삭제한다.
                             그리고 블랙 위도우의 평가에 따라 토니는 어벤져스에 불합격했지만, 아이언맨은 합격했다.
@@ -1084,7 +1084,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                 <Accordion className='innerAccordion' defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>#1 프롤로그</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             아이언맨 Mk 1~7 슈트들이 폭발하는 장면과 함께 1999년 12월 31일 토니 스타크의 회상으로 영화가 시작된다.
                             토니 스타크는 해피 호건과 함께 스위스 베른의 신년 과학 포럼에 참석했는데,
                             여기서 호 인센과 우 박사 등 유명한 과학자들을 만난 후 마야 한센과 함께 모임을 빠져 나온다.
@@ -1113,7 +1113,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>#2 불면증에 시달리는 토니스타크</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             이후 시점은 현재. 토니는 뉴욕 사태의 트라우마로 불면증에 시달린다.
                             뿐만 아니라 뉴욕 전투 당시 웜홀에 들어간 일로 뉴욕에 관한 일에 관해서 얘기할 때면 제정신을 잃는다.
                             이 때문인지 토니는 피하에 제어 장치를 이식하여, 언제 어디서든 슈트를 착용할 수 있는 Mk.42를 개발한다.
@@ -1137,7 +1137,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>#3 킬리언의 등장</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             페퍼 포츠는 스타크 인더스트리의 보안 책임자로 승격한 호건과 함께 회사를 운영하고 있었다.
                             그러던 중 킬리언이 회사를 방문하는데, 그는 예전과 달리 잘생기고 자세도 똑바른 남자가 되어 있었다.
                             킬리언은 스타크 인더스트리의 지원을 얻기 위해 자신의 뇌 홀로그램을 이용해서 자신의 기술을 설명하지만,
@@ -1191,7 +1191,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                         <Accordion.Header>#4 할리 키너와의 만남</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             이후 정신을 잃은 채 자동 비행 중이던 토니는 깨어나자마자 가장 최근에 목적지로 설정해 놓은 테네시 주에 불시착하면서
                             페퍼와 멀리 떨어지게 되고, 설상가상으로 자비스는 셧다운되고 Mk.42도 엉망이 되어 버린다.
                             토니는 슈트를 벗고 공중 전화로 페퍼에게 자신이 살아 있다는 것과 사과를 담은 메시지를 보낸다.
@@ -1225,7 +1225,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                         <Accordion.Header>#5 만다린의 정체</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             토니는 만다린의 아지트를 직접 공격해 들어갈 필요성을 느끼고, 할리에게 연락해 슈트를 준비하라고 말한다.
                             하지만 할리는 슈트의 충전이 제대로 이루어지지 않아 작동이 안된다고 대답하고, 그걸 들은 토니는 다시 불안증에 시달린다.
                             당장 슈트가 필요한 상황인데 슈트를 입을 수 없다는 사실에 불안증이 다시 엄습한 것.
@@ -1284,7 +1284,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
                         <Accordion.Header>#6 최종전투</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             한편, 에릭 사빈은 에어포스 원에 폭탄을 설치, 대통령의 경호원들을 살해하고 대통령을 납치한 후,
                             그에게 아이언 패트리어트 슈트를 입혀 킬리언에게 보낸다. 이후 Mk.42도 에어포스 원으로 진입했지만 이미 때는 늦었고,
                             사빈이 비행기를 폭파시켜버리며 승무원들이 모두 바깥으로 떨어져버린다.
@@ -1342,7 +1342,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                     </Accordion.Item>
                     <Accordion.Item eventKey="6">
                         <Accordion.Header>#7 결말</Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='left'>
                             그 후 킬리언과 결탁한 트레버와 부통령은 체포됐으며, 호건도 의식을 회복했다.
                             페퍼도 수술을 통해 익스트리미스를 제거하며, 토니 또한 '아이언맨'이 아닌 '토니 스타크'로서의 삶으로 돌아가고자,
                             심장 수술을 받아 가슴에 박힌 폭탄 파편을 마침내 제거하고, 박살 난 옛 저택이 있던 바다에 아크 리액터를 던져 버린다.
@@ -2989,10 +2989,13 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
 
 function Reference(){ // 참고자료
     return(
-        <div>
+        <div style={{fontWeight:'bold'}}>
             <ListGroup style={{backgroundColor:'#861313', padding:'10px'}}>
                 <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
-                    사진 및 영상 참조 디즈니 - 마블
+                    No.1 휴먼교육센터의 이름하야 정!용!진! 선생님의 강좌
+                </ListGroup.Item>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                    사진 및 영상 참조 : 디즈니 - 마블 / 구글
                 </ListGroup.Item>
                 <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨 소개<br />

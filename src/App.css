@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nanum+Pen+Script&display=swap');
+/* font-family: 'Nanum Pen Script', cursive; */
+
 *{
   margin: 0px auto;
   padding: 0px;
   text-align: center;
   box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: url(/public/img/cursor.cur),auto !important;
 }
 
 body{
@@ -20,12 +28,8 @@ body{
 }
 
 .header{
-  /* 백그라운드 이미지로 변경예정  */
-  /* 스크롤시 사라짐  */
   box-sizing: border-box;
   width: 100%;
-  background-repeat: none;
-  background-size: cover;
 }
 
 .upperMenu{
@@ -40,8 +44,8 @@ body{
 }
 
 .menuBtn{
-  width: 9vw;
-  height: 4.5vw;
+  width: 8vw;
+  height: 4vw;
   display: inline-block;
   margin: 5px;
   background-size: 100%;
@@ -116,12 +120,13 @@ body{
 
 .footer{
   width: 100%;
+  padding: 10px;
   background-image: url(/public/img/tempImg/iron-man-wallpaper-preview.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
   color: #861313;
   overflow: hidden;
 }
@@ -133,4 +138,12 @@ body{
 
 .ilb{
   display: inline-block;
+}
+
+.left{
+  text-align: left;
+}
+
+.accordion-button{
+  color:#861313;
 }
