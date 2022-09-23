@@ -6,9 +6,8 @@ import Contents from './components/Contents';
 import Main from './components/Main';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 로딩스피너, 스크롤바, 페이지 전환, 메뉴바 상단고정, 로그남기기
-// 메뉴버튼 이미지, 헤더 동영상, 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon
-// 브렌치 사용하기 테스트
+// 이펙트 : 스크롤바, 페이지 전환, 메뉴바 상단고정, 로그남기기
+// 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
@@ -36,7 +35,9 @@ function App() {
       <div className='header' onClick={()=>{ // 동영상 준비
         navigate('/')
         setMenu2([])
-      }}>header</div>
+      }}>
+        <video width='100%' height='100%' src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop></video>
+      </div>
 
       {/* 상위메뉴바 */}
       <div className='menuBar'>

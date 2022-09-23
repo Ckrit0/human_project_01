@@ -25,11 +25,10 @@ body{
   box-sizing: border-box;
   width: 100%;
   height: 400px;
-  background-color: #900000;
-  text-align: center;
-  color: #ffd700;
-  font-size: 20px;
-  font-weight: bold;
+  background-color: #861313;
+  background-image: url(/public/img/tempImg/ironman-wallpaper-16.jpg);
+  background-repeat: none;
+  background-size: cover;
 }
 
 .menuBar{
