@@ -5,8 +5,8 @@ import Contents from './components/Contents';
 import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 로그남기기, 마우스 커서
-// title icon, notfound
+// 이펙트 : 페이지 전환, 로그남기기
+// notfound
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
