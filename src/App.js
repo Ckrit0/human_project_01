@@ -3,11 +3,11 @@ import { ProgressBar } from 'react-bootstrap';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Contents from './components/Contents';
-import Main from './components/Main';
+import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 메뉴바 상단고정, 로그남기기
-// 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon
+// 이펙트 : 페이지 전환, 메뉴바 상단고정, 로그남기기, 마우스 커서
+// 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon, notfound, 버튼 줄이기
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
@@ -55,19 +55,20 @@ function App() {
 
 
   return (
-    <div className='container'>
+    <div className='container noMaPa'>
       {/* 헤더 */}
-      <div className='header' onClick={()=>{ // 동영상 준비
+      <div className='header noMaPa' onClick={()=>{ // 동영상 준비
         navigate('/')
         setMenu2([])
       }}>
-        <video width='100%' height='100%' src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop></video>
+        <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%' height='80%'
+          style={{display:'inline-block', position: 'relative', top:'-10% '}}></video>
       </div>
 
       {/* 상단바 */}
-      <div className='upperMenu '>
+      <div className='upperMenu noMaPa'>
         {/* 스크롤바 */}
-        <div className='scroll'>
+        <div className='scroll noMaPa'>
           <div style={scrollNow()}>
             <img src={'/img/scrollImage/' + scrImg + '.png'} width='50px' height='50px' />
           </div>
@@ -91,10 +92,11 @@ function App() {
             )
           })}
         </div>
+        <div style={{backgroundColor:'#ffd700', width:'100%', height:'1px'}}></div>
         {/* 하위메뉴바 */}
         <div className='menuBar2'>
           {menu2.map((data,i)=>{return(
-              <div key={data.id} className='menuBtn' style={btnImg(data)} onClick={()=>{
+              <div key={data.id} className='menuBtn menuBtn2' style={btnImg(data)} onClick={()=>{
                 menu2.map((innerData,innerI)=>{
                   innerData.isSelect = false
                 })
@@ -109,13 +111,19 @@ function App() {
       {/* 컨텐츠 */}
       <div className='contents' style={{display:'inline-block'}}>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<></>} />
           <Route path="/contents/:path" element={<Contents />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
 
       {/* 푸터 */}
-      <div className='footer'>footer(제작자..블라블라)</div>
+      <div className='footer'>
+        <img src='/img/tempimg/HD-wallpaper-iron-man-helmet-mask.jpg' width="10%"
+          style={{float:'left'}}></img>
+            footer(제작자..블라블라)
+          <div style={{clear:'both'}} />
+      </div>
     </div>
   );
   

@@ -9,10 +9,10 @@ body{
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url(/public/img/tempImg/iron-man-wallpaper-preview.jpg);
-  background-size: 60%;
+  background-image: url(/public/img/tempImg/hd-wallpaper-2695569_1920.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center;
 }
 
 .container{
@@ -24,9 +24,6 @@ body{
   /* 스크롤시 사라짐  */
   box-sizing: border-box;
   width: 100%;
-  height: 400px;
-  background-color: #861313;
-  background-image: url(/public/img/tempImg/ironman-wallpaper-2-696x1237.jpg);
   background-repeat: none;
   background-size: cover;
 }
@@ -43,12 +40,19 @@ body{
 }
 
 .menuBtn{
-  width: 8vw;
-  height: 4vw;
+  width: 9vw;
+  height: 4.5vw;
   display: inline-block;
+  margin-left: 10px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.menuBtn2{
+  width: 7vw;
+  height: 3.5vw;
+  margin-left: 10px;
 }
 
 .menuBtn:hover{
@@ -112,10 +116,13 @@ body{
 
 .footer{
   width: 100%;
-  height: 150px;
-  background-color: #900000;
-  text-align: center;
-  color: #ffd700;
+  background-image: url(/public/img/tempImg/iron-man-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  color: #861313;
+  overflow: hidden;
 }
 
 .noMaPa{
