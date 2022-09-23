@@ -1,13 +1,12 @@
 import { useState } from 'react';
-import { ProgressBar } from 'react-bootstrap';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Contents from './components/Contents';
 import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 메뉴바 상단고정, 로그남기기, 마우스 커서
-// 메인화면 동영상, 푸터주저리, 유니크 키 오류, title icon, notfound, 버튼 줄이기
+// 이펙트 : 페이지 전환, 로그남기기, 마우스 커서
+// title icon, notfound
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
@@ -55,20 +54,20 @@ function App() {
 
 
   return (
-    <div className='container noMaPa'>
+    <div className='container'>
       {/* 헤더 */}
-      <div className='header noMaPa' onClick={()=>{ // 동영상 준비
+      <div className='header' onClick={()=>{ // 동영상 헤더, 온클릭에 홈화면으로
         navigate('/')
         setMenu2([])
       }}>
-        <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%' height='80%'
+        <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%'
           style={{display:'inline-block', position: 'relative', top:'-10% '}}></video>
       </div>
 
       {/* 상단바 */}
-      <div className='upperMenu noMaPa'>
+      <div className='upperMenu'>
         {/* 스크롤바 */}
-        <div className='scroll noMaPa'>
+        <div className='scroll'>
           <div style={scrollNow()}>
             <img src={'/img/scrollImage/' + scrImg + '.png'} width='50px' height='50px' />
           </div>
@@ -89,9 +88,10 @@ function App() {
                 PATH.tempPath = data.id
                 setMenu2(selectMenu2(data.id))
               }}></div>
-            )
-          })}
+              )
+            })}
         </div>
+        {/* 메뉴바 구분선 */}
         <div style={{backgroundColor:'#ffd700', width:'100%', height:'1px'}}></div>
         {/* 하위메뉴바 */}
         <div className='menuBar2'>
@@ -121,7 +121,15 @@ function App() {
       <div className='footer'>
         <img src='/img/tempimg/HD-wallpaper-iron-man-helmet-mask.jpg' width="10%"
           style={{float:'left'}}></img>
-            footer(제작자..블라블라)
+            제작자 : 홍준표 | 제작날짜 : 2022년 9월 28일 <br />
+            제작장소 : 휴먼교육센터 | 주소 : 충남 천안시 동남구 대흥로 215, 7층 | 전화번호 : 041-561-1122<br />
+            문의 : mito0525@naver.com <br />
+            본 사이트의 콘텐츠는 저작권법의 보호를 받지 못하므로, 무단 전재, 복사, 배포 등을 해도 어쩔 수 없습니다.<br />
+            그냥 집에서 울고있겠죠 뭐, 심지어 저도 퍼온것들이라 저부터 조심해야합니다.<br />
+            게다가 아이언맨은 마블, 마블은 디즈니꺼라서 얘네 겁나 빡시게 볼거니까, 퍼갈거면 각오하고 퍼가셔야합니다.<br /><br/>
+            2022 Copyrightⓒ CkriT. All rights reserved.<br />
+            Just wrote a little bit of fancy English. I am not good at English.
+
           <div style={{clear:'both'}} />
       </div>
     </div>

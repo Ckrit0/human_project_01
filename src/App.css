@@ -43,7 +43,7 @@ body{
   width: 9vw;
   height: 4.5vw;
   display: inline-block;
-  margin-left: 10px;
+  margin: 5px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -121,6 +121,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   text-align: left;
+  font-size: 12px;
   color: #861313;
   overflow: hidden;
 }
