@@ -104,9 +104,9 @@ function IntroduceIronMan(){ // 아이언맨 소개
                         사실 초창기 토니 스타크의 인상도 다우니의 토니와 비슷하며, 영화판의 캐릭터는 메인 유니버스보단 얼티밋 유니버스의 토니와 더 비슷하다.
                         그리고 작중에서 토니를 연기한 다우니와 평소 다우니의 말투도 비슷하다.
                         매사 촐랑거리고 안하무인으로 굴지만, 호 인센에게 가족이 있냐는 질문을 받았을 때 침묵하며 없다고 대답한 점,
-                        페퍼에게 "나에게는 당신밖에 없는데."(I don't have anyone, but you)라고 말한 점,
+                        페퍼에게 <span className='font'> "나에게는 당신밖에 없는데."(I don't have anyone, but you)</span>라고 말한 점,
                         그리고 아이언맨 3에서 만다린의 습격에서 도망친 후 자비스가 동력 부족으로 꺼질 때
-                        "자비스?" "날 떠나지마 친구" ("Jarvis?" "Don't leave me, buddy.")등을 보면, 겉모습과는 달리 고독을 품고 있는 인물이다.
+                        <span className='font'> "자비스?" "날 떠나지마 친구" ("Jarvis?" "Don't leave me, buddy.")</span>등을 보면, 겉모습과는 달리 고독을 품고 있는 인물이다.
                         특히 가족이 없다는 고독감과 아버지에 대한 애증은 아이언맨의 이후 행적에 있어서 매우 중요한 역할을 하게 된다.
                         가정사에 대한 콤플렉스는 이후 어벤져스 팀원들에 대한 애착으로 이어지게 되는데,
                         슈퍼 히어로 팀을 꾸린다는 닉 퓨리의 설계에 의해 참가한 프로젝트의 일환으로 만나게 되었지만,
@@ -125,7 +125,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                         참고로 영화판 토니의 성격과 원작 토니의 성격은 아주 많이 다르다.
                         한마디로 원작 코믹스보다 영화판 토니가 더 인간적이고 착한 편이라고 할 수 있다.
                         코믹스의 토니와는 판이한, 시원시원하면서도 따뜻한 성격의 소유자이다.
-                        우선 코믹스에서는 '슈트가 없으면 일반인'이라는 열등감과 공포 때문에 동료들도 믿지 못한 데 비해,
+                        우선 코믹스에서는 <span className='font'> '슈트가 없으면 일반인'</span> 열등감과 공포 때문에 동료들도 믿지 못한 데 비해,
                         영화에서는 그런 모습이 없다. 한 마디로 코믹스판은 알면 알수록 피곤한 인간인데 영화판은 맨날 사고치고 다녀도, 알고 보면 좋은 친구인 것.
                         물론 캡틴 아메리카와 삐걱거리는 것은 변하지 않았지만, 시빌 워 원작 등에서 치고 받고 한 것에 비하면 매우 사이가 좋아졌다.
                         로다주가 언급하기를 토니가 사람과의 관계에서 더 낮은 자리를 원한 적은 딱 두 번 밖에 없는데,
@@ -198,7 +198,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_00.jpg" />
                     <Card.Body>
-                        <Card.Title>토니 스타크 /<br /> 아이언맨 역</Card.Title>
+                        <Card.Title><span className='font big'>토니 스타크 /<br /> 아이언맨 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 로버트 존 다우니 주니어<br />(Robert John Downey Jr.)<br />
                             <br />출생 : 1965년 4월 4일<br />미국 뉴욕주 뉴욕시 맨해튼
@@ -208,7 +208,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_01.jpg" />
                     <Card.Body>
-                        <Card.Title>페퍼 포츠 역</Card.Title>
+                        <Card.Title><span className='font big'>페퍼 포츠 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 기네스 팰트로우<br />(Gwyneth Kate Paltrow)<br />
                             <br />출생 : 1972년 9월 27일<br />미국 캘리포니아 로스엔젤레스
@@ -218,7 +218,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_02.jpg" />
                     <Card.Body>
-                        <Card.Title>해피 호건 역</Card.Title>
+                        <Card.Title><span className='font big'>해피 호건 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)<br />
                             <br />출생 : 1966년 10월 19일<br />뉴욕주 퀸즈 플러싱
@@ -228,7 +228,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_03.jpg" />
                     <Card.Body>
-                        <Card.Title>제임스 로드 역</Card.Title>
+                        <Card.Title><span className='font big'>제임스 로드 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 테렌스 데숀 하워드<br />(Terrence Dashon Howard)<br />
                             <br />출생 : 1969년 3월 11일<br />미국 일리노이 주 시카고
@@ -238,7 +238,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_04.jpg" />
                     <Card.Body>
-                        <Card.Title>닉 퓨리 역</Card.Title>
+                        <Card.Title><span className='font big'>닉 퓨리 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 새뮤얼 리로이 잭슨<br />(Samuel Leroy Jackson)<br />
                             <br />출생 : 1948년 12월 21일<br />미국 워싱턴 D.C.
@@ -248,7 +248,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_05.jpg" />
                     <Card.Body>
-                        <Card.Title>필 콜슨 역</Card.Title>
+                        <Card.Title><span className='font big'>필 콜슨 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 로버트 클라크 그래그<br />(Robert Clark Gregg)<br />
                             <br />출생 : 1962년 4월 2일<br />메사추세츠 주 보스턴 시 맨해튼
@@ -258,7 +258,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_06.jpg" />
                     <Card.Body>
-                        <Card.Title>오베디아 스텐 /<br />아이언몽거 역</Card.Title>
+                        <Card.Title><span className='font big'>오베디아 스텐 /<br />아이언몽거 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 제프리 레옹 브리지스<br />(Jeffrey Leon Bridges)<br />
                             <br />출생 : 1949년 12월 4일<br />미국 캘리포니아 주 로스엔젤레스
@@ -268,7 +268,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se1_07.jpg" />
                     <Card.Body>
-                        <Card.Title>호 인센 역</Card.Title>
+                        <Card.Title><span className='font big'>호 인센 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 션 터브<br />(Shaun Toub)<br />
                             <br />출생 : 1963<br />이란
@@ -286,7 +286,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_00.jpg" />
                     <Card.Body>
-                        <Card.Title>토니 스타크 /<br /> 아이언맨 역</Card.Title>
+                        <Card.Title><span className='font big'>토니 스타크 /<br /> 아이언맨 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 로버트 존 다우니 주니어<br />(Robert John Downey Jr.)<br />
                             <br />출생 : 1965년 4월 4일<br />미국 뉴욕주 뉴욕시 맨해튼
@@ -296,7 +296,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_01.jpg" />
                     <Card.Body>
-                        <Card.Title>페퍼 포츠 역</Card.Title>
+                        <Card.Title><span className='font big'>페퍼 포츠 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 기네스 팰트로우<br />(Gwyneth Kate Paltrow)<br />
                             <br />출생 : 1972년 9월 27일<br />미국 캘리포니아 로스엔젤레스
@@ -306,7 +306,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_02.jpg" />
                     <Card.Body>
-                        <Card.Title>해피 호건 역</Card.Title>
+                        <Card.Title><span className='font big'>해피 호건 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)<br />
                             <br />출생 : 1966년 10월 19일<br />뉴욕주 퀸즈 플러싱
@@ -316,7 +316,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_03.jpg" />
                     <Card.Body>
-                        <Card.Title>제임스 로드 /<br />워 머신 역</Card.Title>
+                        <Card.Title><span className='font big'>제임스 로드 /<br />워 머신 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 도널드 프랭크 치들 주니어<br />(Donald Frank Cheadle, Jr.)<br />
                             <br />출생 : 1964년 11월 29일<br />미국 미주리주 캔자스시티
@@ -326,7 +326,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_04.jpg" />
                     <Card.Body>
-                        <Card.Title>닉 퓨리 역</Card.Title>
+                        <Card.Title><span className='font big'>닉 퓨리 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 새뮤얼 리로이 잭슨<br />(Samuel Leroy Jackson)<br />
                             <br />출생 : 1948년 12월 21일<br />미국 워싱턴 D.C.
@@ -336,7 +336,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_05.jpg" />
                     <Card.Body>
-                        <Card.Title>필 콜슨 역</Card.Title>
+                        <Card.Title><span className='font big'>필 콜슨 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 로버트 클라크 그래그<br />(Robert Clark Gregg)<br />
                             <br />출생 : 1962년 4월 2일<br />메사추세츠 주 보스턴 시 맨해튼
@@ -346,7 +346,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_06.jpg" />
                     <Card.Body>
-                        <Card.Title>나타샤 로마노프 /<br />블랙 위도우 역</Card.Title>
+                        <Card.Title><span className='font big'>나타샤 로마노프 /<br />블랙 위도우 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 스칼릿 잉그리드 조핸슨<br />(Scarlett Ingrid Johansson)<br />
                             <br />출생 : 1984년 11월 22일<br />미국 뉴욕 주 뉴욕 시 맨해튼
@@ -356,7 +356,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_07.jpg" />
                     <Card.Body>
-                        <Card.Title>이반 반코 /<br />위플래시 역</Card.Title>
+                        <Card.Title><span className='font big'>이반 반코 /<br />위플래시 역</span></Card.Title>
                         <Card.Text>
                             <br />이름 : 필립 안드레 루크 2세<br />(Phillip Andre Rourke Jr.)<br />
                             <br />출생 : 1952년 9월 16일<br />미국 뉴욕 주 스키넥터디
@@ -366,7 +366,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                 <Card className='innerCard'>
                     <Card.Img variant="top" src="/img/actor/ca1se2_08.jpg" />
                     <Card.Body>
-                        <Card.Title>저스틴 해머 역</Card.Title>
+                        <Card.Title><span className='font big'>저스틴 해머 역</span></Card.Title>
                         <Card.Text>
                         <br />이름 : 샘 록웰<br />(Sam Rockwell)<br />
                         <br />출생 : 1968년 11월 5일<br />미국 캘리포니아 달리 시티
@@ -384,7 +384,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se3_00.jpg" />
                 <Card.Body>
-                    <Card.Title>토니 스타크 /<br /> 아이언맨 역</Card.Title>
+                    <Card.Title><span className='font big'>토니 스타크 /<br /> 아이언맨 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 로버트 존 다우니 주니어<br />(Robert John Downey Jr.)<br />
                         <br />출생 : 1965년 4월 4일<br />미국 뉴욕주 뉴욕시 맨해튼
@@ -394,7 +394,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se3_01.jpg" />
                 <Card.Body>
-                    <Card.Title>페퍼 포츠 역</Card.Title>
+                    <Card.Title><span className='font big'>페퍼 포츠 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 기네스 팰트로우<br />(Gwyneth Kate Paltrow)<br />
                         <br />출생 : 1972년 9월 27일<br />미국 캘리포니아 로스엔젤레스
@@ -404,7 +404,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se3_02.jpg" />
                 <Card.Body>
-                    <Card.Title>해피 호건 역</Card.Title>
+                    <Card.Title><span className='font big'>해피 호건 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)<br />
                         <br />출생 : 1966년 10월 19일<br />뉴욕주 퀸즈 플러싱
@@ -414,7 +414,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se3_03.jpg" />
                 <Card.Body>
-                    <Card.Title>제임스 로드 역</Card.Title>
+                    <Card.Title><span className='font big'>제임스 로드 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 테렌스 데숀 하워드<br />(Terrence Dashon Howard)<br />
                         <br />출생 : 1969년 3월 11일<br />미국 일리노이 주 시카고
@@ -424,7 +424,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se1_04.jpg" />
                 <Card.Body>
-                    <Card.Title>알드리치 킬리언 역</Card.Title>
+                    <Card.Title><span className='font big'>알드리치 킬리언 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 가이 에드워드 피어스<br />(Guy Edward Pearce)<br />
                         <br />출생 : 1967년 10월 5일<br />영국 잉글랜드 케임브리지셔 주 일리
@@ -434,7 +434,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se3_05.jpg" />
                 <Card.Body>
-                    <Card.Title>만다린 역</Card.Title>
+                    <Card.Title><span className='font big'>만다린 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 크리슈나 팬디트 반지<br />(Krishna Pandit Bhanji)<br />
                         <br />출생 : 1943년 12월 31일<br />영국 노스요크셔 주 스네인턴
@@ -444,7 +444,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
             <Card className='innerCard'>
                 <Card.Img variant="top" src="/img/actor/ca1se3_06.jpg" />
                 <Card.Body>
-                    <Card.Title>매튜 엘리스(대통령) 역</Card.Title>
+                    <Card.Title><span className='font big'>매튜 엘리스(대통령) 역</span></Card.Title>
                     <Card.Text>
                         <br />이름 : 윌리엄 토마스 새들러<br />(William Thomas Sadler)<br />
                         <br />출생 : 1950년 4월 13일<br />뉴욕주 버팔로
@@ -697,7 +697,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                                     <img className='innerImg' src='/img/plot/ironman1/ca2se1_24.png' />
                                 </Toast.Body>
                             </Toast>
-                            시험 비행이 끝나고 돌아오니, 페퍼포츠가 가져다 놓은 유리상자 안에는 구형 아크리액터에 ‘토니 스타크에게도 따듯한 심장이 있다는 증거’ 라는 글귀가 적혀있었다.
+                            시험 비행이 끝나고 돌아오니, 페퍼포츠가 가져다 놓은 유리상자 안에는 구형 아크리액터에 <span className='font'> ‘토니 스타크에게도 따듯한 심장이 있다는 증거’</span> 라는 글귀가 적혀있었다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
                                     <img className='innerImg' src='/img/plot/ironman1/ca2se1_25.png' />
@@ -846,7 +846,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                                     <img className='innerImg' src='/img/plot/ironman1/ca2se1_39.png' />
                                 </Toast.Body>
                             </Toast>
-                            "Truth is... I am Iron Man" (내가 아이언맨입니다.)
+                            <span className='font big'>"Truth is... I am Iron Man" (내가 아이언맨입니다.)</span>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
@@ -2777,7 +2777,7 @@ function DirectorOfIronMan1(){ // 아이언맨1 감독
                 <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
                 <Card.Body>
                     <Card.Title>
-                        이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)
+                        <span className='font big'>이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)</span>
                     </Card.Title>
                     <Card.Text>
                         출생 : 1966년 10월 19일, 미국 뉴욕주 퀸즈<br />
@@ -2838,7 +2838,7 @@ function DirectorOfIronMan2(){ // 아이언맨2 감독
                 <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
                 <Card.Body>
                     <Card.Title>
-                        이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)
+                        <span className='font big'>이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)</span>
                     </Card.Title>
                     <Card.Text>
                         출생 : 1966년 10월 19일, 미국 뉴욕주 퀸즈<br />
@@ -2899,7 +2899,7 @@ function DirectorOfIronMan3(){ // 아이언맨3 감독
                 <Card.Img variant="top" src="/img/director/IronMan3.jpg" />
                 <Card.Body>
                     <Card.Title>
-                        이름 : 셰인 블랙<br />(ShaneBlack)
+                        <span className='font big'>이름 : 셰인 블랙<br />(ShaneBlack)</span>
                     </Card.Title>
                     <Card.Text>
                         출생 : 1961년 12월 16일, 미국 펜실베니아주 피츠버그<br />
@@ -2937,7 +2937,7 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
                     <Card className='innerCard'>
                         <Card.Img variant="top" src="/img/director/Crossover_1.jpg" />
                         <Card.Body>
-                            <Card.Title>조스 웨던</Card.Title>
+                            <Card.Title><span className='font big'>조스 웨던</span></Card.Title>
                             <Card.Text>
                                 <br />이름 : 조지프 힐 휘던<br />(Joseph Hill Whedon)<br />
                                 <br />출생 : 1964년 6월 23일<br />미국 뉴욕
@@ -2952,7 +2952,7 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
                     <Card className='innerCard'>
                         <Card.Img variant="top" src="/img/director/Crossover_2.jpg" />
                         <Card.Body>
-                            <Card.Title>루소 형제</Card.Title>
+                            <Card.Title><span className='font big'>루소 형제</span></Card.Title>
                             <Card.Text>
                             <br />이름 : (형,오른쪽) 앤서니 루소<br />(Anthony Russo)<br />
                             <br />출생 : 1971년 7월 8일<br />미국<br />
@@ -2971,7 +2971,7 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
                     <Card className='innerCard'>
                         <Card.Img variant="top" src="/img/director/Crossover_3.jpg" />
                         <Card.Body>
-                            <Card.Title>존 왓츠</Card.Title>
+                            <Card.Title><span className='font big'>존 왓츠</span></Card.Title>
                             <Card.Text>
                             <br />이름 : 존 왓츠<br />(Jon Watts)<br />
                             <br />출생 : 1981년 6월 28일
@@ -2992,7 +2992,7 @@ function Reference(){ // 참고자료
         <div style={{fontWeight:'bold'}}>
             <ListGroup style={{backgroundColor:'#861313', padding:'10px'}}>
                 <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
-                    No.1 휴먼교육센터의 이름하야 정!용!진! 선생님의 강좌
+                    No.1 <span className='font big'>휴먼교육센터</span>의 이름하야 <span className='font big'>정!</span> tothe <span className='font big'>용!</span> tothe <span className='font big'>진!</span> 선생님의 강좌
                 </ListGroup.Item>
                 <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     사진 및 영상 참조 : 디즈니 - 마블 / 구글

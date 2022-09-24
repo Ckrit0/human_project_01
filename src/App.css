@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nanum+Pen+Script&display=swap');
-/* font-family: 'Nanum Pen Script', cursive; */
 
 *{
   margin: 0px auto;
@@ -142,9 +141,17 @@ body{
   overflow: hidden;
 }
 
-.noMaPa{
-  margin: 0px auto;
-  padding: 0px;
+.accordion-button{
+  color:#861313;
+}
+
+.font{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 21px;
+}
+
+.big{
+  font-size: 30px;
 }
 
 .ilb{
@@ -155,9 +162,6 @@ body{
   text-align: left;
 }
 
-.accordion-button{
-  color:#861313;
-}
 
 @media screen and (max-width: 700px){
   .upperMenu{
