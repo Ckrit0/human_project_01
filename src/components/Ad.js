@@ -10,7 +10,6 @@ function Ad({selectAd}){
         {img:'aws.png',text1:'앞에~ 있는~ 안내 페이지의 안내를 받아~', text2:'코딩들어갑니다 쭉!쭉!쭉쭉!! 아마존의 웹 서비스~',title:'AWS!!'}
     ])
     let [showTitle,setShowTitle] = useState(true)
-    console.log(selectAd)
     useEffect(()=>{
         let title = setTimeout(()=>{
             setShowTitle(!showTitle)

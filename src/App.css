@@ -26,7 +26,20 @@ body{
   width: 70%;
 }
 
+.header{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.upperMenu{
+  position: sticky;
+  top:0;
+  z-index: 999;
+  background-color: black;
+}
+
 .ad{
+  width: 100%;
   background-color: #ffffff;
   transition-property: height;
   transition-duration: 1s;
@@ -68,18 +81,6 @@ body{
   text-align: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
-}
-
-.header{
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.upperMenu{
-  position: sticky;
-  top:0;
-  z-index: 999;
-  background-color: black;
 }
 
 .menuBar1{
@@ -153,7 +154,7 @@ body{
 
 .ostCard{
   width: 90%;
-  background-color: blue;
+  background-color: black;
   color: #ffd700;
   text-align: center;
 }
@@ -208,26 +209,25 @@ body{
 
 
 @media screen and (max-width: 700px){
-  .upperMenu{
-    position: relative;
+  *{
+    font-size: 20px;
   }
 
   .header{
     display: none;
   }
 
-  .scroll{
-    display: none;
+  .upperMenu{
+    position: relative;
+    z-index: 1;
   }
 
-  .menuBtn{
-    width: 40%;
-    height: 15vw;
-  }
-  
-  .menuBtn2{
-    width: 40%;
-    height: 10vw;
+  .ad{
+    width: 65%;
+    min-width: 320px;
+    position: fixed;
+    top: 0;
+    z-index: 998;
   }
   
   .adComp{
@@ -257,5 +257,23 @@ body{
     font-size: 10px;
   }
   
+  .scroll{
+    display: none;
+  }
 
+  .menuBtn{
+    width: 40%;
+    height: 15vw;
+  }
+  
+  .menuBtn2{
+    width: 40%;
+    height: 10vw;
+  }
+
+  .innerCard{
+    width: 80%;
+  }
+  
+  
 }
