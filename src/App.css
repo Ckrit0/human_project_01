@@ -230,4 +230,32 @@ body{
     height: 10vw;
   }
   
+  .adComp{
+    display: block;
+  }
+  
+  .adImg{
+    width: 25%;
+    height: 60%;
+  }
+  
+  .adTitle{
+    width: 80%;
+    height: 20%;
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+  }
+  
+  .adText{
+    width: 70%;
+    height: 20%;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+  }
+  
+
 }
