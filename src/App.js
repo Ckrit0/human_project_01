@@ -59,12 +59,6 @@ function App() {
   return (
     <div className='container'>
 
-      {/* 광고 */}
-      <div className='ad' style={adStyle}>
-        <Ad selectAd={selectAd} />
-        <span style={{float:'right', fontSize:'15px', border:'1px solid black', margin:'2px', padding:'0px 2px'}} onClick={()=>setShowAd(false)}>X 광고 끄기</span>
-      </div>
-
       {/* 헤더 */}
       <div className='header' onClick={()=>{ // 동영상 헤더, 온클릭에 홈화면으로
         navigate('/')
@@ -78,6 +72,11 @@ function App() {
 
       {/* 상단바 */}
       <div className='upperMenu'>
+        {/* 광고 */}
+        <div className='ad' style={adStyle}>
+          <Ad selectAd={selectAd} />
+          <span style={{float:'right', fontSize:'15px', border:'1px solid black', margin:'2px', padding:'0px 2px'}} onClick={()=>setShowAd(false)}>X 광고 끄기</span>
+        </div>
         {/* 스크롤바 */}
         <div className='scroll'>
           <div style={scrollNow()}>
