@@ -5,7 +5,7 @@ import Contents from './components/Contents';
 import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 로그남기기
+// 이펙트 : 페이지 전환, 로그남기기, 광고
 // notfound
 function App() {
   const DB = database()
@@ -69,7 +69,7 @@ function App() {
         {/* 스크롤바 */}
         <div className='scroll'>
           <div style={scrollNow()}>
-            <img src={'/img/scrollImage/' + scrImg + '.png'} width='50px' height='50px' />
+            <img src={'/img/scrollImage/' + scrImg + '.png'} width='70px' height='70px' style={{position:'relative' ,left:'20px', top:'-5px'}} />
           </div>
         </div>
         {/* 상위메뉴바 */}

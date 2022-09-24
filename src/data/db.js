@@ -1364,7 +1364,7 @@ function MusicInIronMan1(){ // 아이언맨1 OST / 삽입곡
     return(
         <div style={{backgroundColor: '#861313'}}>
             <Card className='ostCard'>
-                <Card.Body className = 'ostCardBody'>
+                <Card.Body>
                     <Card.Title>
                         <iframe src="https://www.youtube.com/embed/I9PhfUsFvj0" title="Iron Man OST - Driving With The Top Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </Card.Title>
@@ -2991,145 +2991,145 @@ function Reference(){ // 참고자료
     return(
         <div style={{fontWeight:'bold'}}>
             <ListGroup style={{backgroundColor:'#861313', padding:'10px'}}>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     No.1 휴먼교육센터의 이름하야 정!용!진! 선생님의 강좌
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     사진 및 영상 참조 : 디즈니 - 마블 / 구글
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨 소개<br />
                     <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)' target='_blank'>
                         https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EB%A7%88%EB%B8%94%20%EC%8B%9C%EB%84%A4%EB%A7%88%ED%8B%B1%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4)
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     로버트 존 다우니 주니어 소개<br />
                     <a href='https://namu.wiki/w/%EB%A1%9C%EB%B2%84%ED%8A%B8%20%EB%8B%A4%EC%9A%B0%EB%8B%88%20%EC%A3%BC%EB%8B%88%EC%96%B4' target='_blank'>
                         https://namu.wiki/w/%EB%A1%9C%EB%B2%84%ED%8A%B8%20%EB%8B%A4%EC%9A%B0%EB%8B%88%20%EC%A3%BC%EB%8B%88%EC%96%B4
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     기네스 팰트로우 소개<br />
                     <a href='https://namu.wiki/w/%EA%B7%80%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C?from=%EA%B8%B0%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C' target='_blank'>
                         https://namu.wiki/w/%EA%B7%80%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C?from=%EA%B8%B0%EB%84%A4%EC%8A%A4%20%ED%8C%B0%ED%8A%B8%EB%A1%9C
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     조나단 콜리아 패브로 소개<br />
                     <a href='https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C' target='_blank'>
                         https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     테렌스 데숀 하워드 소개<br />
                     <a href='https://namu.wiki/w/%ED%85%8C%EB%A0%8C%EC%8A%A4%20%ED%95%98%EC%9B%8C%EB%93%9C' target='_blank'>
                         https://namu.wiki/w/%ED%85%8C%EB%A0%8C%EC%8A%A4%20%ED%95%98%EC%9B%8C%EB%93%9C
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     새뮤얼 L. 잭슨 소개<br />
                     <a href='https://namu.wiki/w/%EC%83%88%EB%AE%A4%EC%96%BC%20L.%20%EC%9E%AD%EC%8A%A8' target='_blank'>
                         https://namu.wiki/w/%EC%83%88%EB%AE%A4%EC%96%BC%20L.%20%EC%9E%AD%EC%8A%A8
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     클라크 그래그 소개<br />
                     <a href='https://namu.wiki/w/%ED%81%B4%EB%9D%BC%ED%81%AC%20%EA%B7%B8%EB%A0%88%EA%B7%B8' target='_blank'>
                         https://namu.wiki/w/%ED%81%B4%EB%9D%BC%ED%81%AC%20%EA%B7%B8%EB%A0%88%EA%B7%B8
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     제프리 레옹 브리지스 소개<br />
                     <a href='https://namu.wiki/w/%EC%A0%9C%ED%94%84%20%EB%B8%8C%EB%A6%AC%EC%A7%80%EC%8A%A4' target='_blank'>
                         https://namu.wiki/w/%EC%A0%9C%ED%94%84%20%EB%B8%8C%EB%A6%AC%EC%A7%80%EC%8A%A4
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     션 터브 소개<br />
                     <a href='https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=139537&qvt=0&query=%EC%85%98%20%ED%84%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%ED%95%84' target='_blank'>
                         https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=139537&qvt=0&query=%EC%85%98%20%ED%84%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%ED%95%84
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     돈 치들 소개<br />
                     <a href='https://namu.wiki/w/%EB%8F%88%20%EC%B9%98%EB%93%A4' target='_blank'>
                         https://namu.wiki/w/%EB%8F%88%20%EC%B9%98%EB%93%A4
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     미키 루크 소개<br />
                     <a href='https://namu.wiki/w/%EB%AF%B8%ED%82%A4%20%EB%A3%A8%ED%81%AC' target='_blank'>
                         https://namu.wiki/w/%EB%AF%B8%ED%82%A4%20%EB%A3%A8%ED%81%AC
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     샘 록웰 소개<br />
                     <a href='https://namu.wiki/w/%EC%83%98%20%EB%A1%9D%EC%9B%B0' target='_blank'>
                         https://namu.wiki/w/%EC%83%98%20%EB%A1%9D%EC%9B%B0
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     가이 피어스 소개<br />
                     <a href='https://namu.wiki/w/%EA%B0%80%EC%9D%B4%20%ED%94%BC%EC%96%B4%EC%8A%A4' target='_blank'>
                         https://namu.wiki/w/%EA%B0%80%EC%9D%B4%20%ED%94%BC%EC%96%B4%EC%8A%A4
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     벤 킹슬리 소개<br />
                     <a href='https://namu.wiki/w/%EB%B2%A4%20%ED%82%B9%EC%8A%AC%EB%A6%AC?from=%EB%B2%A4%20%ED%82%B9%EC%A6%90%EB%A6%AC' target='_blank'>
                         https://namu.wiki/w/%EB%B2%A4%20%ED%82%B9%EC%8A%AC%EB%A6%AC?from=%EB%B2%A4%20%ED%82%B9%EC%A6%90%EB%A6%AC
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     윌리엄 새들러 소개<br />
                     <a href='https://namu.wiki/w/%EC%9C%8C%EB%A6%AC%EC%97%84%20%EC%83%88%EB%93%A4%EB%9F%AC' target='_blank'>
                         https://namu.wiki/w/%EC%9C%8C%EB%A6%AC%EC%97%84%20%EC%83%88%EB%93%A4%EB%9F%AC
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨1 줄거리<br />
                     <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EC%98%81%ED%99%94)/%EC%A4%84%EA%B1%B0%EB%A6%AC' target='_blank'>
                         https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8(%EC%98%81%ED%99%94)/%EC%A4%84%EA%B1%B0%EB%A6%AC
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨2 줄거리<br />
                     <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%202/%EC%A4%84%EA%B1%B0%EB%A6%AC' target='_blank'>
                         https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%202/%EC%A4%84%EA%B1%B0%EB%A6%AC
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨3 줄거리<br />
                     <a href='https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%203/%EC%A4%84%EA%B1%B0%EB%A6%AC' target='_blank'>
                         https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%203/%EC%A4%84%EA%B1%B0%EB%A6%AC
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨 삽입곡 정리<br />
                     <a href='https://mystee.tistory.com/' target='_blank'>
                         https://mystee.tistory.com/
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨 변신장면 모음<br />
                     <a href='https://www.youtube.com/watch?v=cfgfLyU8gs8' target='_blank'>
                         https://www.youtube.com/watch?v=cfgfLyU8gs8
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨 1,2 감독<br />
                     <a href='https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C#s-3.2' target='_blank'>
                         https://namu.wiki/w/%EC%A1%B4%20%ED%8C%A8%EB%B8%8C%EB%A1%9C#s-3.2
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     아이언맨 3 감독<br />
                     <a href='https://namu.wiki/w/%EC%85%B0%EC%9D%B8%20%EB%B8%94%EB%9E%99' target='_blank'>
                         https://namu.wiki/w/%EC%85%B0%EC%9D%B8%20%EB%B8%94%EB%9E%99
                     </a>
                 </ListGroup.Item>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#ffd700', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
                     크로스오버 감독<br />
                     
                     조스 웨던 : <a href='https://namu.wiki/w/%EC%A1%B0%EC%8A%A4%20%EC%9B%A8%EB%8D%98' target='_blank'>
