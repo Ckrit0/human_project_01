@@ -1,16 +1,21 @@
 import { useState } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
+import Ad from './components/Ad';
 import Contents from './components/Contents';
 import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 광고
+// 이펙트 : 페이지 전환, 광고 상세페이지 만들기
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
   const PATH = contentsPath()
   let navigate = useNavigate()
+  let [showAd, setShowAd] = useState(true)
+  let adStyle = showAd? {height:'100px'} : {height:'0px'}
+  let [selectAd, setSelectAd] = useState(Math.floor(Math.random()*6))
+  
   let menu1 = [ // 메뉴리스트
     MENU_BTN.ca0Btn, MENU_BTN.ca1Btn, MENU_BTN.ca2Btn,
     MENU_BTN.ca3Btn, MENU_BTN.ca4Btn, MENU_BTN.ca5Btn, MENU_BTN.ca6Btn
@@ -54,6 +59,15 @@ function App() {
 
   return (
     <div className='container'>
+
+      {/* 광고 */}
+      <div className='ad' style={adStyle} onClick={()=>{
+        // 광고 눌렀을때 나올 페이지
+      }}>
+        <Ad selectAd={selectAd} />
+        <span style={{float:'right', fontSize:'15px', border:'1px solid black', margin:'2px', padding:'0px 2px'}} onClick={()=>setShowAd(false)}>X 광고 끄기</span>
+      </div>
+
       {/* 헤더 */}
       <div className='header' onClick={()=>{ // 동영상 헤더, 온클릭에 홈화면으로
         navigate('/')
@@ -102,6 +116,8 @@ function App() {
                 data.isSelect = true
                 PATH.tempPath2 = data.id
                 navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
+                setSelectAd(Math.floor(Math.random()*6))
+                setShowAd(true)
               }}></div>
           )})}
         </div>
