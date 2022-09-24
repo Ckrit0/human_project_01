@@ -6,7 +6,6 @@ import Contents from './components/Contents';
 import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 광고 상세페이지 만들기
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
@@ -61,9 +60,7 @@ function App() {
     <div className='container'>
 
       {/* 광고 */}
-      <div className='ad' style={adStyle} onClick={()=>{
-        // 광고 눌렀을때 나올 페이지
-      }}>
+      <div className='ad' style={adStyle}>
         <Ad selectAd={selectAd} />
         <span style={{float:'right', fontSize:'15px', border:'1px solid black', margin:'2px', padding:'0px 2px'}} onClick={()=>setShowAd(false)}>X 광고 끄기</span>
       </div>
@@ -71,6 +68,8 @@ function App() {
       {/* 헤더 */}
       <div className='header' onClick={()=>{ // 동영상 헤더, 온클릭에 홈화면으로
         navigate('/')
+        setSelectAd(Math.floor(Math.random()*6))
+        setShowAd(true)
         setMenu2([])
       }}>
         <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%'

@@ -21,7 +21,9 @@ function Ad({selectAd}){
         
     })
     return(
-        <div className="adComp">
+        <div className="adComp" onClick={()=>{
+            alert('실제 광고였다면 광고수익이 들어왔겠죠?...')
+          }}>
             <img className="adImg" src={"/ad/img/" + ads[selectAd].img} />
             <div className="adText">{ads[selectAd].text1}<br />{ads[selectAd].text2}</div>
             {showTitle? <div className="adTitle">{ads[selectAd].title}</div> : <div className="adTitle"></div>}
