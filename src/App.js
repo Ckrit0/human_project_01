@@ -5,7 +5,7 @@ import Contents from './components/Contents';
 import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
-// 이펙트 : 페이지 전환, 로그남기기, 광고
+// 이펙트 : 페이지 전환, 광고
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
@@ -132,7 +132,7 @@ function App() {
     </div>
   );
   
-  function selectMenu2(path){ // 메뉴 이동경로 지정
+  function selectMenu2(path){ // 메뉴 이동경로 지정함수
     var tempMenuList = []
     for(var key in DB){
       if(DB[key].category === path){
