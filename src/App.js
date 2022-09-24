@@ -6,7 +6,6 @@ import NotFound from './components/NotFound';
 import database,{ menuButton , contentsPath } from './data/db';
 
 // 이펙트 : 페이지 전환, 로그남기기, 광고
-// notfound
 function App() {
   const DB = database()
   const MENU_BTN = menuButton()
