@@ -65,7 +65,7 @@ body{
 .adTitle{
   margin-left: 10px;
   padding-top: 10px;
-  width: 20%;
+  width: 30%;
   height: 100%;
   display: inline-block;
   text-align: center;
@@ -75,7 +75,7 @@ body{
 
 .adText{
   margin-left: 10px;
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: inline-block;
   text-align: left;

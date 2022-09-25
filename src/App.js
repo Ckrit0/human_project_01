@@ -13,8 +13,15 @@ function App() {
   let navigate = useNavigate()
   let [showAd, setShowAd] = useState(true)
   let adStyle = showAd? {height:'100px'} : {height:'0px'}
-  let [selectAd, setSelectAd] = useState(Math.floor(Math.random()*6))
-  
+  let [selectAd, setSelectAd] = useState(Math.floor(Math.random()*10))
+
+  function rollRandom(){ // 광고 초기화
+    if(showAd){
+      return
+    }
+    setSelectAd(Math.floor(Math.random()*10))
+    setShowAd(true)
+  }
   let menu1 = [ // 메뉴리스트
     MENU_BTN.ca0Btn, MENU_BTN.ca1Btn, MENU_BTN.ca2Btn,
     MENU_BTN.ca3Btn, MENU_BTN.ca4Btn, MENU_BTN.ca5Btn, MENU_BTN.ca6Btn
@@ -62,8 +69,7 @@ function App() {
       {/* 헤더 */}
       <div className='header' onClick={()=>{ // 동영상 헤더, 온클릭에 홈화면으로
         navigate('/')
-        setSelectAd(Math.floor(Math.random()*6))
-        setShowAd(true)
+        rollRandom()
         setMenu2([])
       }}>
         <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%'
@@ -114,8 +120,7 @@ function App() {
                 data.isSelect = true
                 PATH.tempPath2 = data.id
                 navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
-                setSelectAd(Math.floor(Math.random()*6))
-                setShowAd(true)
+                rollRandom()
               }}></div>
           )})}
         </div>
@@ -133,7 +138,7 @@ function App() {
       {/* 푸터 */}
       <div className='footer'>
         <img src='/img/tempimg/HD-wallpaper-iron-man-helmet-mask.jpg' width="10%"
-          style={{float:'left'}}></img>
+          style={{float:'left', marginTop:'-4%'}}></img>
             제작자 : 홍준표 | 제작날짜 : 2022년 9월 28일 | 문의 : mito0525@naver.com <br />
             제작장소 : 휴먼교육센터 | 주소 : 충남 천안시 동남구 대흥로 215, 7층, 8층 | 전화번호 : 041-561-1122<br />
             본 사이트의 콘텐츠는 저작권법의 보호를 받지 못하므로, 무단 전재, 복사, 배포 등을 해도 어쩔 수 없습니다. 그냥 집에서 울고있겠죠 뭐...<br />
