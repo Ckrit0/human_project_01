@@ -2737,36 +2737,49 @@ function MusicInCrossOver(){ // 크로스오버 삽입곡
         </div>
 )}
 
-function TransformationOfIronMan1(){ // 아이언맨1 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
+function TransformationOfIronMan1(){ // 아이언맨1 변신장면
     return(
-        <div>
-            
+        <div className='outer' style={{color:'#ffd700'}}>
+            <video src='/img/transform/ca4se1_mk1.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.1<br />아이언맨의 시초</p>
+            <video src='/img/transform/ca4se1_mk2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.2<br />비행에 성공한 최초 모델</p>
+            <video src='/img/transform/ca4se1_mk3.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.3<br />굴미라로 날아가, 아이언맨의 존재를 알린 모델</p>
+            <video src='/img/transform/ca4se1_mk3_2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.3<br />오베디아(아이언몽거)를 저지하러 날아감<br />"내가 도울 일은?","하늘을 비워놔"</p>
         </div>
 )}
 
-function TransformationOfIronMan2(){ // 아이언맨2 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
+function TransformationOfIronMan2(){ // 아이언맨2 변신장면
     return(
-        <div>
-
+        <div className='outer' style={{color:'#ffd700'}}>
+            <video src='/img/transform/ca4se2_mk5.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.5<br />이동식 변신도구의 출현!!</p>
         </div>
 )}
 
-function TransformationOfIronMan3(){ // 아이언맨3 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
+function TransformationOfIronMan3(){ // 아이언맨3 변신장면
     return(
-        <div>
-
+        <div className='outer' style={{color:'#ffd700'}}>
+            <video src='/img/transform/ca4se3_mk42.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.42<br />스스로 날아와서 입혀지는 수트 제작<br />마지막에 미스나는게 백미</p>
+            <video src='/img/transform/ca4se3_mk42_2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.42<br />위험한 상황엔 내 여자부터 지킨다!!</p>
         </div>
 )}
 
-function TransformationOfCrossOver(){ // 크로스오버 변신장면 (깃 업로드 불가로 동영상 사용은 나중으로)
+function TransformationOfCrossOver(){ // 크로스오버 변신장면
     return(
-        <div>
+        <div className='outer' style={{color:'#ffd700'}}>
             1. 어벤져스(2012)
             2. 어벤져스: 에이지 오브 울트론(2015)
             3. 캡틴 아메리카 : 시빌워(2016)
-            4. 스파이더맨 : 홈커밍(2017)
-            5. 어벤져스 : 인피니티 워(2018)
-            6. 어벤져스 : 엔드게임(2019)
+            <video src='/img/transform/ca4se4_mk50_infi.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.50<br />어벤져스 : 인피니티 워(2018)<br />나노 입자로 만든 슈트! 대단하지만 변신이 짧아서 아쉽긴 하다.</p>
+            
+            <video src='/img/transform/ca4se4_mk85_end.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.85<br />어벤져스 : 엔드게임(2019)<br />변신은 더 빨라지긴 했지만, 트레이드 마크인 마스크는 닫히게 만들었다.</p>
         </div>
 )}
 
@@ -2991,7 +3004,7 @@ function Reference(){ // 참고자료
     return(
         <div style={{fontWeight:'bold'}}>
             <ListGroup style={{backgroundColor:'#861313', padding:'10px'}}>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#ffd700', overflowWrap:'break-word'}}>
                     No.1 <span className='font big'>휴먼교육센터</span>의 이름하야 <span className='font big'>정!</span> tothe <span className='font big'>용!</span> tothe <span className='font big'>진!</span> 선생님의 강좌
                 </ListGroup.Item>
                 <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
