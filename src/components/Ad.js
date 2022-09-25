@@ -16,25 +16,16 @@ function Ad({selectAd}){
     ])
     let [showTitle,setShowTitle] = useState(true)
 
-    useEffect(()=>{ // 타이틀 깜빡거리기
+    useEffect(()=>{ // 광고를 눈에 거슬리게 만들기
         let title = setTimeout(()=>{
             setShowTitle(!showTitle)
-            return(
-                clearTimeout(title)
-            )
-        },400)
-        
-    })
-    
-    useEffect(()=>{ // 글자 정신없게 하기
-        let weaving = setInterval(()=>{
-            if(document.querySelector('.adComp').style.paddingTop == '1%'){
-                document.querySelector('.adComp').style.paddingTop = '1.5%'
+            if(showTitle){
+                document.querySelector('.adComp').style.paddingTop = '1.1%'
             }else{
-                document.querySelector('.adComp').style.paddingTop = '1%'
+                document.querySelector('.adComp').style.paddingTop = '0.9%'
             }
             return(
-                clearInterval(weaving)
+                clearTimeout(title)
             )
         },400)
         
