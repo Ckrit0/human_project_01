@@ -3004,7 +3004,7 @@ function Reference(){ // 참고자료
     return(
         <div style={{fontWeight:'bold'}}>
             <ListGroup style={{backgroundColor:'#861313', padding:'10px'}}>
-                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>
+                <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#ffd700', overflowWrap:'break-word'}}>
                     No.1 <span className='font big'>휴먼교육센터</span>의 이름하야 <span className='font big'>정!</span> tothe <span className='font big'>용!</span> tothe <span className='font big'>진!</span> 선생님의 강좌
                 </ListGroup.Item>
                 <ListGroup.Item style={{width:'80%',backgroundColor:'#210000', color:'#861313', overflowWrap:'break-word'}}>

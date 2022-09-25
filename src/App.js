@@ -100,10 +100,10 @@ function App() {
                 menu2.map((innerData,innerI)=>{
                   innerData.isSelect = false
                 })
-                
                 data.isSelect = true
                 PATH.tempPath = data.id
                 setMenu2(selectMenu2(data.id))
+                document.querySelector('.menuBar2').style.height = '4vw'
               }}></div>
               )
             })}
@@ -120,6 +120,8 @@ function App() {
                 data.isSelect = true
                 PATH.tempPath2 = data.id
                 navigate('/contents/' + PATH.tempPath + PATH.tempPath2)
+                document.querySelector('.menuBar2').style.height = '0px'
+                window.scrollTo(0,document.querySelector('.header').getBoundingClientRect().height)
                 rollRandom()
               }}></div>
           )})}
