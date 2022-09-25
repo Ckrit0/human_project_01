@@ -2741,13 +2741,13 @@ function TransformationOfIronMan1(){ // 아이언맨1 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
             <video src='/img/transform/ca4se1_mk1.mp4' typeof='video/mp4' width='80%' controls='true' />
-            <p>Mk.1<br />아이언맨의 시초</p>
+            <p>Mk.1<br />아이언맨의 시초, 여기서 놓쳐준 텐링즈에게 감사해야함.</p>
             <video src='/img/transform/ca4se1_mk2.mp4' typeof='video/mp4' width='80%' controls='true' />
-            <p>Mk.2<br />비행에 성공한 최초 모델</p>
+            <p>Mk.2<br />비행에 성공한 최초 모델. "자비스, 때론 걷기 전에 뛰어야 할 때도 있는 법이야."</p>
             <video src='/img/transform/ca4se1_mk3.mp4' typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.3<br />굴미라로 날아가, 아이언맨의 존재를 알린 모델</p>
             <video src='/img/transform/ca4se1_mk3_2.mp4' typeof='video/mp4' width='80%' controls='true' />
-            <p>Mk.3<br />오베디아(아이언몽거)를 저지하러 날아감<br />"내가 도울 일은?","하늘을 비워놔"</p>
+            <p>Mk.3<br />오베디아(아이언몽거)를 저지하러 가는 길.<br />"내가 도울 일은?","하늘을 비워놔"</p>
         </div>
 )}
 
@@ -2763,21 +2763,25 @@ function TransformationOfIronMan3(){ // 아이언맨3 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
             <video src='/img/transform/ca4se3_mk42.mp4' typeof='video/mp4' width='80%' controls='true' />
-            <p>Mk.42<br />스스로 날아와서 입혀지는 수트 제작<br />마지막에 미스나는게 백미</p>
+            <p>Mk.42<br />동강동강 열매를 먹은 수트 제작<br />아이언맨 시리즈에선 처음이지만, 자기가 날아오는건 어벤져스에서 이미 나왔다.</p>
             <video src='/img/transform/ca4se3_mk42_2.mp4' typeof='video/mp4' width='80%' controls='true' />
-            <p>Mk.42<br />위험한 상황엔 내 여자부터 지킨다!!</p>
+            <p>Mk.42<br />위험한 상황엔 내 여자부터 지킨다!! 크으.. 멋져</p>
         </div>
 )}
 
 function TransformationOfCrossOver(){ // 크로스오버 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
-            1. 어벤져스(2012)
-            2. 어벤져스: 에이지 오브 울트론(2015)
-            3. 캡틴 아메리카 : 시빌워(2016)
+            <video src='/img/transform/ca4se4_mk6_avan.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.6<br />어벤져스 (2012)<br />제자리에서 로봇이 입혀주고 벗겨주던걸 걸어가면서 벗겨준다.</p>
+            <video src='/img/transform/ca4se4_mk7_avan.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.7<br />어벤져스 (2012)<br />맙소사.. 자기가 날아와서 몸에 붙다니!!!</p>
+            <video src='/img/transform/ca4se4_mk44_avan2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.44<br />어벤져스 : 에이지 오브 울트론 (2015)<br />이젠 위성에서 쏘는거야?? 게다가 헐크보다 더 큰걸..?</p>
+            <video src='/img/transform/ca4se4_mk46_svw.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <p>Mk.46<br />캡틴 아메리카 : 시빌 워 (2016)<br />버튼을 누르는데 수트가 입혀진다고!?!?</p>
             <video src='/img/transform/ca4se4_mk50_infi.mp4' typeof='video/mp4' width='80%' controls='true' />
-            <p>Mk.50<br />어벤져스 : 인피니티 워(2018)<br />나노 입자로 만든 슈트! 대단하지만 변신이 짧아서 아쉽긴 하다.</p>
-            
+            <p>Mk.50<br />어벤져스 : 인피니티 워(2018)<br />나노 입자로 만든 슈트! 대단하지만 이건 메카닉이라기보단 변신인데..?</p>
             <video src='/img/transform/ca4se4_mk85_end.mp4' typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.85<br />어벤져스 : 엔드게임(2019)<br />변신은 더 빨라지긴 했지만, 트레이드 마크인 마스크는 닫히게 만들었다.</p>
         </div>
