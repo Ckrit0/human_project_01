@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 function Ad({selectAd}){
-    let [ads,setAds] = useState([
+    let [ads,setAds] = useState([ // 광고 목록
         {img:'내 손을 java.png',text1:'다시 찾는 아이유의 명곡중의 명곡~!!', text2:'프로그래밍 언어, 무엇을 배울까? 아이유가 추천하는 "내 손을 Java~!!!"',title:'내 손을 Java!!'},
         {img:'야 node.jpg',text1:'하루 30분이면 명령어가 툭~! 너도 진짜 프로그래밍에 필요한 코딩을 공부해!', text2:'야. node 할 수 있어~!!',title:'야 node!!'},
         {img:'json.png',text1:'쌓여가는 쓰레기 "더미"에서 해방되고 싶다면,', text2:'json의 가벼운 데이터를 당신의 프로그램에게 선물하세요.',title:'Json!!'},
@@ -15,7 +15,8 @@ function Ad({selectAd}){
         {img:'',text1:'', text2:'',title:''},
     ])
     let [showTitle,setShowTitle] = useState(true)
-    useEffect(()=>{
+
+    useEffect(()=>{ // 타이틀 깜빡거리기
         let title = setTimeout(()=>{
             setShowTitle(!showTitle)
             return(
@@ -24,6 +25,21 @@ function Ad({selectAd}){
         },400)
         
     })
+    
+    useEffect(()=>{ // 글자 정신없게 하기
+        let weaving = setInterval(()=>{
+            if(document.querySelector('.adComp').style.paddingTop == '1%'){
+                document.querySelector('.adComp').style.paddingTop = '1.5%'
+            }else{
+                document.querySelector('.adComp').style.paddingTop = '1%'
+            }
+            return(
+                clearInterval(weaving)
+            )
+        },400)
+        
+    })
+
     return(
         <div className="adComp" onClick={()=>{
             alert('실제 광고였다면 광고수익이 들어왔겠죠?\n문의는 환영합니다. 우선 카카오뱅크 3333....')
