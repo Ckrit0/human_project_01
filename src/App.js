@@ -71,6 +71,7 @@ function App() {
         navigate('/')
         rollRandom()
         setMenu2([])
+        document.querySelector('.menuBar2').style.height = '0px'
       }}>
         <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%'
           style={{display:'inline-block', position: 'relative', top:'-10% '}}></video>
@@ -103,7 +104,7 @@ function App() {
                 data.isSelect = true
                 PATH.tempPath = data.id
                 setMenu2(selectMenu2(data.id))
-                document.querySelector('.menuBar2').style.height = '4vw'
+                document.querySelector('.menuBar2').style.height = '50px'
               }}></div>
               )
             })}
