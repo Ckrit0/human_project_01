@@ -23,7 +23,4 @@ function Contents(){
     )
 }
 
-
-
-
 export default Contents
