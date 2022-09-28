@@ -35,7 +35,7 @@ function Ad({selectAd}){
         <div className="adComp" onClick={()=>{
             alert('실제 광고였다면 광고수익이 들어왔겠죠?\n문의는 환영합니다. 우선 카카오뱅크 3333....')
         }}>
-            <img className="adImg" src={"/ad/img/" + ads[selectAd].img} />
+            <img className="adImg" src={process.env.PUBLIC_URL + "/ad/img/" + ads[selectAd].img} />
             <div className="adText">{ads[selectAd].text1}<br />{ads[selectAd].text2}</div>
             {showTitle? <div className="adTitle">{ads[selectAd].title}</div> : <div className="adTitle"></div>}
         </div>

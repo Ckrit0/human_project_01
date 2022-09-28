@@ -18,7 +18,7 @@ function NotFound(){
                 404 Not Found 라고도 하죠~!!<br />
                 잠시 후, 홈화면으로 돌아갑니다!!
             </div>
-            <img src="/img/tempImg/notFound.png" width='500vw' height='850vw' />
+            <img src={process.env.PUBLIC_URL + "/img/tempImg/notFound.png"} width='500vw' height='850vw' />
         </div>
     )
 }

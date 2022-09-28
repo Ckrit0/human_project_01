@@ -64,7 +64,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                 </Toast>
                 <Toast className='innerToast'>
                     <Toast.Body>
-                        <img className='innerImg' src='/img/introduceIronMan/ca0se0_00.png' />
+                        <img className='innerImg' src={process.env.PUBLIC_URL + '/img/introduceIronMan/ca0se0_00.png'} />
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
@@ -80,7 +80,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                 </Toast>
                 <Toast className='innerToast'>
                     <Toast.Body>
-                        <img className='innerImg' src='/img/introduceIronMan/ca0se0_01.png' />
+                        <img className='innerImg' src={process.env.PUBLIC_URL + '/img/introduceIronMan/ca0se0_01.png'} />
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
@@ -92,7 +92,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                 </Toast>
                 <Toast className='innerToast'>
                     <Toast.Body>
-                        <img className='innerImg' src='/img/introduceIronMan/ca0se0_02.png' />
+                        <img className='innerImg' src={process.env.PUBLIC_URL + '/img/introduceIronMan/ca0se0_02.png'} />
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
@@ -116,7 +116,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                 </Toast>
                 <Toast className='innerToast'>
                     <Toast.Body>
-                        <img className='innerImg' src='/img/introduceIronMan/ca0se0_03.jpg' />
+                        <img className='innerImg' src={process.env.PUBLIC_URL + '/img/introduceIronMan/ca0se0_03.jpg'} />
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
@@ -145,7 +145,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                 </Toast>
                 <Toast className='innerToast'>
                     <Toast.Body>
-                        <img className='innerImg' src='/img/introduceIronMan/ca0se0_04.png' />
+                        <img className='innerImg' src={process.env.PUBLIC_URL + '/img/introduceIronMan/ca0se0_04.png'} />
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
@@ -167,7 +167,7 @@ function IntroduceIronMan(){ // 아이언맨 소개
                 </Toast>
                 <Toast className='innerToast'>
                     <Toast.Body>
-                        <img className='innerImg' src='/img/introduceIronMan/ca0se0_05.png' />
+                        <img className='innerImg' src={process.env.PUBLIC_URL + '/img/introduceIronMan/ca0se0_05.png'} />
                     </Toast.Body>
                 </Toast>
                 <Toast className='innerToast'>
@@ -196,7 +196,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
         <Card className='outer'>
             <Card.Body>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_00.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_00.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>토니 스타크 /<br /> 아이언맨 역</span></Card.Title>
                         <Card.Text>
@@ -206,7 +206,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_01.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_01.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>페퍼 포츠 역</span></Card.Title>
                         <Card.Text>
@@ -216,7 +216,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_02.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_02.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>해피 호건 역</span></Card.Title>
                         <Card.Text>
@@ -226,7 +226,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_03.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_03.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>제임스 로드 역</span></Card.Title>
                         <Card.Text>
@@ -236,7 +236,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_04.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_04.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>닉 퓨리 역</span></Card.Title>
                         <Card.Text>
@@ -246,7 +246,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_05.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_05.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>필 콜슨 역</span></Card.Title>
                         <Card.Text>
@@ -256,7 +256,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_06.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_06.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>오베디아 스텐 /<br />아이언몽거 역</span></Card.Title>
                         <Card.Text>
@@ -266,7 +266,7 @@ function IntroduceActorInIronMan1(){ // 배우 소개 아이언맨 1
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se1_07.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_07.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>호 인센 역</span></Card.Title>
                         <Card.Text>
@@ -284,7 +284,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
         <Card className='outer'>
             <Card.Body>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_00.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_00.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>토니 스타크 /<br /> 아이언맨 역</span></Card.Title>
                         <Card.Text>
@@ -294,7 +294,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_01.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_01.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>페퍼 포츠 역</span></Card.Title>
                         <Card.Text>
@@ -304,7 +304,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_02.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_02.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>해피 호건 역</span></Card.Title>
                         <Card.Text>
@@ -314,7 +314,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_03.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_03.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>제임스 로드 /<br />워 머신 역</span></Card.Title>
                         <Card.Text>
@@ -324,7 +324,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_04.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_04.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>닉 퓨리 역</span></Card.Title>
                         <Card.Text>
@@ -334,7 +334,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_05.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_05.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>필 콜슨 역</span></Card.Title>
                         <Card.Text>
@@ -344,7 +344,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_06.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_06.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>나타샤 로마노프 /<br />블랙 위도우 역</span></Card.Title>
                         <Card.Text>
@@ -354,7 +354,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_07.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_07.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>이반 반코 /<br />위플래시 역</span></Card.Title>
                         <Card.Text>
@@ -364,7 +364,7 @@ function IntroduceActorInIronMan2(){ // 배우 소개 아이언맨 2
                     </Card.Body>
                 </Card>
                 <Card className='innerCard'>
-                    <Card.Img variant="top" src="/img/actor/ca1se2_08.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se2_08.jpg"} />
                     <Card.Body>
                         <Card.Title><span className='font big'>저스틴 해머 역</span></Card.Title>
                         <Card.Text>
@@ -382,7 +382,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
         <Card className='outer'>
         <Card.Body>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se3_00.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se3_00.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>토니 스타크 /<br /> 아이언맨 역</span></Card.Title>
                     <Card.Text>
@@ -392,7 +392,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
                 </Card.Body>
             </Card>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se3_01.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se3_01.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>페퍼 포츠 역</span></Card.Title>
                     <Card.Text>
@@ -402,7 +402,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
                 </Card.Body>
             </Card>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se3_02.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se3_02.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>해피 호건 역</span></Card.Title>
                     <Card.Text>
@@ -412,7 +412,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
                 </Card.Body>
             </Card>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se3_03.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se3_03.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>제임스 로드 역</span></Card.Title>
                     <Card.Text>
@@ -422,7 +422,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
                 </Card.Body>
             </Card>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se1_04.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se1_04.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>알드리치 킬리언 역</span></Card.Title>
                     <Card.Text>
@@ -432,7 +432,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
                 </Card.Body>
             </Card>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se3_05.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se3_05.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>만다린 역</span></Card.Title>
                     <Card.Text>
@@ -442,7 +442,7 @@ function IntroduceActorInIronMan3(){ // 배우 소개 아이언맨 3
                 </Card.Body>
             </Card>
             <Card className='innerCard'>
-                <Card.Img variant="top" src="/img/actor/ca1se3_06.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/actor/ca1se3_06.jpg"} />
                 <Card.Body>
                     <Card.Title><span className='font big'>매튜 엘리스(대통령) 역</span></Card.Title>
                     <Card.Text>
@@ -474,13 +474,13 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             공격을 피해 엄폐하여 구조요청을 시도하던 중, 자신의 회사마크가 박힌 포탄이 날아와 중상을 입으며 정신을 잃는다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_01.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_01.png'} />
                                 </Toast.Body>
                             </Toast>
                             시간이 흐르고 정신을 차린 토니 스타크는 자신이 납치되었다는 것을 알게된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_02.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_02.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -493,7 +493,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             정작 토니스타크는 그 시간에 카지노에서 놀고있었기 때문에, 스타크 인더스트리의 부회장인 오베디아 스탠이 대신 트로피를 받았다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_03.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_03.png'} />
                                 </Toast.Body>
                             </Toast>
                             여기서 오베디아 스탠은 토니는 일 중독이라서 오지 않았다며 토니 스타크를 변호한다.
@@ -502,14 +502,14 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             토니 스타크는 잠시 고민했지만, 수행원인 해피에게 기자가 예쁘다는 말을 듣고 인터뷰에 응한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_04.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_04.png'} />
                                 </Toast.Body>
                             </Toast>
                             크리스틴 에버하트는 무기를 만들어 아포지상을 받은 토니 스타크에게 비꼬듯이 질문을 던졌지만,
                             토니 스타크의 현란한 답변에 놀라고, 토니 스타크의 초대에 응하여 함께 하룻밤을 지낸다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_05.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_05.png'} />
                                 </Toast.Body>
                             </Toast>
                             다음날 아침, 토니 스타크의 집에서 자비스의 안내 음성을 듣고 깨어난 크리스틴 에버하트는, 능력이 뛰어나기로 유명한 토니 스타크의 비서인 페퍼 포츠에게 옷을 받고 돌아간다.
@@ -518,20 +518,20 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             페퍼 포츠는 이미 그렇게 했다며 감사의 인사를 건넨다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_06.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_06.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니 스타크는 공항으로 이동하여 3시간을 기다린 제임스 로드와 함께 본인의 전용기를 타고 이동하는데,
                             그 안에서도 스튜어디스들이 음악에 맞춰 폴 댄스를 추는 것을 구경하고 사케를 마시며 방탕한 모습을 보여준다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_07.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_07.png'} />
                                 </Toast.Body>
                             </Toast>
                             아프가니스탄 바그람 공군 기지에 도착한 토니는 리펄서 기술을 활용한 신형 미사일 ‘제리코’를 소개하며 시연회를 한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_08.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_08.png'} />
                                 </Toast.Body>
                             </Toast>
                             시연이 끝난 후, 제임스 로드의 걱정을 뒤로하고, 험비를 타고 돌아가는 길에 테러리스트들의 기습공격을 받게되고, 납치를 당하게 된다.
@@ -547,7 +547,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             호 인센에게 전자석이 박힌 경위와 그게 없으면 일주일이면 죽게된다는 것을 알게된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_09.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_09.png'} />
                                 </Toast.Body>
                             </Toast>
                             그러던 중 동굴 벽에 있는 CCTV를 발견하고, 현재 자신의 상황을 직감한 토니 스타크.
@@ -558,14 +558,14 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             테러리스트 집단은 무기고를 보여주며 필요한 재료는 모두 조달해주겠다고 하고, 토니 스타크는 무기고에 쌓여있는 자신의 회사인 스타크 인더스트리의 무기들을 보게된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_10.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_10.png'} />
                                 </Toast.Body>
                             </Toast>
                             호 인센은, 어차피 저들 손에 죽게될거고 저들이 날 죽이지 않아도 자신을 일주일 뒤에 죽을거라며 자포자기한 토니 스타크에게,
                             그렇다면 그 일주일이 아주 중요하겠다며 토니 스타크를 깨우쳐준다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_11.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_11.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -578,13 +578,13 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             그 용량을 듣게 된 호 인센이 50년은 사용하겠다고 이야기하자, 토니 스타크는 더 큰것은 15분정도 사용할 것이라며 의미 심장한 말을 남긴다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_12.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_12.png'} />
                                 </Toast.Body>
                             </Toast>
                             그 뒤에 토니 스타크는 호 인센에게 알아보기 어려운 자신의 설계도를 보여주는데, 불빛 위에 모두 겹쳐서 보니 사람의 모양을 한 로봇(Mk.1)이 나오게 된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_13.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_13.png'} />
                                 </Toast.Body>
                             </Toast>
                             호 인센이 토니 스타크의 전자석을 아크리액터로 교체하는 작업을 하고, 잠시 쉬며 대화를 나누는데,
@@ -600,7 +600,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             그 모습을 본 토니 스타크는 호 인센이 필요하다고 말하고, 라자는 내일까지 미사일을 만들어 내라고 협박한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_14.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_14.png'} />
                                 </Toast.Body>
                             </Toast>
                             시간이 촉박해지자, 두 사람은 서둘러서 슈트를 조립한다. 계획은 토니 스타크가 슈트를 착용하고 인센을 엄호하며 나오는 것이었다.
@@ -616,7 +616,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             Mk.1이 기동을 시작하면서 작업실 내부의 조명이 꺼지고, 어두워진 작업실로 테러리스트 셋이 들어와 상황을 살피다 Mk.1에게 제압당한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_15.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_15.png'} />
                                 </Toast.Body>
                             </Toast>
                             그렇게 모든 테러리스트들을 제압하며 동굴에서 나오던 중, 총에 맞고 쓰러진 인센을 발견한다.
@@ -625,19 +625,19 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             토니 스타크는 구해줘서 고맙다는 말을 하고, 호 인센은 당신의 삶을 낭비하지 말라며 다시 한번 토니 스타크를 깨우쳐주면서 숨을 거둔다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_16.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_16.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니 스타크는 화염방사로 동굴 밖에 모여있던 테러리스트들과 스타크 인더스트리 로고가 박힌 테러리스트들의 무기들을 모조리 불태우고 날아서 탈출한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_17.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_17.png'} />
                                 </Toast.Body>
                             </Toast>
                             물론 완벽하지 못한 아크리액터와 슈트는 멀리까지 날아가지 못하고 사막에 파묻혔지만, 이후에 자신을 찾던 제임스 로드에게 발견되어 구출된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_18.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_18.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -649,7 +649,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             그 두가지는 바로, 아메리칸 치즈버거와 기자회견. 물론 치즈버거가 먼저였다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_19.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_19.png'} />
                                 </Toast.Body>
                             </Toast>
                             기자회견장에 도착한 토니는 치즈버거를 먹으며 자신을 반겨주는 오베디아를 뒤로 하고 기자회견장으로 들어간다.
@@ -657,7 +657,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             토니 스타크는 ‘다 같이 앉아서 진행하자’며 기자들을 바닥에 앉힌다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_20.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_20.png'} />
                                 </Toast.Body>
                             </Toast>
                             아버지도 무기를 만드는 것에 회의를 느낀적이 있는지 모르겠다는 것으로 이야기를 시작하여,
@@ -667,14 +667,14 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             저택으로 돌아온 토니 스타크는 스타크 인더스트리를 조롱하는 TV 프로그램을 보고있는 페퍼 포츠를 불러 아크 리액터를 교체해 주는 걸 도와 달라고 한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_21.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_21.png'} />
                                 </Toast.Body>
                             </Toast>
                             아크 리액터 교체가 끝난 뒤, 토니 스타크는 페퍼 포츠에게 구형 아크 리액터는 부수거나 태워버리라고 하지만, 페퍼 포츠는 이를 아쉬워한다.
                             토니 스타크는 제임스 로드를 찾아가 자신의 일에 도움을 요청했으나, 군을 위한 물건이 아니라는 말에 제임스 로드는 도움을 거절한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_22.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_22.png'} />
                                 </Toast.Body>
                             </Toast>
                             이후 도움을 청할 곳이 없어진 토니는 비밀리에 Mk.2 프로젝트를 시작한다.
@@ -687,20 +687,20 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             관심사가 Mk.2에 몰려있었던 토니 스타크는 크게 신경쓰지 않고 계속 Mr.2 슈트 제작에만 몰두하며 마침내 Mk.2를 완성한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_23.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_23.png'} />
                                 </Toast.Body>
                             </Toast>
                             말리부 해변에서 Mk. 2를 착용하고 비행능력을 테스트하던 토니 스타크는 고고도 비행 기록을 깨기 위해 계속 상승하다가 슈트가 얼어붙어 추락했지만,
                             추락중에 얼음이 녹으면서 다행히도 무사히 비행을 끝마쳤다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_24.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_24.png'} />
                                 </Toast.Body>
                             </Toast>
                             시험 비행이 끝나고 돌아오니, 페퍼포츠가 가져다 놓은 유리상자 안에는 구형 아크리액터에 <span className='font'> ‘토니 스타크에게도 따듯한 심장이 있다는 증거’</span> 라는 글귀가 적혀있었다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_25.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_25.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -714,28 +714,28 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             페퍼 포츠는 술이 필요하다고 이야기하고, 토니 스타크는 술을 가지러 간다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_26.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_26.png'} />
                                 </Toast.Body>
                             </Toast>
                             마티니 주문을 하러 간 토니 스타크는 크리스틴 에버하트 기자를 만나게 되고,
                             그녀에게 인센의 고향인 굴미라가 공격당하고 있다는 사실과, 신무기인 제리코 미사일을 포함한 자신의 무기가 다시 테러리스트들에게 사용되고 있다는 사실을 알게된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_27.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_27.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니 스타크는 급하게 오베디아를 찾아가 따졌지만, 오베디아는 회사에서 토니 스타크를 몰아내려는 사람이 자신임을 밝히며,
                             경영에서 물러나지 않으면 죽일 수도 있음을 돌려서 표현하고, 이를 통해 토니 스타크는 오베디아가 테러리스트에게 무기를 판매한 사실을 확실히 알게된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_28.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_28.png'} />
                                 </Toast.Body>
                             </Toast>
                             분을 삭히며 집으로 돌아온 토니 스타크는 굴미라의 참상을 뉴스로 보면서 리펄서의 파괴력을 테스트해 본 뒤,
                             즉시 굴미라로 날아가서 테러리스트들을 제압하고, 텐 링즈의 무기를 다시 한번 모조리 파괴한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_29.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_29.png'} />
                                 </Toast.Body>
                             </Toast>
                             그렇게 테러리스트를 제압하고 복귀하는 동안, 미 공군은 굴미라 지역에서 미확인 비행체인 토니 스타크를 발견하고 요격을 위해 F-22 두 기를 출격시킨다.
@@ -743,7 +743,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             미심쩍지만, 토니 스타크가 아닐거라 판단한 제임스 로드는 전투 장면을 보고있는 동안, 상황이 어려워진 토니 스타크는 F-22의 바닥면에 붙어서 제임스 로드에게 전화를 건다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_30.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_30.png'} />
                                 </Toast.Body>
                             </Toast>
                             바닥면에 무언가 붙어있음을 알게 된 F-22는 회피 기동을 시도하고, 토니 스타크는 버티지 못하고 날아가면서 결국 뒤따라오던 다른 F-22의 날개에 부딪혀 해당 기체를 추락시킨다.
@@ -760,7 +760,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             오베디아는 초음파로 신경을 마비시키는 장치로 라자를 제압하고, Mk.1을 회수해간다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_31.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_31.png'} />
                                 </Toast.Body>
                             </Toast>
                             그리고, 오베디아는 회사에 있는 대형 아크 리액터, 그 밑에 위치한 16구역에 비밀 연구소를 차려 Mk.1을 기반으로 한 '아이언 몽거'를 만들 계획을 세운다.
@@ -770,7 +770,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             텐 링즈가 오베디아에게 보낸 영상으로 인해 토니 납치 사건의 배후에 오베디아가 있었다는 사실도 알게 된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_32.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_32.png'} />
                                 </Toast.Body>
                             </Toast>
                             그러던 중 오베디아가 들어와, 해킹에는 성공했지만, 그 사실은 이미 오베디아에게 들킨 상황. 서둘러 빠져 나왔는데, 우연히 필 콜슨 요원과 만나 그와 함께 서둘러 나간다.
@@ -779,21 +779,21 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             아이언 몽거에다 토니에게서 빼앗은 아크 리액터를 연결하여 아이언 몽거를 완성시킨다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_33.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_33.png'} />
                                 </Toast.Body>
                             </Toast>
                             아크 리액터가 뽑힌 토니 스타크는 힘겹게 지하 작업실로 내려가 페퍼 포츠가 선물해줬던 구형 아크 리액터를 끼우려 하지만, 체력이 바닥나서 가져가지 못하고 좌절하는 사이,
                             멍청한 짓을 많이 해서 대학에 기증해버릴거라 이야기하던 로봇팔 '더미'가 구형 아크 리액터를 집어다 준다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_34.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_34.png'} />
                                 </Toast.Body>
                             </Toast>
                             페퍼 포츠는 제임스 로드에게 전화하여 토니 스타크가 전화를 받지 않으니, 안부를 확인해달라고 하며, 필 콜슨을 필두로 다른 쉴드 요원들과 같이 16구역 조사에 나선다.
                             토니 스타크에게 도착한 제임스 로드는 처음 본 토니의 Mk.3 슈트에 감탄하며 자신이 할 일을 물으니, 토니 스타크는 하늘을 비워두라고 하고선 날아간다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_35.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_35.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -805,7 +805,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             내부를 살펴보던 요원들은 아이언 몽거가 나타나자 즉시 권총사격을 했지만, 아이언 몽거에게 모두 제압당했고, 페퍼 포츠는 서둘러 출입문 쪽으로 도망갔다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_36.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_36.png'} />
                                 </Toast.Body>
                             </Toast>
                             오베디아는 도로를 뚫고 올라와 도망간 페퍼 포츠를 죽이려 했지만 때마침 도착한 토니 스타크에 의해 저지당하고 토니 스타크와 오베디아는 결투를 벌인다.
@@ -815,7 +815,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             토니 스타크는 그런 오베디아를 여유 있게 약올리며, 결빙된 오베디아의 헬멧을 때려 떨어트린다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_37.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_37.png'} />
                                 </Toast.Body>
                             </Toast>
                             파워가 2%밖에 남지 않은 상태로 회사 건물 옥상으로 떨어진 토니 스타크는, 오베디아의 기습으로 위기에 처하고,
@@ -828,7 +828,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             에너지를 정면으로 맞은 오베디아는 대형 아크 리액터로 추락하게되며, 그 충격으로 인해 대형 아크 리액터가 폭발해 결국 사망한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_38.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_38.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -843,7 +843,7 @@ function PlotOfIronMan1(){ // 아이언맨1 줄거리
                             토니 스타크는 기자 회견에서 성명을 낭독하려다 크리스틴 에버하트의 질문을 받고 횡설수설하다가, 결국 필 콜슨이 준 메모를 들고 있다 내려 놓고는 이렇게 말한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman1/ca2se1_39.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman1/ca2se1_39.png'} />
                                 </Toast.Body>
                             </Toast>
                             <span className='font big'>"Truth is... I am Iron Man" (내가 아이언맨입니다.)</span>
@@ -875,14 +875,14 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             그의 아들 이반 반코에게 아크 리액터의 설계도를 남기고 사망한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_00.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_00.png'} />
                                 </Toast.Body>
                             </Toast>
                             아버지가 러시아로 추방당한 과거로 인해 스타크 가문에게 증오심을 가지고 있던 이반 반코는
                             독기를 품고 토니 스타크를 향한 복수의 칼날을 갈면서 아크 리액터를 제작하는 데 성공한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_01.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_01.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -895,19 +895,19 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             토니의 생명을 지켜주는 동시에 생명을 갉아 먹고 있었던 것.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_03.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_03.png'} />
                                 </Toast.Body>
                             </Toast>
                             게다가 미국 정부는 '벤 스턴'이라는 상원의원을 중심으로 아이언맨 슈트를 국가에 귀속시키려 한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_04.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_04.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니는 이를 거절하고 자문위원으로 나온 경쟁사 해머 어드밴스드 웨폰스 시스템즈의 CEO 저스틴 해머를 농락한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_05.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_05.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -918,7 +918,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             팔라듐 중독으로 죽음이 코앞에 닥친 토니는 막 나가기 시작하면서 멋대로 페퍼 포츠를 스타크 인더스트리의 CEO로 임명한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_06.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_06.png'} />
                                 </Toast.Body>
                             </Toast>
                             페퍼는 자신을 대신할 나탈리 러쉬만이라는 비서를 붙여주고, 토니가 그녀를 탐내자 절대 안 된다며 경고를 준다.
@@ -926,7 +926,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             자신의 회사에서 운영하는 팀의 기존 레이서를 밀어내고 레이서로 참가하는데,
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_07.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_07.png'} />
                                 </Toast.Body>
                             </Toast>
                             레이싱대회에 난입한 이반 반코가 아이언맨 슈트와 비슷한 원리의 아크 리액터 기술을 이용한 위플래시 슈트를 장착하고 등장해
@@ -935,14 +935,14 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             자신의 기술은 아무도 흉내낼 수 없다고 정부에 큰소리쳤던 위신에는 금이 가게 되었다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_08.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_08.png'} />
                                 </Toast.Body>
                             </Toast>
                             그리고 그 현장을 TV 생중계로 목격한 저스틴 해머는 감옥 신세를 지던 이반 반코를 빼돌려,
                             그를 이용해 스타크 인더스트리를 누르고 압도해낼 개발을 하여 토니를 무너뜨릴 계획을 세운다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_09.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_09.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -954,20 +954,20 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             취기가 올라오자, 페퍼가 파티를 끝내려고 했지만, 토니는 2부가 시작된다며, 여성 관객들이 던져주는 술병을 리펄서건으로 깨고 앉아있다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_10.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_10.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니가 리펄서건으로 태연하게 유리병을 깨고 있는것에 화가 난 로드는 Mk.2 슈트를 입고 겁을 줘 관객들을 모두 쫓아내고,
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_11.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_11.png'} />
                                 </Toast.Body>
                             </Toast>
                             도저히 정신을 차릴 기미가 안보이는 토니를 공격한다. 둘 다 별다른 타격없이 애꿎은 저택만 부서져 나갔다.
                             결국 서로 리펄서건을 날려 무승부로 끝났고, 실망한 로드는 슈트를 입은 채로 떠나버린다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_12.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_12.png'} />
                                 </Toast.Body>
                             </Toast>
                             로드는 슈트를 입고 공군 기지로 날아가 미군의 공식 군수업체인 해머 사에서 온갖 무기를 사서 달아 놓는다.
@@ -980,14 +980,14 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             이에 토니의 동향을 항상 주시하던 쉴드의 닉 퓨리는 방황하던 그를 찾아낸다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_13.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_13.png'} />
                                 </Toast.Body>
                             </Toast>
                             여기서 페퍼가 비서로 뽑았던 나탈리 러쉬만이라는 여자가 정체를 드러냈는데,
                             그녀는 바로 쉴드의 나타샤 로마노프 요원이었다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_14.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_14.png'} />
                                 </Toast.Body>
                             </Toast>
                             그는 토니에게 팔라듐 중독을 일시적으로 막아 주는 리튬 이산화물을 주사하고 하워드 스타크가 남겨둔 자료를 넘겨,
@@ -996,7 +996,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             이에 맞는 새로운 슈트인 Mk.6을 개발한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_15.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_15.png'} />
                                 </Toast.Body>
                             </Toast>
                             하지만 숨 돌릴 틈도 없이 해머 회사의 지원을 이용해 자신의 슈트를 개발하던 반코가 도발을 걸어 오고,
@@ -1007,7 +1007,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             이에 토니는 새로운 수트를 입고 즉시 해머의 앞에 난입하여 그를 추궁한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_16.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_16.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -1020,7 +1020,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             워 머신과 해머 드론을 멋대로 조종하며 행사장을 아수라장으로 만들고 아이언맨에 총 공격을 퍼부었다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_17.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_17.png'} />
                                 </Toast.Body>
                             </Toast>
                             같은 시각, 해머 사에 잠입한 나타샤 로마노프는 시리즈 내 아크로바틱 무쌍을 선보이며 회사에 보안요원들을 순식간에 쓰러뜨리고
@@ -1029,14 +1029,14 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             나탈리는 급한대로 컴퓨터를 조작해 워 머신 해킹부터 풀었고 덕분에 토니와 로디는 협력하여 해머 드론들을 부순다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_18.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_18.png'} />
                                 </Toast.Body>
                             </Toast>
                             이런 두 사람 앞에 반코가 나타났다. 반코는 직접 개발한 슈트의 힘으로 선전하며 잠시나마 토니와 로디를 털어버렸지만,
                             두 사람은 머신은 아까 파티장에서 서로 쌈박질 할때 서로에게 리펄서건을 날려 합쳐진 에너지 충격파 웨이브로 반코를 리타이어 시킨다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_19.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_19.png'} />
                                 </Toast.Body>
                             </Toast>
                             반코는 "You lost"라는 유언을 남기고 사망했고 죽으면서 주위에 있던 모든 해머 드론들을 자폭시킨다.
@@ -1044,7 +1044,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             토니는 드론들이 널브러진 현장에 페퍼가 있다는걸 알고는 모든걸 제쳐놓고 페퍼가 있는 곳으로 날아가 그녀를 무사히 구출하는데 성공했다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_20.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_20.png'} />
                                 </Toast.Body>
                             </Toast>
                             그리고 저스틴 해머 역시 페퍼의 신고를 받고 출동한 경찰들에게 체포됐다.
@@ -1059,7 +1059,7 @@ function PlotOfIronMan2(){ // 아이언맨2 줄거리
                             결국 토니는 닉 퓨리에 의해 컨설턴트로 채용된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman2/ca2se2_21.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman2/ca2se2_21.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -1090,14 +1090,14 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             여기서 호 인센과 우 박사 등 유명한 과학자들을 만난 후 마야 한센과 함께 모임을 빠져 나온다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_00.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_00.png'} />
                                 </Toast.Body>
                             </Toast>
                             그러던 중 추한 절름발이 과학자 킬리언을 만나는데, 킬리언은 토니와 한센에게 자신의 명함을 주면서
                             자신이 소속된 민간 싱크탱크 A.I.M.(Advanced Idea Mechanics)으로 와 달라고 얘기한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_01.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_01.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니는 킬리언에게 같이 일하고 싶다며 나중에 옥상에서 만나자고 거짓말을 하고,
@@ -1106,7 +1106,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             이후 한센과 밤을 보낸 토니는 명함만 남겨두고 떠난다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_02.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_02.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -1121,7 +1121,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             거의 입자마자 마지막 남은 파츠가 등 뒤로 날아와서 직격하는 바람에 분해된다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_03.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_03.png'} />
                                 </Toast.Body>
                             </Toast>
                             이렇게 토니가 슈트를 만들면서 자신의 세계에 완전히 빠져 있는 사이, 만다린이 이끄는 텐 링즈는 미국 곳곳에 테러를 저지르고 있었다.
@@ -1130,7 +1130,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             갑자기 호흡이 곤란해지는 극도의 스트레스를 겪기 시작하고 결국 자리를 뜬다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_04.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_04.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -1144,7 +1144,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             페퍼는 이 기술이 무기로 악용될 가능성이 있다고 보고 거절한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_05.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_05.png'} />
                                 </Toast.Body>
                             </Toast>
                             한편, 호건은 토니에게 이 사실을 알리고 킬리언의 수상한 경호원에게 미심쩍은 태도를 보이며,
@@ -1155,7 +1155,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             페퍼가 이에 실망하자 토니는 페퍼에게 사과하면서 자신의 고뇌를 털어놓는다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_06.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_06.png'} />
                                 </Toast.Body>
                             </Toast>
                             그는 어벤져스에서 겪은 초현실적인 경험으로 인해 두려움을 갖게 되었고,
@@ -1164,7 +1164,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             페퍼는 이러한 토니를 안아주며 위로한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_07.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_07.png'} />
                                 </Toast.Body>
                             </Toast>
                             한편, 킬리언을 수상하게 여긴 호건은 그의 개인 경호원 에릭 사빈을 따라가다 만다린의 테러에 휘말린다.
@@ -1172,7 +1172,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             이 사건으로 중태에 빠져서 의식을 잃고 만다. 분노한 토니는 만다린을 도발하며, 자신의 집 주소를 알려 주는 실책을 저지른다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_08.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_08.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니는 자비스와 함께 이와 유사한 폭발 사건을 조사하기 시작하고,
@@ -1184,7 +1184,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             슈트가 계속 가라앉자 자비스가 모듈화된 Mk.42의 팔을 분리시켜 토니의 팔을 잡고 끌어 올려 살아남는다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_09.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_09.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -1197,7 +1197,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             토니는 슈트를 벗고 공중 전화로 페퍼에게 자신이 살아 있다는 것과 사과를 담은 메시지를 보낸다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_10.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_10.png'} />
                                 </Toast.Body>
                             </Toast>
                             그 후 슈트를 수리 및 충전할 장소를 찾다가 할리 키너라는 꼬마의 집에서 신세를 진다.
@@ -1207,7 +1207,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             토니는 할리와 함께 이들을 제압한 후 혼자 마을을 떠난다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_11.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_11.png'} />
                                 </Toast.Body>
                             </Toast>
                             이후 토니는 MIA라는 글씨가 사실은 반대편에 쓰인 'AIM'임을 알게 되어 이 사건에 A.I.M이 개입해있다는 사실을 깨닫고,
@@ -1216,7 +1216,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             킬리언이 모든 일의 흑막이었다는 사실을 깨닫는다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_12.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_12.png'} />
                                 </Toast.Body>
                             </Toast>
                             한편, 마야 한센과 함께 있던 페퍼는 킬리언이 흑막이라는 것을 알게 되자마자 납치당하고,
@@ -1236,7 +1236,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             TV에서 나오던 만다린은 가짜였다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_13.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_13.png'} />
                                 </Toast.Body>
                             </Toast>
                             사실 TV에 나오던 만다린은 그저 '트레버 슬래터리'라는 이름의 마약 중독자이자 희극 배우가 연기했던 캐릭터에 불과했던 것이며,
@@ -1247,7 +1247,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             하지만 토니는 거절하고 오히려 도덕적이며 사람들을 돕겠다는 이상을 가졌던 마야가 변했다며 킬리언을 막기위해 풀어달라고 한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_14.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_14.png'} />
                                 </Toast.Body>
                             </Toast>
                             마야가 망설이는 사이 킬리언이 들어온다. 킬리언은 토니에게 예전에 자신이 토니에게 속아 넘어간 뒤 자살을 시도하려 한 순간,
@@ -1256,7 +1256,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             그리고 페퍼가 익스트리미스를 주입당한 상태의 영상을 보여준다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_15.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_15.png'} />
                                 </Toast.Body>
                             </Toast>
                             킬리언은 익스트리미스에 몸이 적응하지 못하면 그 사람의 몸이 자폭하게 될 것이라고 한다.
@@ -1266,7 +1266,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             아머에서 떨어져 나온 로드를 입에서 불을 뿜으며 위협한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_16.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_16.png'} />
                                 </Toast.Body>
                             </Toast>
                             사빈은 로드를 기절시킨 후, 자신이 대신 슈트를 입고 로드 행세를 하면서 대통령과 함께 에어 포스 원에 탑승한다.
@@ -1274,7 +1274,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             슈트를 원격 조종으로 호출해 킬리언의 부하들을 제압한 후 탈출하고, 정신을 차린 로디도 탈출한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_17.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_17.png'} />
                                 </Toast.Body>
                             </Toast>
                             둘은 트레버를 심문해서 킬리언이 대통령을 납치할 계획임을 알아채고,
@@ -1292,7 +1292,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             추락하는 비행기의 승무원들을 모두 구출하는데 성공한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_18.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_18.png'} />
                                 </Toast.Body>
                             </Toast>
                             하지만 교각으로 가자마자 대형트럭과 충돌하면서 Mk. 42는 또 박살나버리지만, 그래도 원격 조종으로 움직이던 것이라서 토니는 멀쩡했다.
@@ -1302,7 +1302,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             위기의 순간, '하우스 파티 프로토콜에 의해 수많은 아이언맨 슈트가 도착한다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_19.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_19.png'} />
                                 </Toast.Body>
                             </Toast>
                             도착한 슈트들은 자비스를 통해 익스트리미스 병사들의 열을 감지해 싸우기 시작한다.
@@ -1318,7 +1318,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             결국 팔 한개를 제외한 나머지 부분은 산산조각 난다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_20.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_20.png'} />
                                 </Toast.Body>
                             </Toast>
                             그러나 킬리언은 살아남았고 다시 토니를 공격한다.
@@ -1328,14 +1328,14 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             그런데, 페퍼는 혼자서 슈트를 부수고 한쪽 팔을 뽑아 착용한 후 스마트 미사일을 투척한 뒤 리펄서 건을 쏴서 킬리언을 끝장낸다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_21.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_21.png'} />
                                 </Toast.Body>
                             </Toast>
                             토니는 페퍼에게 신경 쓰지 않고 위험에 처하게 했음을 사과하며, 페퍼의 익스트리미스는 자신이 고쳐주겠다고 약속하고,
                             자신도 슈트에서 좀 벗어나겠다며 그 표시로 그곳에 있던 모든 아이언맨 슈트를 불꽃놀이처럼 폭발시킨다. 이름하여 '새 출발 프로토콜'.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_22.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_22.png'} />
                                 </Toast.Body>
                             </Toast>
                         </Accordion.Body>
@@ -1348,7 +1348,7 @@ function PlotOfIronMan3(){ // 아이언맨3 줄거리
                             심장 수술을 받아 가슴에 박힌 폭탄 파편을 마침내 제거하고, 박살 난 옛 저택이 있던 바다에 아크 리액터를 던져 버린다.
                             <Toast className='innerToast'>
                                 <Toast.Body>
-                                    <img className='innerImg' src='/img/plot/ironman3/ca2se3_23.png' />
+                                    <img className='innerImg' src={process.env.PUBLIC_URL + '/img/plot/ironman3/ca2se3_23.png'} />
                                 </Toast.Body>
                             </Toast>
                             하지만 토니는 자신의 장난감은 뺏어도 내가 아이언맨이란 사실은 뺏지 못한다.라고 독백한다.
@@ -2740,13 +2740,13 @@ function MusicInCrossOver(){ // 크로스오버 삽입곡
 function TransformationOfIronMan1(){ // 아이언맨1 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
-            <video src='/img/transform/ca4se1_mk1.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se1_mk1.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.1<br />아이언맨의 시초, 여기서 놓쳐준 텐링즈에게 감사해야함.</p>
-            <video src='/img/transform/ca4se1_mk2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se1_mk2.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.2<br />비행에 성공한 최초 모델. "자비스, 때론 걷기 전에 뛰어야 할 때도 있는 법이야."</p>
-            <video src='/img/transform/ca4se1_mk3.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se1_mk3.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.3<br />굴미라로 날아가, 아이언맨의 존재를 알린 모델</p>
-            <video src='/img/transform/ca4se1_mk3_2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se1_mk3_2.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.3<br />오베디아(아이언몽거)를 저지하러 가는 길.<br />"내가 도울 일은?","하늘을 비워놔"</p>
         </div>
 )}
@@ -2754,7 +2754,7 @@ function TransformationOfIronMan1(){ // 아이언맨1 변신장면
 function TransformationOfIronMan2(){ // 아이언맨2 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
-            <video src='/img/transform/ca4se2_mk5.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se2_mk5.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.5<br />이동식 변신도구의 출현!!</p>
         </div>
 )}
@@ -2762,9 +2762,9 @@ function TransformationOfIronMan2(){ // 아이언맨2 변신장면
 function TransformationOfIronMan3(){ // 아이언맨3 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
-            <video src='/img/transform/ca4se3_mk42.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se3_mk42.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.42<br />동강동강 열매를 먹은 수트 제작<br />아이언맨 시리즈에선 처음이지만, 자기가 날아오는건 어벤져스에서 이미 나왔다.</p>
-            <video src='/img/transform/ca4se3_mk42_2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se3_mk42_2.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.42<br />위험한 상황엔 내 여자부터 지킨다!! 크으.. 멋져</p>
         </div>
 )}
@@ -2772,17 +2772,17 @@ function TransformationOfIronMan3(){ // 아이언맨3 변신장면
 function TransformationOfCrossOver(){ // 크로스오버 변신장면
     return(
         <div className='outer' style={{color:'#ffd700'}}>
-            <video src='/img/transform/ca4se4_mk6_avan.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se4_mk6_avan.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.6<br />어벤져스 (2012)<br />제자리에서 로봇이 입혀주고 벗겨주던걸 걸어가면서 벗겨준다.</p>
-            <video src='/img/transform/ca4se4_mk7_avan.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se4_mk7_avan.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.7<br />어벤져스 (2012)<br />맙소사.. 자기가 날아와서 몸에 붙다니!!!</p>
-            <video src='/img/transform/ca4se4_mk44_avan2.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se4_mk44_avan2.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.44<br />어벤져스 : 에이지 오브 울트론 (2015)<br />이젠 위성에서 쏘는거야?? 게다가 헐크보다 더 큰걸..?</p>
-            <video src='/img/transform/ca4se4_mk46_svw.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se4_mk46_svw.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.46<br />캡틴 아메리카 : 시빌 워 (2016)<br />버튼을 누르는데 수트가 입혀진다고!?!?</p>
-            <video src='/img/transform/ca4se4_mk50_infi.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se4_mk50_infi.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.50<br />어벤져스 : 인피니티 워(2018)<br />나노 입자로 만든 슈트! 대단하지만 이건 메카닉이라기보단 변신인데..?</p>
-            <video src='/img/transform/ca4se4_mk85_end.mp4' typeof='video/mp4' width='80%' controls='true' />
+            <video src={process.env.PUBLIC_URL + '/img/transform/ca4se4_mk85_end.mp4'} typeof='video/mp4' width='80%' controls='true' />
             <p>Mk.85<br />어벤져스 : 엔드게임(2019)<br />변신은 더 빨라지긴 했지만, 트레이드 마크인 마스크는 닫히게 만들었다.</p>
         </div>
 )}
@@ -2791,7 +2791,7 @@ function DirectorOfIronMan1(){ // 아이언맨1 감독
     return(
         <Card className='outer'>
             <Card style={{ width: '80%' }}>
-                <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/director/IronMan1.jpg"} />
                 <Card.Body>
                     <Card.Title>
                         <span className='font big'>이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)</span>
@@ -2852,7 +2852,7 @@ function DirectorOfIronMan2(){ // 아이언맨2 감독
     return(
         <Card className='outer'>
             <Card style={{ width: '80%' }}>
-                <Card.Img variant="top" src="/img/director/IronMan1.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/director/IronMan1.jpg"} />
                 <Card.Body>
                     <Card.Title>
                         <span className='font big'>이름 : 조나단 콜리아 패브로<br />(Jonathan Kolia Favreau)</span>
@@ -2913,7 +2913,7 @@ function DirectorOfIronMan3(){ // 아이언맨3 감독
     return(
         <Card className='outer'>
             <Card style={{ width: '80%' }}>
-                <Card.Img variant="top" src="/img/director/IronMan3.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/director/IronMan3.jpg"} />
                 <Card.Body>
                     <Card.Title>
                         <span className='font big'>이름 : 셰인 블랙<br />(ShaneBlack)</span>
@@ -2952,7 +2952,7 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
             <Card className='outer'>
                 <Card.Body>
                     <Card className='innerCard'>
-                        <Card.Img variant="top" src="/img/director/Crossover_1.jpg" />
+                        <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/director/Crossover_1.jpg"} />
                         <Card.Body>
                             <Card.Title><span className='font big'>조스 웨던</span></Card.Title>
                             <Card.Text>
@@ -2967,7 +2967,7 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
                         </Card.Body>
                     </Card>
                     <Card className='innerCard'>
-                        <Card.Img variant="top" src="/img/director/Crossover_2.jpg" />
+                        <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/director/Crossover_2.jpg"} />
                         <Card.Body>
                             <Card.Title><span className='font big'>루소 형제</span></Card.Title>
                             <Card.Text>
@@ -2986,7 +2986,7 @@ function DirectorOfCrossOver(){ // 크로스오버 감독
                         </Card.Body>
                     </Card>
                     <Card className='innerCard'>
-                        <Card.Img variant="top" src="/img/director/Crossover_3.jpg" />
+                        <Card.Img variant="top" src={process.env.PUBLIC_URL + "/img/director/Crossover_3.jpg"} />
                         <Card.Body>
                             <Card.Title><span className='font big'>존 왓츠</span></Card.Title>
                             <Card.Text>

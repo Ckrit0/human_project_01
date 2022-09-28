@@ -31,11 +31,11 @@ function App() {
   let btnImg = (data) => { // 버튼 선택 이미지 지정
     if(data.isSelect){
       return(
-        {backgroundImage:'url(' + data.btnS + ')', border:'1px solid #ffd700'}
+        {backgroundImage:'url(' + process.env.PUBLIC_URL + data.btnS + ')', border:'1px solid #ffd700'}
       )
     }
       return(
-      {backgroundImage:'url(' + data.btnUS + ')'}
+      {backgroundImage:'url(' + process.env.PUBLIC_URL + data.btnUS + ')'}
     )}
   
   let [scrX, setScrX] = useState(0)
@@ -73,7 +73,7 @@ function App() {
         setMenu2([])
         document.querySelector('.menuBar2').style.height = '0px'
       }}>
-        <video src='/img/header.mp4' typeof='video/mp4' muted autoPlay loop width='100%'
+        <video src={process.env.PUBLIC_URL + '/img/header.mp4'} typeof='video/mp4' muted autoPlay loop width='100%'
           style={{display:'inline-block', position: 'relative', top:'-10% '}}></video>
       </div>
 
@@ -87,7 +87,7 @@ function App() {
         {/* 스크롤바 */}
         <div className='scroll'>
           <div style={scrollNow()}>
-            <img src={'/img/scrollImage/' + scrImg + '.png'} width='70px' height='70px' style={{position:'relative' ,left:'20px', top:'-5px'}} />
+            <img src={process.env.PUBLIC_URL + '/img/scrollImage/' + scrImg + '.png'} width='70px' height='70px' style={{position:'relative' ,left:'20px', top:'-5px'}} />
           </div>
         </div>
         {/* 상위메뉴바 */}
@@ -140,7 +140,7 @@ function App() {
 
       {/* 푸터 */}
       <div className='footer'>
-        <img src='/img/tempimg/HD-wallpaper-iron-man-helmet-mask.jpg' width="10%"
+        <img src={process.env.PUBLIC_URL + '/img/tempimg/HD-wallpaper-iron-man-helmet-mask.jpg'} width="10%"
           style={{float:'left', marginTop:'-4%'}}></img>
             제작자 : 홍준표 | 제작날짜 : 2022년 9월 28일 | 문의 : mito0525@naver.com <br />
             제작장소 : 휴먼교육센터 | 주소 : 충남 천안시 동남구 대흥로 215, 7층, 8층 | 전화번호 : 041-561-1122<br />
